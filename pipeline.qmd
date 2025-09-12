@@ -30,7 +30,7 @@ library(tidyverse)
 library(lubridate) 
 
 # Load aids dataset (obtained at Kaggle: https://www.kaggle.com/datasets/tanshihjen/aids-clinical-trials)
-aids_df <- read_csv("C:/Users/a282334/OneDrive - Syneos Health/Documents/R studies/20250902/AIDS_ClinicalTrial_GroupStudy175.csv")
+aids_df <- read_csv("data/AIDS_ClinicalTrial_GroupStudy175.csv")
 
 # The aids_df is a hypothetical clinical trial data set. So first, I'll adapt it to be similar to a SDTM, by doing derivations
 
@@ -68,7 +68,7 @@ dm <- aids_df %>%
   dplyr::select(STUDYID, USUBJID, AGE, SEX, RACE, ARMCD, ARM, WEIGHTBL)
 
 # Save as CSV in your working directory
-write.csv(dm, "dm.csv", row.names = FALSE)
+write.csv(dm, "data/dm.csv", row.names = FALSE)
 
 head(dm, 6)
 
@@ -174,7 +174,7 @@ mh <- rbind(mh_drugs, mh_hemo, mh_nzdv,
             mh_sex, mh_zdv30, mh_zdv)
 
 # Save as CSV in your working directory
-write.csv(mh, "mh.csv", row.names = FALSE)
+write.csv(mh, "data/mh.csv", row.names = FALSE)
 
 head(mh, 6)
 
@@ -276,7 +276,7 @@ sc <- rbind(sc_arv, sc_karnof, sc_offtreat,
             sc_sympt, sc_treat)
 
 # Save as CSV in your working directory
-write.csv(sc, "sc.csv", row.names = FALSE)
+write.csv(sc, "data/sc.csv", row.names = FALSE)
 
 head(sc, 6)
 
@@ -330,7 +330,7 @@ ex_trt <- aids_df %>%
   select(STUDYID, USUBJID, EXTRT, EXTRTCD, EXROUTE, EXSTDTC, EXOCCUR, EXENDTC)
 
 # Save as CSV in your working directory
-write.csv(ex_trt, "ex.csv", row.names = FALSE)
+write.csv(ex_trt, "data/ex.csv", row.names = FALSE)
 
 head(ex_trt, 6)
 ```
@@ -407,7 +407,7 @@ lb <- rbind(lb_cd4, lb_cd4_weeks,
             lb_cd8, lb_cd8_weeks)
 
 # Save as CSV in your working directory
-write.csv(lb, "lb.csv", row.names = FALSE)
+write.csv(lb, "data/lb.csv", row.names = FALSE)
 
 head(lb, 6)
 ```
@@ -424,7 +424,7 @@ The ADaM (Analysis Data Model) standard was developed by CDISC to structure clin
 -   Key variables: `STUDYID`, `USUBJID`, `AGE`, `SEX`, `RACE`, `ARM`, and `ACTARM`.
 -   Includes treatment start and end dates, discontinuation status, and other derived variables useful for subgroup analyses.
 
-To manually construct *ADSL* data using SDTM domains, the code was run as follows:
+To manually construct **ADSL** data using SDTM domains, the code was run as follows:
 
 ```{r, message=FALSE, warning=FALSE, echo=TRUE}
 # Load packages
@@ -432,11 +432,11 @@ library(tidyverse)
 
 
 # Load SDTM domains
-dm <- read.csv("dm.csv")
-mh <- read.csv("mh.csv")
-sc <- read.csv("sc.csv")
-ex <- read.csv("ex.csv")
-lb <- read.csv("lb.csv")
+dm <- read.csv("data/dm.csv")
+mh <- read.csv("data/mh.csv")
+sc <- read.csv("data/sc.csv")
+ex <- read.csv("data/ex.csv")
+lb <- read.csv("data/lb.csv")
 
 # -------------------------------------------------------------------------------------------
 # Start from DM (1 line per subject guaranteed)
@@ -478,7 +478,7 @@ adsl <- dm %>%
   )
 
 # Save ADSL
-write.csv(adsl, "adsl.csv", row.names = FALSE)
+write.csv(adsl, "data/adsl.csv", row.names = FALSE)
 
 # Preview
 head(adsl)
@@ -488,7 +488,7 @@ head(adsl)
 
 **ADLB** is the dataset for laboratory test results. It contains repeated measures per subject across study visits, enabling assessment of trends, changes, and treatment-related effects. Its main characteristics include: - Structure: one record per subject per laboratory parameter per visit. - Key variables: `STUDYID`, `USUBJID`, `PARAM`, `AVISIT`, `AVAL`(numeric result), `BASE`, and `CHG` (change from baseline). - Supports analyses such as mean comparisons between treatment arms, evaluation of clinically relevant changes, and categorization of results outside reference ranges.
 
-To manually construct *ADLB* data using SDTM domains, the code was run as follows:
+To manually construct **ADLB** data using SDTM domains, the code was run as follows:
 
 ```{r, message=FALSE, warning=FALSE, echo=TRUE}
 # ADLB
@@ -506,7 +506,7 @@ adlb <- lb %>%
   select(STUDYID, USUBJID, ARM, ARMCD, VISIT, PARAMCD, PARAM, AVAL, AVALU)
 
 # Save ADSL
-write.csv(adlb, "adlb.csv", row.names = FALSE)
+write.csv(adlb, "data/adlb.csv", row.names = FALSE)
 
 # Preview
 head(adlb)
@@ -543,8 +543,8 @@ library(ggplot2)
 
 
 # Load datasets
-adsl <- read.csv("adsl.csv")
-adlb <- read.csv("adlb.csv")
+adsl <- read.csv("data/adsl.csv")
+adlb <- read.csv("data/adlb.csv")
 
 # ----------------------------------------------------------------------------------------------------
 # Table N per ARMCD/SEX/RACE
