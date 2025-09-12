@@ -1,0 +1,2140 @@
+"STUDYID","USUBJID","AGE","SEX","RACE","ARMCD","ARM","WEIGHTBL"
+"AIDS01","SUBJ-1",48,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",89.8128
+"AIDS01","SUBJ-2",61,"F","WHITE","DDI","Didanosine (DDI)",49.4424
+"AIDS01","SUBJ-3",45,"M","WHITE","DDI","Didanosine (DDI)",88.452
+"AIDS01","SUBJ-4",47,"M","WHITE","DDI","Didanosine (DDI)",85.2768
+"AIDS01","SUBJ-5",43,"M","WHITE","ZDV","Zidovudine (ZDV)",66.6792
+"AIDS01","SUBJ-6",46,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",88.9056
+"AIDS01","SUBJ-7",31,"M","WHITE","ZDV","Zidovudine (ZDV)",73.0296
+"AIDS01","SUBJ-8",41,"M","WHITE","ZDV","Zidovudine (ZDV)",66.2256
+"AIDS01","SUBJ-9",40,"M","WHITE","DDI","Didanosine (DDI)",82.5552
+"AIDS01","SUBJ-10",35,"M","WHITE","ZDV","Zidovudine (ZDV)",78.0192
+"AIDS01","SUBJ-11",34,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",95.256
+"AIDS01","SUBJ-12",38,"M","WHITE","DDI","Didanosine (DDI)",76.4316
+"AIDS01","SUBJ-13",25,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68.04
+"AIDS01","SUBJ-14",34,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",62.8236
+"AIDS01","SUBJ-15",49,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",79.38
+"AIDS01","SUBJ-16",40,"M","WHITE","ZDV","Zidovudine (ZDV)",83.0088
+"AIDS01","SUBJ-17",27,"F","WHITE","ZDV","Zidovudine (ZDV)",67.3
+"AIDS01","SUBJ-18",46,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",63.8
+"AIDS01","SUBJ-19",47,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",94
+"AIDS01","SUBJ-20",34,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",60.3288
+"AIDS01","SUBJ-21",40,"M","WHITE","DDI","Didanosine (DDI)",58.0608
+"AIDS01","SUBJ-22",39,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",67.1328
+"AIDS01","SUBJ-23",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",64.5
+"AIDS01","SUBJ-24",44,"M","WHITE","DDI","Didanosine (DDI)",75
+"AIDS01","SUBJ-25",38,"F","WHITE","DDI","Didanosine (DDI)",62.9
+"AIDS01","SUBJ-26",39,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75
+"AIDS01","SUBJ-27",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",81.3
+"AIDS01","SUBJ-28",28,"M","WHITE","ZDV","Zidovudine (ZDV)",70
+"AIDS01","SUBJ-29",33,"M","WHITE","ZDV","Zidovudine (ZDV)",64.1
+"AIDS01","SUBJ-30",40,"F","NON-WHITE","DDI","Didanosine (DDI)",55.566
+"AIDS01","SUBJ-31",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",81.6
+"AIDS01","SUBJ-32",40,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",70
+"AIDS01","SUBJ-33",34,"M","WHITE","DDI","Didanosine (DDI)",69.6
+"AIDS01","SUBJ-34",37,"F","NON-WHITE","DDI","Didanosine (DDI)",73
+"AIDS01","SUBJ-35",30,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",50.8
+"AIDS01","SUBJ-36",38,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",87
+"AIDS01","SUBJ-37",45,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",82.7
+"AIDS01","SUBJ-38",29,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",62.6
+"AIDS01","SUBJ-39",48,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",72.6
+"AIDS01","SUBJ-40",34,"M","WHITE","ZDV","Zidovudine (ZDV)",72.9
+"AIDS01","SUBJ-41",27,"M","WHITE","DDI","Didanosine (DDI)",87
+"AIDS01","SUBJ-42",37,"M","WHITE","DDI","Didanosine (DDI)",69
+"AIDS01","SUBJ-43",35,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",61.4
+"AIDS01","SUBJ-44",49,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",87.2
+"AIDS01","SUBJ-45",34,"M","WHITE","ZDV","Zidovudine (ZDV)",75.7
+"AIDS01","SUBJ-46",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",77.8
+"AIDS01","SUBJ-47",43,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",102.7
+"AIDS01","SUBJ-48",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",63.3
+"AIDS01","SUBJ-49",24,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.7
+"AIDS01","SUBJ-50",67,"M","WHITE","DDI","Didanosine (DDI)",71
+"AIDS01","SUBJ-51",31,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",74.5
+"AIDS01","SUBJ-52",43,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",61.6
+"AIDS01","SUBJ-53",39,"M","WHITE","DDI","Didanosine (DDI)",77.5
+"AIDS01","SUBJ-54",37,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",79.4
+"AIDS01","SUBJ-55",25,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",68.2668
+"AIDS01","SUBJ-56",50,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",88.9056
+"AIDS01","SUBJ-57",32,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",74.1636
+"AIDS01","SUBJ-58",40,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",74.48112
+"AIDS01","SUBJ-59",30,"M","WHITE","DDI","Didanosine (DDI)",78.4728
+"AIDS01","SUBJ-60",26,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",92.62512
+"AIDS01","SUBJ-61",47,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",87.9984
+"AIDS01","SUBJ-62",29,"F","WHITE","DDI","Didanosine (DDI)",72.8028
+"AIDS01","SUBJ-63",36,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",53.298
+"AIDS01","SUBJ-64",29,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",100.2456
+"AIDS01","SUBJ-65",29,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",85.7304
+"AIDS01","SUBJ-66",41,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",81.8748
+"AIDS01","SUBJ-67",33,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",70.62552
+"AIDS01","SUBJ-68",28,"M","WHITE","DDI","Didanosine (DDI)",66.6792
+"AIDS01","SUBJ-69",27,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",80.15112
+"AIDS01","SUBJ-70",54,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.2
+"AIDS01","SUBJ-71",41,"M","WHITE","ZDV","Zidovudine (ZDV)",81.6
+"AIDS01","SUBJ-72",36,"M","WHITE","DDI","Didanosine (DDI)",85.5
+"AIDS01","SUBJ-73",33,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.6
+"AIDS01","SUBJ-74",35,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",64
+"AIDS01","SUBJ-75",48,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",59
+"AIDS01","SUBJ-76",28,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.5
+"AIDS01","SUBJ-77",39,"M","WHITE","DDI","Didanosine (DDI)",72.7
+"AIDS01","SUBJ-78",25,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.3
+"AIDS01","SUBJ-79",36,"M","NON-WHITE","DDI","Didanosine (DDI)",99.792
+"AIDS01","SUBJ-80",42,"M","NON-WHITE","DDI","Didanosine (DDI)",70.4
+"AIDS01","SUBJ-81",33,"F","WHITE","ZDV","Zidovudine (ZDV)",104
+"AIDS01","SUBJ-82",36,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",52
+"AIDS01","SUBJ-83",39,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",54.5
+"AIDS01","SUBJ-84",28,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",58.6
+"AIDS01","SUBJ-85",20,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",67
+"AIDS01","SUBJ-86",27,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",80
+"AIDS01","SUBJ-87",39,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",61
+"AIDS01","SUBJ-88",37,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",90.5
+"AIDS01","SUBJ-89",27,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",60.3
+"AIDS01","SUBJ-90",31,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",72.5
+"AIDS01","SUBJ-91",27,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",79.2
+"AIDS01","SUBJ-92",37,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",69
+"AIDS01","SUBJ-93",40,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",78.5
+"AIDS01","SUBJ-94",20,"M","NON-WHITE","DDI","Didanosine (DDI)",82.5
+"AIDS01","SUBJ-95",31,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73
+"AIDS01","SUBJ-96",36,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",63.5
+"AIDS01","SUBJ-97",37,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",67.5
+"AIDS01","SUBJ-98",22,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",69
+"AIDS01","SUBJ-99",34,"M","WHITE","ZDV","Zidovudine (ZDV)",86.6376
+"AIDS01","SUBJ-100",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",83.4624
+"AIDS01","SUBJ-101",64,"M","WHITE","DDI","Didanosine (DDI)",77.112
+"AIDS01","SUBJ-102",41,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",79.8336
+"AIDS01","SUBJ-103",28,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",63.2772
+"AIDS01","SUBJ-104",47,"M","WHITE","DDI","Didanosine (DDI)",79.38
+"AIDS01","SUBJ-105",70,"M","WHITE","ZDV","Zidovudine (ZDV)",73.9368
+"AIDS01","SUBJ-106",27,"M","WHITE","DDI","Didanosine (DDI)",72.576
+"AIDS01","SUBJ-107",42,"M","WHITE","ZDV","Zidovudine (ZDV)",86.184
+"AIDS01","SUBJ-108",37,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",65.772
+"AIDS01","SUBJ-109",30,"M","WHITE","ZDV","Zidovudine (ZDV)",74.844
+"AIDS01","SUBJ-110",40,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",91.6272
+"AIDS01","SUBJ-111",35,"M","WHITE","DDI","Didanosine (DDI)",78.9264
+"AIDS01","SUBJ-112",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.0192
+"AIDS01","SUBJ-113",37,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",86.184
+"AIDS01","SUBJ-114",37,"M","WHITE","DDI","Didanosine (DDI)",83.0088
+"AIDS01","SUBJ-115",27,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.7512
+"AIDS01","SUBJ-116",45,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",66.2256
+"AIDS01","SUBJ-117",32,"M","WHITE","DDI","Didanosine (DDI)",84.8232
+"AIDS01","SUBJ-118",29,"M","WHITE","ZDV","Zidovudine (ZDV)",82.5552
+"AIDS01","SUBJ-119",40,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",55.3392
+"AIDS01","SUBJ-120",47,"M","WHITE","ZDV","Zidovudine (ZDV)",72.1224
+"AIDS01","SUBJ-121",31,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",44.226
+"AIDS01","SUBJ-122",50,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.9264
+"AIDS01","SUBJ-123",34,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",83.916
+"AIDS01","SUBJ-124",41,"M","WHITE","DDI","Didanosine (DDI)",92.988
+"AIDS01","SUBJ-125",24,"M","WHITE","DDI","Didanosine (DDI)",58.5144
+"AIDS01","SUBJ-126",39,"M","WHITE","ZDV","Zidovudine (ZDV)",84.3696
+"AIDS01","SUBJ-127",41,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",111
+"AIDS01","SUBJ-128",28,"M","WHITE","DDI","Didanosine (DDI)",84.3696
+"AIDS01","SUBJ-129",29,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",86.184
+"AIDS01","SUBJ-130",42,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",57.6072
+"AIDS01","SUBJ-131",30,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",88.452
+"AIDS01","SUBJ-132",27,"M","WHITE","ZDV","Zidovudine (ZDV)",66.2256
+"AIDS01","SUBJ-133",33,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",62.8236
+"AIDS01","SUBJ-134",44,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",69.4008
+"AIDS01","SUBJ-135",48,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.4728
+"AIDS01","SUBJ-136",37,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",64.4112
+"AIDS01","SUBJ-137",43,"M","WHITE","DDI","Didanosine (DDI)",82.5552
+"AIDS01","SUBJ-138",50,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",77.5656
+"AIDS01","SUBJ-139",28,"M","WHITE","ZDV","Zidovudine (ZDV)",68.4936
+"AIDS01","SUBJ-140",26,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",80.514
+"AIDS01","SUBJ-141",27,"M","WHITE","ZDV","Zidovudine (ZDV)",76.2048
+"AIDS01","SUBJ-142",49,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",88.452
+"AIDS01","SUBJ-143",28,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",71.1
+"AIDS01","SUBJ-144",30,"M","WHITE","DDI","Didanosine (DDI)",77.112
+"AIDS01","SUBJ-145",25,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",63.504
+"AIDS01","SUBJ-146",37,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",87.5448
+"AIDS01","SUBJ-147",42,"M","NON-WHITE","DDI","Didanosine (DDI)",109.5
+"AIDS01","SUBJ-148",39,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.7
+"AIDS01","SUBJ-149",30,"M","NON-WHITE","DDI","Didanosine (DDI)",61
+"AIDS01","SUBJ-150",25,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",74.844
+"AIDS01","SUBJ-151",41,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",63.4
+"AIDS01","SUBJ-152",24,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",71
+"AIDS01","SUBJ-153",29,"M","WHITE","ZDV","Zidovudine (ZDV)",79.8
+"AIDS01","SUBJ-154",31,"M","WHITE","DDI","Didanosine (DDI)",79.2
+"AIDS01","SUBJ-155",27,"M","WHITE","DDI","Didanosine (DDI)",66.5
+"AIDS01","SUBJ-156",30,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",69.1
+"AIDS01","SUBJ-157",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.85024
+"AIDS01","SUBJ-158",37,"M","WHITE","DDI","Didanosine (DDI)",77.5
+"AIDS01","SUBJ-159",27,"M","WHITE","DDI","Didanosine (DDI)",91.6
+"AIDS01","SUBJ-160",36,"M","WHITE","ZDV","Zidovudine (ZDV)",64.4
+"AIDS01","SUBJ-161",40,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78
+"AIDS01","SUBJ-162",23,"M","WHITE","ZDV","Zidovudine (ZDV)",55.566
+"AIDS01","SUBJ-163",41,"M","WHITE","ZDV","Zidovudine (ZDV)",89.9
+"AIDS01","SUBJ-164",28,"M","WHITE","ZDV","Zidovudine (ZDV)",59.9
+"AIDS01","SUBJ-165",28,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75
+"AIDS01","SUBJ-166",34,"M","NON-WHITE","DDI","Didanosine (DDI)",103.2
+"AIDS01","SUBJ-167",32,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",90.5
+"AIDS01","SUBJ-168",42,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",76.5
+"AIDS01","SUBJ-169",43,"M","WHITE","ZDV","Zidovudine (ZDV)",72.7
+"AIDS01","SUBJ-170",22,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.5
+"AIDS01","SUBJ-171",65,"M","WHITE","ZDV","Zidovudine (ZDV)",77.2
+"AIDS01","SUBJ-172",29,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",70.8
+"AIDS01","SUBJ-173",31,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",85
+"AIDS01","SUBJ-174",42,"M","WHITE","DDI","Didanosine (DDI)",82.7
+"AIDS01","SUBJ-175",34,"M","WHITE","DDI","Didanosine (DDI)",105.6888
+"AIDS01","SUBJ-176",45,"M","NON-WHITE","DDI","Didanosine (DDI)",72.7
+"AIDS01","SUBJ-177",35,"M","WHITE","ZDV","Zidovudine (ZDV)",80.5
+"AIDS01","SUBJ-178",30,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",75.5
+"AIDS01","SUBJ-179",34,"M","WHITE","ZDV","Zidovudine (ZDV)",65.5
+"AIDS01","SUBJ-180",50,"M","WHITE","DDI","Didanosine (DDI)",72.576
+"AIDS01","SUBJ-181",38,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",70.6
+"AIDS01","SUBJ-182",29,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",97.9
+"AIDS01","SUBJ-183",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",65.7
+"AIDS01","SUBJ-184",54,"M","WHITE","DDI","Didanosine (DDI)",80.7408
+"AIDS01","SUBJ-185",32,"M","WHITE","DDI","Didanosine (DDI)",74.3904
+"AIDS01","SUBJ-186",45,"M","WHITE","ZDV","Zidovudine (ZDV)",69
+"AIDS01","SUBJ-187",37,"M","WHITE","DDI","Didanosine (DDI)",63.2
+"AIDS01","SUBJ-188",37,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",64.8
+"AIDS01","SUBJ-189",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",65.3184
+"AIDS01","SUBJ-190",39,"M","WHITE","DDI","Didanosine (DDI)",71.4
+"AIDS01","SUBJ-191",37,"M","WHITE","ZDV","Zidovudine (ZDV)",85.7304
+"AIDS01","SUBJ-192",30,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.9264
+"AIDS01","SUBJ-193",35,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",74.3904
+"AIDS01","SUBJ-194",30,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",85.2768
+"AIDS01","SUBJ-195",37,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",69.8544
+"AIDS01","SUBJ-196",34,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.1328
+"AIDS01","SUBJ-197",36,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.7512
+"AIDS01","SUBJ-198",50,"M","WHITE","DDI","Didanosine (DDI)",117.936
+"AIDS01","SUBJ-199",31,"M","WHITE","DDI","Didanosine (DDI)",76
+"AIDS01","SUBJ-200",44,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",71
+"AIDS01","SUBJ-201",38,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",69.5
+"AIDS01","SUBJ-202",51,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",87.2
+"AIDS01","SUBJ-203",27,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",74.844
+"AIDS01","SUBJ-204",33,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",79.1532
+"AIDS01","SUBJ-205",39,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",71.442
+"AIDS01","SUBJ-206",25,"M","WHITE","DDI","Didanosine (DDI)",75.2976
+"AIDS01","SUBJ-207",40,"M","WHITE","ZDV","Zidovudine (ZDV)",89.8128
+"AIDS01","SUBJ-208",40,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.9264
+"AIDS01","SUBJ-209",30,"M","WHITE","ZDV","Zidovudine (ZDV)",87.5448
+"AIDS01","SUBJ-210",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.3596
+"AIDS01","SUBJ-211",38,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.0192
+"AIDS01","SUBJ-212",43,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.9368
+"AIDS01","SUBJ-213",29,"M","WHITE","DDI","Didanosine (DDI)",70.5
+"AIDS01","SUBJ-214",33,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",70.7616
+"AIDS01","SUBJ-215",28,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",115.2144
+"AIDS01","SUBJ-216",33,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.4
+"AIDS01","SUBJ-217",45,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.1
+"AIDS01","SUBJ-218",60,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",51.6
+"AIDS01","SUBJ-219",29,"M","WHITE","DDI","Didanosine (DDI)",83
+"AIDS01","SUBJ-220",34,"M","WHITE","DDI","Didanosine (DDI)",70
+"AIDS01","SUBJ-221",31,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.9
+"AIDS01","SUBJ-222",32,"M","WHITE","ZDV","Zidovudine (ZDV)",70
+"AIDS01","SUBJ-223",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",72
+"AIDS01","SUBJ-224",46,"F","NON-WHITE","DDI","Didanosine (DDI)",77.112
+"AIDS01","SUBJ-225",40,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",81.648
+"AIDS01","SUBJ-226",38,"M","WHITE","ZDV","Zidovudine (ZDV)",79
+"AIDS01","SUBJ-227",43,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",73.0296
+"AIDS01","SUBJ-228",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",96.1632
+"AIDS01","SUBJ-229",42,"M","WHITE","DDI","Didanosine (DDI)",74.3904
+"AIDS01","SUBJ-230",59,"M","WHITE","DDI","Didanosine (DDI)",72.576
+"AIDS01","SUBJ-231",39,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",86.184
+"AIDS01","SUBJ-232",36,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.2976
+"AIDS01","SUBJ-233",32,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",69.4008
+"AIDS01","SUBJ-234",39,"M","WHITE","ZDV","Zidovudine (ZDV)",80.2872
+"AIDS01","SUBJ-235",37,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",78.0192
+"AIDS01","SUBJ-236",55,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.0192
+"AIDS01","SUBJ-237",37,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",57.6072
+"AIDS01","SUBJ-238",48,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",72.1224
+"AIDS01","SUBJ-239",30,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",59.4216
+"AIDS01","SUBJ-240",59,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",87.9984
+"AIDS01","SUBJ-241",27,"M","NON-WHITE","DDI","Didanosine (DDI)",85.7304
+"AIDS01","SUBJ-242",41,"M","WHITE","ZDV","Zidovudine (ZDV)",73.4832
+"AIDS01","SUBJ-243",38,"M","WHITE","ZDV","Zidovudine (ZDV)",79.38
+"AIDS01","SUBJ-244",40,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.7512
+"AIDS01","SUBJ-245",40,"F","NON-WHITE","DDI","Didanosine (DDI)",79.8336
+"AIDS01","SUBJ-246",50,"M","WHITE","ZDV","Zidovudine (ZDV)",78.4728
+"AIDS01","SUBJ-247",45,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",74.5
+"AIDS01","SUBJ-248",47,"M","WHITE","DDI","Didanosine (DDI)",64.4112
+"AIDS01","SUBJ-249",49,"M","WHITE","ZDV","Zidovudine (ZDV)",100
+"AIDS01","SUBJ-250",46,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",66.6792
+"AIDS01","SUBJ-251",28,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",68.9472
+"AIDS01","SUBJ-252",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",72.5
+"AIDS01","SUBJ-253",31,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",83
+"AIDS01","SUBJ-254",63,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.4832
+"AIDS01","SUBJ-255",43,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",74.3904
+"AIDS01","SUBJ-256",37,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.5
+"AIDS01","SUBJ-257",63,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",74.3904
+"AIDS01","SUBJ-258",38,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",65.3184
+"AIDS01","SUBJ-259",38,"M","WHITE","ZDV","Zidovudine (ZDV)",67.5
+"AIDS01","SUBJ-260",39,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",83
+"AIDS01","SUBJ-261",34,"M","WHITE","DDI","Didanosine (DDI)",80.5
+"AIDS01","SUBJ-262",59,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",87.5448
+"AIDS01","SUBJ-263",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68.04
+"AIDS01","SUBJ-264",44,"M","WHITE","ZDV","Zidovudine (ZDV)",70.5
+"AIDS01","SUBJ-265",33,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",67.1328
+"AIDS01","SUBJ-266",28,"M","WHITE","DDI","Didanosine (DDI)",84.3696
+"AIDS01","SUBJ-267",55,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",90
+"AIDS01","SUBJ-268",43,"M","WHITE","DDI","Didanosine (DDI)",72.576
+"AIDS01","SUBJ-269",44,"M","WHITE","ZDV","Zidovudine (ZDV)",85.2768
+"AIDS01","SUBJ-270",59,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",84
+"AIDS01","SUBJ-271",28,"M","WHITE","DDI","Didanosine (DDI)",72.5
+"AIDS01","SUBJ-272",68,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",90.5
+"AIDS01","SUBJ-273",29,"M","WHITE","ZDV","Zidovudine (ZDV)",74.6172
+"AIDS01","SUBJ-274",33,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",66
+"AIDS01","SUBJ-275",33,"M","WHITE","DDI","Didanosine (DDI)",66
+"AIDS01","SUBJ-276",34,"M","WHITE","DDI","Didanosine (DDI)",66.6792
+"AIDS01","SUBJ-277",29,"F","WHITE","ZDV","Zidovudine (ZDV)",49.80528
+"AIDS01","SUBJ-278",28,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.4
+"AIDS01","SUBJ-279",38,"M","WHITE","DDI","Didanosine (DDI)",86.2
+"AIDS01","SUBJ-280",28,"M","WHITE","DDI","Didanosine (DDI)",85.5036
+"AIDS01","SUBJ-281",21,"M","NON-WHITE","DDI","Didanosine (DDI)",59
+"AIDS01","SUBJ-282",22,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",71.6688
+"AIDS01","SUBJ-283",59,"M","WHITE","DDI","Didanosine (DDI)",59.8752
+"AIDS01","SUBJ-284",35,"M","NON-WHITE","DDI","Didanosine (DDI)",73.0296
+"AIDS01","SUBJ-285",36,"M","WHITE","ZDV","Zidovudine (ZDV)",75.5
+"AIDS01","SUBJ-286",48,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",91.1736
+"AIDS01","SUBJ-287",46,"M","WHITE","ZDV","Zidovudine (ZDV)",87.318
+"AIDS01","SUBJ-288",31,"M","WHITE","ZDV","Zidovudine (ZDV)",73.0296
+"AIDS01","SUBJ-289",25,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",65.3184
+"AIDS01","SUBJ-290",38,"M","WHITE","ZDV","Zidovudine (ZDV)",88.5
+"AIDS01","SUBJ-291",54,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.5
+"AIDS01","SUBJ-292",43,"M","WHITE","DDI","Didanosine (DDI)",85.7304
+"AIDS01","SUBJ-293",54,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",68.4936
+"AIDS01","SUBJ-294",40,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",92.0808
+"AIDS01","SUBJ-295",46,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",80.7408
+"AIDS01","SUBJ-296",34,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",87.5448
+"AIDS01","SUBJ-297",32,"M","WHITE","DDI","Didanosine (DDI)",84
+"AIDS01","SUBJ-298",31,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",79.8336
+"AIDS01","SUBJ-299",33,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",71.8956
+"AIDS01","SUBJ-300",35,"M","WHITE","DDI","Didanosine (DDI)",77
+"AIDS01","SUBJ-301",33,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",55
+"AIDS01","SUBJ-302",33,"F","WHITE","DDI","Didanosine (DDI)",68.6
+"AIDS01","SUBJ-303",32,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",81.5
+"AIDS01","SUBJ-304",39,"M","WHITE","DDI","Didanosine (DDI)",81.5
+"AIDS01","SUBJ-305",46,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",123.3792
+"AIDS01","SUBJ-306",50,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",65.772
+"AIDS01","SUBJ-307",26,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",74.844
+"AIDS01","SUBJ-308",45,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",72.1224
+"AIDS01","SUBJ-309",28,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.7512
+"AIDS01","SUBJ-310",23,"F","WHITE","ZDV","Zidovudine (ZDV)",87
+"AIDS01","SUBJ-311",42,"F","NON-WHITE","DDI","Didanosine (DDI)",50.3496
+"AIDS01","SUBJ-312",42,"F","WHITE","DDI","Didanosine (DDI)",57.8
+"AIDS01","SUBJ-313",31,"M","WHITE","ZDV","Zidovudine (ZDV)",71.8
+"AIDS01","SUBJ-314",42,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",91.1736
+"AIDS01","SUBJ-315",40,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",90.72
+"AIDS01","SUBJ-316",31,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.6688
+"AIDS01","SUBJ-317",41,"M","WHITE","ZDV","Zidovudine (ZDV)",84.3696
+"AIDS01","SUBJ-318",33,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",78.3
+"AIDS01","SUBJ-319",27,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",81.648
+"AIDS01","SUBJ-320",29,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",111.5856
+"AIDS01","SUBJ-321",39,"M","WHITE","DDI","Didanosine (DDI)",80.0604
+"AIDS01","SUBJ-322",21,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",96.6168
+"AIDS01","SUBJ-323",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",87.9984
+"AIDS01","SUBJ-324",30,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",62.5968
+"AIDS01","SUBJ-325",38,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",111.3588
+"AIDS01","SUBJ-326",57,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",63.2772
+"AIDS01","SUBJ-327",33,"M","NON-WHITE","DDI","Didanosine (DDI)",92.5344
+"AIDS01","SUBJ-328",38,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",85.7304
+"AIDS01","SUBJ-329",44,"M","WHITE","ZDV","Zidovudine (ZDV)",82.5552
+"AIDS01","SUBJ-330",30,"M","WHITE","DDI","Didanosine (DDI)",88.9056
+"AIDS01","SUBJ-331",41,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",73.4832
+"AIDS01","SUBJ-332",66,"M","WHITE","ZDV","Zidovudine (ZDV)",84.3696
+"AIDS01","SUBJ-333",53,"M","WHITE","ZDV","Zidovudine (ZDV)",91
+"AIDS01","SUBJ-334",31,"M","WHITE","DDI","Didanosine (DDI)",87.9984
+"AIDS01","SUBJ-335",40,"F","WHITE","DDI","Didanosine (DDI)",74.52648
+"AIDS01","SUBJ-336",37,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",72.5
+"AIDS01","SUBJ-337",44,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.5
+"AIDS01","SUBJ-338",56,"M","WHITE","DDI","Didanosine (DDI)",83.1
+"AIDS01","SUBJ-339",39,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",80.8
+"AIDS01","SUBJ-340",38,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",78.2
+"AIDS01","SUBJ-341",29,"M","WHITE","ZDV","Zidovudine (ZDV)",66.1
+"AIDS01","SUBJ-342",52,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",67.1
+"AIDS01","SUBJ-343",37,"M","WHITE","ZDV","Zidovudine (ZDV)",76.9
+"AIDS01","SUBJ-344",34,"M","WHITE","DDI","Didanosine (DDI)",78.3
+"AIDS01","SUBJ-345",39,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.6
+"AIDS01","SUBJ-346",47,"M","WHITE","ZDV","Zidovudine (ZDV)",73
+"AIDS01","SUBJ-347",40,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",76.2048
+"AIDS01","SUBJ-348",48,"M","WHITE","ZDV","Zidovudine (ZDV)",72.576
+"AIDS01","SUBJ-349",54,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",76.2048
+"AIDS01","SUBJ-350",57,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",92.0808
+"AIDS01","SUBJ-351",43,"M","WHITE","DDI","Didanosine (DDI)",57.1536
+"AIDS01","SUBJ-352",32,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",86.184
+"AIDS01","SUBJ-353",48,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",83.0088
+"AIDS01","SUBJ-354",32,"M","NON-WHITE","DDI","Didanosine (DDI)",98.658
+"AIDS01","SUBJ-355",42,"M","WHITE","ZDV","Zidovudine (ZDV)",70.7616
+"AIDS01","SUBJ-356",32,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",68.9472
+"AIDS01","SUBJ-357",30,"M","WHITE","DDI","Didanosine (DDI)",84.8232
+"AIDS01","SUBJ-358",33,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",57.1536
+"AIDS01","SUBJ-359",34,"M","WHITE","ZDV","Zidovudine (ZDV)",79.6
+"AIDS01","SUBJ-360",38,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",95
+"AIDS01","SUBJ-361",34,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",73.8
+"AIDS01","SUBJ-362",31,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",95
+"AIDS01","SUBJ-363",26,"M","WHITE","DDI","Didanosine (DDI)",77.4
+"AIDS01","SUBJ-364",29,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",89.7
+"AIDS01","SUBJ-365",33,"M","WHITE","ZDV","Zidovudine (ZDV)",97
+"AIDS01","SUBJ-366",29,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",83.4
+"AIDS01","SUBJ-367",28,"M","WHITE","ZDV","Zidovudine (ZDV)",76.7
+"AIDS01","SUBJ-368",25,"M","NON-WHITE","DDI","Didanosine (DDI)",73
+"AIDS01","SUBJ-369",36,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",88.3
+"AIDS01","SUBJ-370",47,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",91.2
+"AIDS01","SUBJ-371",28,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.2
+"AIDS01","SUBJ-372",28,"M","WHITE","ZDV","Zidovudine (ZDV)",65.1
+"AIDS01","SUBJ-373",48,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68.1
+"AIDS01","SUBJ-374",22,"M","NON-WHITE","DDI","Didanosine (DDI)",58.2876
+"AIDS01","SUBJ-375",40,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",78.4728
+"AIDS01","SUBJ-376",25,"M","WHITE","DDI","Didanosine (DDI)",50.3496
+"AIDS01","SUBJ-377",34,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",70.7616
+"AIDS01","SUBJ-378",20,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",47.4012
+"AIDS01","SUBJ-379",36,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",78.0192
+"AIDS01","SUBJ-380",34,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",68.04
+"AIDS01","SUBJ-381",28,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",58.968
+"AIDS01","SUBJ-382",37,"M","WHITE","DDI","Didanosine (DDI)",89.3592
+"AIDS01","SUBJ-383",45,"M","WHITE","ZDV","Zidovudine (ZDV)",81.4212
+"AIDS01","SUBJ-384",30,"M","WHITE","ZDV","Zidovudine (ZDV)",73.6
+"AIDS01","SUBJ-385",27,"M","NON-WHITE","DDI","Didanosine (DDI)",71.8
+"AIDS01","SUBJ-386",33,"M","WHITE","DDI","Didanosine (DDI)",86.184
+"AIDS01","SUBJ-387",43,"M","WHITE","DDI","Didanosine (DDI)",81.4212
+"AIDS01","SUBJ-388",29,"M","WHITE","ZDV","Zidovudine (ZDV)",76.2048
+"AIDS01","SUBJ-389",46,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",74.6172
+"AIDS01","SUBJ-390",30,"M","WHITE","DDI","Didanosine (DDI)",108.864
+"AIDS01","SUBJ-391",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.71
+"AIDS01","SUBJ-392",21,"M","NON-WHITE","DDI","Didanosine (DDI)",63.9576
+"AIDS01","SUBJ-393",35,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",63.0504
+"AIDS01","SUBJ-394",25,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.2976
+"AIDS01","SUBJ-395",27,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",70.308
+"AIDS01","SUBJ-396",28,"M","NON-WHITE","DDI","Didanosine (DDI)",70.7616
+"AIDS01","SUBJ-397",48,"M","WHITE","DDI","Didanosine (DDI)",63.0504
+"AIDS01","SUBJ-398",26,"M","WHITE","ZDV","Zidovudine (ZDV)",101.8332
+"AIDS01","SUBJ-399",29,"M","WHITE","DDI","Didanosine (DDI)",84.8232
+"AIDS01","SUBJ-400",29,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.4832
+"AIDS01","SUBJ-401",48,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",79.8336
+"AIDS01","SUBJ-402",35,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",69.4008
+"AIDS01","SUBJ-403",39,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",71.6688
+"AIDS01","SUBJ-404",39,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",99.9
+"AIDS01","SUBJ-405",36,"M","WHITE","DDI","Didanosine (DDI)",85.7304
+"AIDS01","SUBJ-406",28,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",63.0504
+"AIDS01","SUBJ-407",33,"M","WHITE","ZDV","Zidovudine (ZDV)",69.8544
+"AIDS01","SUBJ-408",29,"M","WHITE","DDI","Didanosine (DDI)",71.71416
+"AIDS01","SUBJ-409",26,"M","WHITE","ZDV","Zidovudine (ZDV)",74.844
+"AIDS01","SUBJ-410",48,"M","WHITE","DDI","Didanosine (DDI)",83.916
+"AIDS01","SUBJ-411",32,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",60.7824
+"AIDS01","SUBJ-412",41,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",80.7408
+"AIDS01","SUBJ-413",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",73.4832
+"AIDS01","SUBJ-414",27,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.9
+"AIDS01","SUBJ-415",28,"M","WHITE","ZDV","Zidovudine (ZDV)",68.9472
+"AIDS01","SUBJ-416",63,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",56.4732
+"AIDS01","SUBJ-417",47,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",68.9472
+"AIDS01","SUBJ-418",36,"M","WHITE","ZDV","Zidovudine (ZDV)",83.916
+"AIDS01","SUBJ-419",37,"M","NON-WHITE","DDI","Didanosine (DDI)",57.1536
+"AIDS01","SUBJ-420",42,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68.4936
+"AIDS01","SUBJ-421",35,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",69.4008
+"AIDS01","SUBJ-422",33,"M","WHITE","DDI","Didanosine (DDI)",78.0192
+"AIDS01","SUBJ-423",34,"M","WHITE","DDI","Didanosine (DDI)",77.5656
+"AIDS01","SUBJ-424",39,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",59.8752
+"AIDS01","SUBJ-425",38,"M","WHITE","DDI","Didanosine (DDI)",77.112
+"AIDS01","SUBJ-426",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",55.7928
+"AIDS01","SUBJ-427",32,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",76.2048
+"AIDS01","SUBJ-428",31,"M","NON-WHITE","DDI","Didanosine (DDI)",86.6376
+"AIDS01","SUBJ-429",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",85.2768
+"AIDS01","SUBJ-430",27,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",61.236
+"AIDS01","SUBJ-431",15,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",59
+"AIDS01","SUBJ-432",17,"M","WHITE","DDI","Didanosine (DDI)",92.7
+"AIDS01","SUBJ-433",38,"M","WHITE","ZDV","Zidovudine (ZDV)",68.9472
+"AIDS01","SUBJ-434",43,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",72.576
+"AIDS01","SUBJ-435",39,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",85.9572
+"AIDS01","SUBJ-436",38,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",82.5552
+"AIDS01","SUBJ-437",31,"M","WHITE","DDI","Didanosine (DDI)",76.6584
+"AIDS01","SUBJ-438",35,"M","WHITE","DDI","Didanosine (DDI)",83.0088
+"AIDS01","SUBJ-439",38,"M","WHITE","ZDV","Zidovudine (ZDV)",86.8644
+"AIDS01","SUBJ-440",41,"M","WHITE","ZDV","Zidovudine (ZDV)",87.9984
+"AIDS01","SUBJ-441",32,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",82.5552
+"AIDS01","SUBJ-442",46,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",92.0808
+"AIDS01","SUBJ-443",32,"M","NON-WHITE","DDI","Didanosine (DDI)",78.4728
+"AIDS01","SUBJ-444",29,"M","WHITE","ZDV","Zidovudine (ZDV)",73.9368
+"AIDS01","SUBJ-445",29,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",79.8336
+"AIDS01","SUBJ-446",34,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.442
+"AIDS01","SUBJ-447",33,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",70.7616
+"AIDS01","SUBJ-448",20,"M","NON-WHITE","DDI","Didanosine (DDI)",72.576
+"AIDS01","SUBJ-449",49,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.0812
+"AIDS01","SUBJ-450",31,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",85.2768
+"AIDS01","SUBJ-451",30,"M","WHITE","ZDV","Zidovudine (ZDV)",84.5964
+"AIDS01","SUBJ-452",33,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",69.8544
+"AIDS01","SUBJ-453",32,"F","WHITE","ZDV","Zidovudine (ZDV)",60.5556
+"AIDS01","SUBJ-454",32,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",82.5552
+"AIDS01","SUBJ-455",33,"M","NON-WHITE","DDI","Didanosine (DDI)",74.3904
+"AIDS01","SUBJ-456",35,"F","WHITE","ZDV","Zidovudine (ZDV)",65.772
+"AIDS01","SUBJ-457",22,"M","WHITE","DDI","Didanosine (DDI)",64.638
+"AIDS01","SUBJ-458",26,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",78.0192
+"AIDS01","SUBJ-459",37,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",77.3388
+"AIDS01","SUBJ-460",29,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.4728
+"AIDS01","SUBJ-461",34,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",62.5968
+"AIDS01","SUBJ-462",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.7616
+"AIDS01","SUBJ-463",30,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.0192
+"AIDS01","SUBJ-464",32,"M","WHITE","DDI","Didanosine (DDI)",92.0808
+"AIDS01","SUBJ-465",31,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.2564
+"AIDS01","SUBJ-466",39,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.2976
+"AIDS01","SUBJ-467",35,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",93.4416
+"AIDS01","SUBJ-468",28,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",67.5864
+"AIDS01","SUBJ-469",30,"M","WHITE","DDI","Didanosine (DDI)",64.8648
+"AIDS01","SUBJ-470",43,"M","WHITE","ZDV","Zidovudine (ZDV)",89.3592
+"AIDS01","SUBJ-471",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",82.5552
+"AIDS01","SUBJ-472",37,"M","NON-WHITE","DDI","Didanosine (DDI)",83.4624
+"AIDS01","SUBJ-473",52,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",72.576
+"AIDS01","SUBJ-474",37,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",83.4624
+"AIDS01","SUBJ-475",60,"M","WHITE","ZDV","Zidovudine (ZDV)",72.576
+"AIDS01","SUBJ-476",30,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",51.4836
+"AIDS01","SUBJ-477",36,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",73.0296
+"AIDS01","SUBJ-478",31,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",86.4108
+"AIDS01","SUBJ-479",27,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",74.3904
+"AIDS01","SUBJ-480",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.1328
+"AIDS01","SUBJ-481",38,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",68.04
+"AIDS01","SUBJ-482",37,"M","WHITE","DDI","Didanosine (DDI)",79.8336
+"AIDS01","SUBJ-483",39,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",79.38
+"AIDS01","SUBJ-484",26,"M","WHITE","ZDV","Zidovudine (ZDV)",67.8132
+"AIDS01","SUBJ-485",45,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.0296
+"AIDS01","SUBJ-486",49,"M","NON-WHITE","DDI","Didanosine (DDI)",90.0396
+"AIDS01","SUBJ-487",30,"M","NON-WHITE","DDI","Didanosine (DDI)",73.9368
+"AIDS01","SUBJ-488",42,"M","NON-WHITE","DDI","Didanosine (DDI)",63.0504
+"AIDS01","SUBJ-489",34,"M","WHITE","ZDV","Zidovudine (ZDV)",82.782
+"AIDS01","SUBJ-490",38,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",68.04
+"AIDS01","SUBJ-491",42,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",85.2768
+"AIDS01","SUBJ-492",31,"M","WHITE","DDI","Didanosine (DDI)",95.256
+"AIDS01","SUBJ-493",39,"M","WHITE","ZDV","Zidovudine (ZDV)",69.8544
+"AIDS01","SUBJ-494",38,"M","WHITE","ZDV","Zidovudine (ZDV)",83.4624
+"AIDS01","SUBJ-495",37,"M","WHITE","ZDV","Zidovudine (ZDV)",68.2
+"AIDS01","SUBJ-496",33,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78
+"AIDS01","SUBJ-497",33,"M","WHITE","DDI","Didanosine (DDI)",69.8544
+"AIDS01","SUBJ-498",36,"M","WHITE","ZDV","Zidovudine (ZDV)",75
+"AIDS01","SUBJ-499",43,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.6
+"AIDS01","SUBJ-500",37,"M","WHITE","ZDV","Zidovudine (ZDV)",66.6
+"AIDS01","SUBJ-501",32,"M","WHITE","ZDV","Zidovudine (ZDV)",63.504
+"AIDS01","SUBJ-502",36,"M","WHITE","DDI","Didanosine (DDI)",82.5552
+"AIDS01","SUBJ-503",50,"M","NON-WHITE","DDI","Didanosine (DDI)",64.4112
+"AIDS01","SUBJ-504",37,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",74.3904
+"AIDS01","SUBJ-505",41,"M","WHITE","DDI","Didanosine (DDI)",75.3
+"AIDS01","SUBJ-506",35,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",74.3904
+"AIDS01","SUBJ-507",57,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",80
+"AIDS01","SUBJ-508",43,"M","WHITE","ZDV","Zidovudine (ZDV)",76.4
+"AIDS01","SUBJ-509",62,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",83.4624
+"AIDS01","SUBJ-510",29,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68
+"AIDS01","SUBJ-511",38,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",78.9264
+"AIDS01","SUBJ-512",49,"M","WHITE","DDI","Didanosine (DDI)",60.7824
+"AIDS01","SUBJ-513",27,"M","WHITE","ZDV","Zidovudine (ZDV)",71.2152
+"AIDS01","SUBJ-514",19,"M","NON-WHITE","DDI","Didanosine (DDI)",68.04
+"AIDS01","SUBJ-515",41,"M","WHITE","DDI","Didanosine (DDI)",80
+"AIDS01","SUBJ-516",28,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",65.5
+"AIDS01","SUBJ-517",26,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",70.0812
+"AIDS01","SUBJ-518",28,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68
+"AIDS01","SUBJ-519",68,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.7616
+"AIDS01","SUBJ-520",33,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.0296
+"AIDS01","SUBJ-521",35,"M","WHITE","ZDV","Zidovudine (ZDV)",97.524
+"AIDS01","SUBJ-522",31,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",66.2256
+"AIDS01","SUBJ-523",39,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",74.844
+"AIDS01","SUBJ-524",43,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",62.1432
+"AIDS01","SUBJ-525",42,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",48.0816
+"AIDS01","SUBJ-526",38,"M","WHITE","DDI","Didanosine (DDI)",79.38
+"AIDS01","SUBJ-527",47,"M","WHITE","ZDV","Zidovudine (ZDV)",64.4112
+"AIDS01","SUBJ-528",41,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",73.9368
+"AIDS01","SUBJ-529",38,"M","WHITE","ZDV","Zidovudine (ZDV)",69.8544
+"AIDS01","SUBJ-530",32,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",87.5448
+"AIDS01","SUBJ-531",51,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",96.1632
+"AIDS01","SUBJ-532",35,"F","WHITE","DDI","Didanosine (DDI)",56.7
+"AIDS01","SUBJ-533",40,"M","WHITE","DDI","Didanosine (DDI)",73.8
+"AIDS01","SUBJ-534",42,"M","WHITE","ZDV","Zidovudine (ZDV)",59.1
+"AIDS01","SUBJ-535",26,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",81
+"AIDS01","SUBJ-536",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",66.2256
+"AIDS01","SUBJ-537",39,"M","WHITE","DDI","Didanosine (DDI)",80.5
+"AIDS01","SUBJ-538",31,"M","WHITE","DDI","Didanosine (DDI)",60.5
+"AIDS01","SUBJ-539",42,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",79
+"AIDS01","SUBJ-540",32,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",86.9
+"AIDS01","SUBJ-541",46,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",81
+"AIDS01","SUBJ-542",58,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",80.3
+"AIDS01","SUBJ-543",33,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",61.2
+"AIDS01","SUBJ-544",43,"M","WHITE","DDI","Didanosine (DDI)",92.5
+"AIDS01","SUBJ-545",37,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",107.1
+"AIDS01","SUBJ-546",41,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.1
+"AIDS01","SUBJ-547",23,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",66.4
+"AIDS01","SUBJ-548",35,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",76.4
+"AIDS01","SUBJ-549",34,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",79.2
+"AIDS01","SUBJ-550",32,"M","WHITE","ZDV","Zidovudine (ZDV)",80
+"AIDS01","SUBJ-551",30,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",59.9
+"AIDS01","SUBJ-552",35,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",69.8
+"AIDS01","SUBJ-553",40,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",78.0192
+"AIDS01","SUBJ-554",45,"F","WHITE","DDI","Didanosine (DDI)",53.9784
+"AIDS01","SUBJ-555",47,"M","WHITE","DDI","Didanosine (DDI)",78.0192
+"AIDS01","SUBJ-556",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.3596
+"AIDS01","SUBJ-557",34,"F","NON-WHITE","DDI","Didanosine (DDI)",57.1536
+"AIDS01","SUBJ-558",42,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",72.576
+"AIDS01","SUBJ-559",32,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.5244
+"AIDS01","SUBJ-560",36,"F","WHITE","ZDV","Zidovudine (ZDV)",84.8232
+"AIDS01","SUBJ-561",26,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",47.4012
+"AIDS01","SUBJ-562",32,"M","WHITE","DDI","Didanosine (DDI)",78.9264
+"AIDS01","SUBJ-563",38,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",55.3392
+"AIDS01","SUBJ-564",27,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",59.8752
+"AIDS01","SUBJ-565",55,"M","WHITE","DDI","Didanosine (DDI)",82.1016
+"AIDS01","SUBJ-566",35,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",66.6792
+"AIDS01","SUBJ-567",32,"M","WHITE","ZDV","Zidovudine (ZDV)",70.308
+"AIDS01","SUBJ-568",35,"M","WHITE","ZDV","Zidovudine (ZDV)",94.8024
+"AIDS01","SUBJ-569",27,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.2152
+"AIDS01","SUBJ-570",22,"M","NON-WHITE","DDI","Didanosine (DDI)",55.7928
+"AIDS01","SUBJ-571",28,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",45.36
+"AIDS01","SUBJ-572",31,"F","NON-WHITE","DDI","Didanosine (DDI)",75.2976
+"AIDS01","SUBJ-573",24,"M","WHITE","ZDV","Zidovudine (ZDV)",70.7616
+"AIDS01","SUBJ-574",44,"M","WHITE","ZDV","Zidovudine (ZDV)",60.3288
+"AIDS01","SUBJ-575",33,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",79.1532
+"AIDS01","SUBJ-576",26,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",63.1
+"AIDS01","SUBJ-577",23,"M","WHITE","DDI","Didanosine (DDI)",84.1428
+"AIDS01","SUBJ-578",29,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.4728
+"AIDS01","SUBJ-579",32,"M","WHITE","ZDV","Zidovudine (ZDV)",78.4728
+"AIDS01","SUBJ-580",27,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",77.112
+"AIDS01","SUBJ-581",36,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",118.3896
+"AIDS01","SUBJ-582",35,"M","NON-WHITE","DDI","Didanosine (DDI)",83.4624
+"AIDS01","SUBJ-583",30,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",87.0912
+"AIDS01","SUBJ-584",64,"M","WHITE","DDI","Didanosine (DDI)",72.3
+"AIDS01","SUBJ-585",36,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68.04
+"AIDS01","SUBJ-586",30,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.7512
+"AIDS01","SUBJ-587",33,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",69.8544
+"AIDS01","SUBJ-588",25,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",63.0504
+"AIDS01","SUBJ-589",28,"M","WHITE","ZDV","Zidovudine (ZDV)",73.71
+"AIDS01","SUBJ-590",32,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",63.504
+"AIDS01","SUBJ-591",22,"F","NON-WHITE","DDI","Didanosine (DDI)",72.576
+"AIDS01","SUBJ-592",33,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",70.5348
+"AIDS01","SUBJ-593",43,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",77.112
+"AIDS01","SUBJ-594",34,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",64.638
+"AIDS01","SUBJ-595",30,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",89.8128
+"AIDS01","SUBJ-596",24,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",61.6896
+"AIDS01","SUBJ-597",32,"F","NON-WHITE","DDI","Didanosine (DDI)",90.72
+"AIDS01","SUBJ-598",32,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",75.978
+"AIDS01","SUBJ-599",45,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",66.6792
+"AIDS01","SUBJ-600",20,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",66.6792
+"AIDS01","SUBJ-601",30,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",66.8
+"AIDS01","SUBJ-602",28,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68.81112
+"AIDS01","SUBJ-603",31,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.2976
+"AIDS01","SUBJ-604",26,"M","WHITE","ZDV","Zidovudine (ZDV)",77.5656
+"AIDS01","SUBJ-605",46,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",64.95552
+"AIDS01","SUBJ-606",50,"M","WHITE","DDI","Didanosine (DDI)",63.7308
+"AIDS01","SUBJ-607",37,"F","WHITE","ZDV","Zidovudine (ZDV)",65.772
+"AIDS01","SUBJ-608",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.9
+"AIDS01","SUBJ-609",36,"F","WHITE","DDI","Didanosine (DDI)",62.5968
+"AIDS01","SUBJ-610",37,"M","WHITE","ZDV","Zidovudine (ZDV)",47.8
+"AIDS01","SUBJ-611",37,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",68.04
+"AIDS01","SUBJ-612",25,"M","WHITE","ZDV","Zidovudine (ZDV)",78.10992
+"AIDS01","SUBJ-613",33,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",80
+"AIDS01","SUBJ-614",38,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",67.5
+"AIDS01","SUBJ-615",39,"M","WHITE","DDI","Didanosine (DDI)",104
+"AIDS01","SUBJ-616",37,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",65.5
+"AIDS01","SUBJ-617",39,"M","WHITE","DDI","Didanosine (DDI)",62.5968
+"AIDS01","SUBJ-618",37,"M","WHITE","ZDV","Zidovudine (ZDV)",77
+"AIDS01","SUBJ-619",31,"M","WHITE","ZDV","Zidovudine (ZDV)",90.35712
+"AIDS01","SUBJ-620",58,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",68.4936
+"AIDS01","SUBJ-621",32,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",80.514
+"AIDS01","SUBJ-622",32,"M","WHITE","ZDV","Zidovudine (ZDV)",64.1844
+"AIDS01","SUBJ-623",27,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",65.3184
+"AIDS01","SUBJ-624",31,"M","NON-WHITE","DDI","Didanosine (DDI)",65.772
+"AIDS01","SUBJ-625",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.9264
+"AIDS01","SUBJ-626",39,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",66.2256
+"AIDS01","SUBJ-627",38,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",93.4416
+"AIDS01","SUBJ-628",40,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",74.3904
+"AIDS01","SUBJ-629",38,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",64.8648
+"AIDS01","SUBJ-630",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",120.6576
+"AIDS01","SUBJ-631",32,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",87.5448
+"AIDS01","SUBJ-632",15,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",50.8032
+"AIDS01","SUBJ-633",28,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",85.2768
+"AIDS01","SUBJ-634",41,"M","WHITE","DDI","Didanosine (DDI)",77.112
+"AIDS01","SUBJ-635",44,"M","WHITE","DDI","Didanosine (DDI)",51.2568
+"AIDS01","SUBJ-636",37,"M","NON-WHITE","DDI","Didanosine (DDI)",73.4832
+"AIDS01","SUBJ-637",30,"M","WHITE","ZDV","Zidovudine (ZDV)",77.112
+"AIDS01","SUBJ-638",25,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",110.6784
+"AIDS01","SUBJ-639",34,"M","NON-WHITE","DDI","Didanosine (DDI)",74.6172
+"AIDS01","SUBJ-640",34,"M","WHITE","DDI","Didanosine (DDI)",74.844
+"AIDS01","SUBJ-641",37,"M","NON-WHITE","DDI","Didanosine (DDI)",70.9884
+"AIDS01","SUBJ-642",37,"F","WHITE","ZDV","Zidovudine (ZDV)",56.8
+"AIDS01","SUBJ-643",35,"F","WHITE","DDI","Didanosine (DDI)",48.762
+"AIDS01","SUBJ-644",39,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",66.906
+"AIDS01","SUBJ-645",46,"M","WHITE","ZDV","Zidovudine (ZDV)",77.112
+"AIDS01","SUBJ-646",41,"M","NON-WHITE","DDI","Didanosine (DDI)",79.8336
+"AIDS01","SUBJ-647",51,"M","WHITE","DDI","Didanosine (DDI)",68.4936
+"AIDS01","SUBJ-648",27,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",59.6484
+"AIDS01","SUBJ-649",39,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",81.648
+"AIDS01","SUBJ-650",45,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",82.87272
+"AIDS01","SUBJ-651",30,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",97.2972
+"AIDS01","SUBJ-652",41,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",84.3
+"AIDS01","SUBJ-653",36,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",80
+"AIDS01","SUBJ-654",22,"F","WHITE","ZDV","Zidovudine (ZDV)",78
+"AIDS01","SUBJ-655",45,"F","NON-WHITE","DDI","Didanosine (DDI)",69
+"AIDS01","SUBJ-656",34,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",108.864
+"AIDS01","SUBJ-657",28,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",90.5
+"AIDS01","SUBJ-658",44,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.2152
+"AIDS01","SUBJ-659",29,"M","NON-WHITE","DDI","Didanosine (DDI)",80.7408
+"AIDS01","SUBJ-660",37,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",81.648
+"AIDS01","SUBJ-661",33,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.5864
+"AIDS01","SUBJ-662",32,"M","WHITE","DDI","Didanosine (DDI)",69.4008
+"AIDS01","SUBJ-663",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",76.6584
+"AIDS01","SUBJ-664",25,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",64.4112
+"AIDS01","SUBJ-665",58,"M","NON-WHITE","DDI","Didanosine (DDI)",63.504
+"AIDS01","SUBJ-666",25,"M","WHITE","DDI","Didanosine (DDI)",59.8752
+"AIDS01","SUBJ-667",52,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",68.04
+"AIDS01","SUBJ-668",26,"M","WHITE","ZDV","Zidovudine (ZDV)",58.2
+"AIDS01","SUBJ-669",44,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",104.5
+"AIDS01","SUBJ-670",42,"M","WHITE","ZDV","Zidovudine (ZDV)",55.2
+"AIDS01","SUBJ-671",46,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",72
+"AIDS01","SUBJ-672",34,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",96.5
+"AIDS01","SUBJ-673",26,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",79
+"AIDS01","SUBJ-674",32,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",59.4216
+"AIDS01","SUBJ-675",41,"M","WHITE","DDI","Didanosine (DDI)",73.2
+"AIDS01","SUBJ-676",38,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75
+"AIDS01","SUBJ-677",32,"M","WHITE","DDI","Didanosine (DDI)",57.2
+"AIDS01","SUBJ-678",30,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.7616
+"AIDS01","SUBJ-679",33,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",88.2252
+"AIDS01","SUBJ-680",26,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",61.8
+"AIDS01","SUBJ-681",29,"M","NON-WHITE","DDI","Didanosine (DDI)",64.4112
+"AIDS01","SUBJ-682",25,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",111.132
+"AIDS01","SUBJ-683",51,"M","WHITE","ZDV","Zidovudine (ZDV)",60.3288
+"AIDS01","SUBJ-684",28,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",60.3288
+"AIDS01","SUBJ-685",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",90.2664
+"AIDS01","SUBJ-686",33,"M","NON-WHITE","DDI","Didanosine (DDI)",78.9264
+"AIDS01","SUBJ-687",40,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",72.3492
+"AIDS01","SUBJ-688",28,"M","NON-WHITE","DDI","Didanosine (DDI)",88.452
+"AIDS01","SUBJ-689",46,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",74.6172
+"AIDS01","SUBJ-690",49,"M","WHITE","ZDV","Zidovudine (ZDV)",66.2256
+"AIDS01","SUBJ-691",43,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",80.4
+"AIDS01","SUBJ-692",34,"M","WHITE","DDI","Didanosine (DDI)",83.5
+"AIDS01","SUBJ-693",36,"M","WHITE","DDI","Didanosine (DDI)",74.1
+"AIDS01","SUBJ-694",39,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.8
+"AIDS01","SUBJ-695",43,"M","WHITE","DDI","Didanosine (DDI)",81.8
+"AIDS01","SUBJ-696",39,"M","WHITE","DDI","Didanosine (DDI)",69.5
+"AIDS01","SUBJ-697",20,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",66
+"AIDS01","SUBJ-698",27,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",88.6
+"AIDS01","SUBJ-699",40,"M","WHITE","ZDV","Zidovudine (ZDV)",75.9
+"AIDS01","SUBJ-700",50,"M","WHITE","ZDV","Zidovudine (ZDV)",68.2
+"AIDS01","SUBJ-701",34,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",56.4
+"AIDS01","SUBJ-702",39,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",81.8
+"AIDS01","SUBJ-703",27,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",55.9
+"AIDS01","SUBJ-704",32,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",79.5
+"AIDS01","SUBJ-705",35,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",77.5
+"AIDS01","SUBJ-706",34,"M","WHITE","DDI","Didanosine (DDI)",68.2
+"AIDS01","SUBJ-707",49,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",84.1
+"AIDS01","SUBJ-708",41,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",85.5
+"AIDS01","SUBJ-709",36,"M","NON-WHITE","DDI","Didanosine (DDI)",77.112
+"AIDS01","SUBJ-710",43,"M","WHITE","DDI","Didanosine (DDI)",81
+"AIDS01","SUBJ-711",45,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",66.4
+"AIDS01","SUBJ-712",63,"M","WHITE","ZDV","Zidovudine (ZDV)",92.0808
+"AIDS01","SUBJ-713",43,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.0812
+"AIDS01","SUBJ-714",38,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.2
+"AIDS01","SUBJ-715",43,"M","WHITE","ZDV","Zidovudine (ZDV)",94.1
+"AIDS01","SUBJ-716",34,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75
+"AIDS01","SUBJ-717",29,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",105.9
+"AIDS01","SUBJ-718",35,"M","WHITE","DDI","Didanosine (DDI)",75
+"AIDS01","SUBJ-719",31,"M","WHITE","DDI","Didanosine (DDI)",88.6
+"AIDS01","SUBJ-720",45,"M","WHITE","DDI","Didanosine (DDI)",76
+"AIDS01","SUBJ-721",36,"M","WHITE","ZDV","Zidovudine (ZDV)",88.6
+"AIDS01","SUBJ-722",38,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",79.6068
+"AIDS01","SUBJ-723",45,"M","WHITE","DDI","Didanosine (DDI)",59
+"AIDS01","SUBJ-724",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",81.1944
+"AIDS01","SUBJ-725",34,"M","WHITE","ZDV","Zidovudine (ZDV)",79
+"AIDS01","SUBJ-726",38,"M","WHITE","DDI","Didanosine (DDI)",87
+"AIDS01","SUBJ-727",29,"M","WHITE","ZDV","Zidovudine (ZDV)",71.2152
+"AIDS01","SUBJ-728",29,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",69.1
+"AIDS01","SUBJ-729",35,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",86.6376
+"AIDS01","SUBJ-730",34,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",91
+"AIDS01","SUBJ-731",27,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.9
+"AIDS01","SUBJ-732",31,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",84.3696
+"AIDS01","SUBJ-733",43,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.9
+"AIDS01","SUBJ-734",48,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",64
+"AIDS01","SUBJ-735",29,"M","WHITE","ZDV","Zidovudine (ZDV)",70.308
+"AIDS01","SUBJ-736",46,"M","WHITE","DDI","Didanosine (DDI)",75.9
+"AIDS01","SUBJ-737",30,"M","WHITE","ZDV","Zidovudine (ZDV)",71.8956
+"AIDS01","SUBJ-738",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",82.3
+"AIDS01","SUBJ-739",31,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",92.3
+"AIDS01","SUBJ-740",53,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",93.6
+"AIDS01","SUBJ-741",34,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.7
+"AIDS01","SUBJ-742",49,"M","WHITE","DDI","Didanosine (DDI)",63.6
+"AIDS01","SUBJ-743",27,"M","WHITE","ZDV","Zidovudine (ZDV)",78.2
+"AIDS01","SUBJ-744",50,"M","WHITE","DDI","Didanosine (DDI)",83.3
+"AIDS01","SUBJ-745",36,"M","NON-WHITE","DDI","Didanosine (DDI)",67
+"AIDS01","SUBJ-746",33,"M","WHITE","ZDV","Zidovudine (ZDV)",70.5
+"AIDS01","SUBJ-747",55,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",60.7824
+"AIDS01","SUBJ-748",25,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",83.6892
+"AIDS01","SUBJ-749",39,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",94.5
+"AIDS01","SUBJ-750",46,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.7
+"AIDS01","SUBJ-751",38,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",59.5
+"AIDS01","SUBJ-752",44,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",72.5
+"AIDS01","SUBJ-753",50,"M","WHITE","ZDV","Zidovudine (ZDV)",82.7
+"AIDS01","SUBJ-754",39,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.6
+"AIDS01","SUBJ-755",44,"M","WHITE","ZDV","Zidovudine (ZDV)",76.4
+"AIDS01","SUBJ-756",27,"M","NON-WHITE","DDI","Didanosine (DDI)",80.9
+"AIDS01","SUBJ-757",34,"M","WHITE","DDI","Didanosine (DDI)",80.9
+"AIDS01","SUBJ-758",27,"M","WHITE","DDI","Didanosine (DDI)",63.6
+"AIDS01","SUBJ-759",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",64.5
+"AIDS01","SUBJ-760",50,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",77.5
+"AIDS01","SUBJ-761",20,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",71.1
+"AIDS01","SUBJ-762",38,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",77.7
+"AIDS01","SUBJ-763",48,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.5
+"AIDS01","SUBJ-764",65,"M","WHITE","ZDV","Zidovudine (ZDV)",60.5
+"AIDS01","SUBJ-765",34,"F","NON-WHITE","DDI","Didanosine (DDI)",70
+"AIDS01","SUBJ-766",44,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",82.7
+"AIDS01","SUBJ-767",43,"F","WHITE","ZDV","Zidovudine (ZDV)",69.4008
+"AIDS01","SUBJ-768",29,"M","WHITE","DDI","Didanosine (DDI)",77.3
+"AIDS01","SUBJ-769",33,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",82.7
+"AIDS01","SUBJ-770",33,"M","WHITE","DDI","Didanosine (DDI)",78.1
+"AIDS01","SUBJ-771",29,"M","WHITE","ZDV","Zidovudine (ZDV)",70
+"AIDS01","SUBJ-772",37,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",90.9
+"AIDS01","SUBJ-773",31,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",83.1
+"AIDS01","SUBJ-774",37,"M","WHITE","ZDV","Zidovudine (ZDV)",77.9
+"AIDS01","SUBJ-775",23,"M","WHITE","ZDV","Zidovudine (ZDV)",62
+"AIDS01","SUBJ-776",35,"M","WHITE","DDI","Didanosine (DDI)",74.3
+"AIDS01","SUBJ-777",42,"M","WHITE","DDI","Didanosine (DDI)",95.2
+"AIDS01","SUBJ-778",46,"M","WHITE","ZDV","Zidovudine (ZDV)",86.1
+"AIDS01","SUBJ-779",42,"M","WHITE","ZDV","Zidovudine (ZDV)",74.6
+"AIDS01","SUBJ-780",38,"M","WHITE","ZDV","Zidovudine (ZDV)",90.4
+"AIDS01","SUBJ-781",37,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",74.1
+"AIDS01","SUBJ-782",30,"M","WHITE","DDI","Didanosine (DDI)",73.4832
+"AIDS01","SUBJ-783",35,"M","WHITE","DDI","Didanosine (DDI)",66
+"AIDS01","SUBJ-784",45,"M","WHITE","ZDV","Zidovudine (ZDV)",62
+"AIDS01","SUBJ-785",32,"M","WHITE","ZDV","Zidovudine (ZDV)",90.2
+"AIDS01","SUBJ-786",42,"M","WHITE","ZDV","Zidovudine (ZDV)",78.5
+"AIDS01","SUBJ-787",43,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",88.5
+"AIDS01","SUBJ-788",59,"M","WHITE","ZDV","Zidovudine (ZDV)",86
+"AIDS01","SUBJ-789",37,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",93.5
+"AIDS01","SUBJ-790",49,"M","WHITE","DDI","Didanosine (DDI)",99
+"AIDS01","SUBJ-791",40,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",78.4
+"AIDS01","SUBJ-792",48,"M","WHITE","DDI","Didanosine (DDI)",70.5
+"AIDS01","SUBJ-793",45,"M","WHITE","DDI","Didanosine (DDI)",76.1
+"AIDS01","SUBJ-794",38,"M","WHITE","ZDV","Zidovudine (ZDV)",70
+"AIDS01","SUBJ-795",45,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",85.5
+"AIDS01","SUBJ-796",41,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",73
+"AIDS01","SUBJ-797",31,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",78.1
+"AIDS01","SUBJ-798",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",89.9
+"AIDS01","SUBJ-799",28,"M","WHITE","DDI","Didanosine (DDI)",66.4
+"AIDS01","SUBJ-800",47,"M","WHITE","DDI","Didanosine (DDI)",68.4
+"AIDS01","SUBJ-801",38,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",59.5
+"AIDS01","SUBJ-802",58,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",91
+"AIDS01","SUBJ-803",38,"M","WHITE","DDI","Didanosine (DDI)",81.2
+"AIDS01","SUBJ-804",53,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",98.5
+"AIDS01","SUBJ-805",30,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",64.4
+"AIDS01","SUBJ-806",27,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",56.7
+"AIDS01","SUBJ-807",42,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",76.1
+"AIDS01","SUBJ-808",39,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",64.5
+"AIDS01","SUBJ-809",38,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",76.7
+"AIDS01","SUBJ-810",29,"M","WHITE","DDI","Didanosine (DDI)",79.9
+"AIDS01","SUBJ-811",27,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",87
+"AIDS01","SUBJ-812",27,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",72
+"AIDS01","SUBJ-813",29,"M","WHITE","DDI","Didanosine (DDI)",74.7
+"AIDS01","SUBJ-814",25,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",80.4
+"AIDS01","SUBJ-815",37,"M","WHITE","ZDV","Zidovudine (ZDV)",83.9
+"AIDS01","SUBJ-816",31,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",69.4
+"AIDS01","SUBJ-817",38,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.1
+"AIDS01","SUBJ-818",42,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",74.6
+"AIDS01","SUBJ-819",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",94.4
+"AIDS01","SUBJ-820",27,"M","WHITE","ZDV","Zidovudine (ZDV)",78.5
+"AIDS01","SUBJ-821",42,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",85.4
+"AIDS01","SUBJ-822",28,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68.1
+"AIDS01","SUBJ-823",31,"M","WHITE","ZDV","Zidovudine (ZDV)",84.3
+"AIDS01","SUBJ-824",31,"M","WHITE","DDI","Didanosine (DDI)",78.9
+"AIDS01","SUBJ-825",31,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",72.2
+"AIDS01","SUBJ-826",26,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",57.5
+"AIDS01","SUBJ-827",29,"M","WHITE","DDI","Didanosine (DDI)",119.7
+"AIDS01","SUBJ-828",26,"M","WHITE","ZDV","Zidovudine (ZDV)",79.4
+"AIDS01","SUBJ-829",43,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",72.5
+"AIDS01","SUBJ-830",33,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",67.4
+"AIDS01","SUBJ-831",48,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",77.5
+"AIDS01","SUBJ-832",31,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",72.6
+"AIDS01","SUBJ-833",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.7
+"AIDS01","SUBJ-834",31,"M","WHITE","DDI","Didanosine (DDI)",64
+"AIDS01","SUBJ-835",26,"M","WHITE","ZDV","Zidovudine (ZDV)",71.3
+"AIDS01","SUBJ-836",41,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.5
+"AIDS01","SUBJ-837",29,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",71.7
+"AIDS01","SUBJ-838",32,"M","WHITE","DDI","Didanosine (DDI)",73.5
+"AIDS01","SUBJ-839",27,"M","NON-WHITE","DDI","Didanosine (DDI)",67.9
+"AIDS01","SUBJ-840",39,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",86
+"AIDS01","SUBJ-841",35,"M","WHITE","DDI","Didanosine (DDI)",76.1
+"AIDS01","SUBJ-842",35,"F","WHITE","ZDV","Zidovudine (ZDV)",83.5
+"AIDS01","SUBJ-843",29,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.7
+"AIDS01","SUBJ-844",34,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",74.9
+"AIDS01","SUBJ-845",36,"M","WHITE","ZDV","Zidovudine (ZDV)",69.3
+"AIDS01","SUBJ-846",41,"M","WHITE","DDI","Didanosine (DDI)",76
+"AIDS01","SUBJ-847",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",67.5
+"AIDS01","SUBJ-848",36,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",71.1
+"AIDS01","SUBJ-849",38,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",70.2
+"AIDS01","SUBJ-850",38,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",73.3
+"AIDS01","SUBJ-851",32,"M","WHITE","DDI","Didanosine (DDI)",85.8
+"AIDS01","SUBJ-852",37,"F","WHITE","DDI","Didanosine (DDI)",45.6
+"AIDS01","SUBJ-853",28,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.5
+"AIDS01","SUBJ-854",32,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",89.5
+"AIDS01","SUBJ-855",30,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68.2
+"AIDS01","SUBJ-856",39,"M","WHITE","DDI","Didanosine (DDI)",65.2
+"AIDS01","SUBJ-857",39,"M","WHITE","DDI","Didanosine (DDI)",68.3
+"AIDS01","SUBJ-858",33,"M","WHITE","ZDV","Zidovudine (ZDV)",78.8
+"AIDS01","SUBJ-859",31,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",87.3
+"AIDS01","SUBJ-860",31,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",60.1
+"AIDS01","SUBJ-861",44,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",102.1
+"AIDS01","SUBJ-862",26,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",89.5
+"AIDS01","SUBJ-863",27,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",78.1
+"AIDS01","SUBJ-864",35,"M","WHITE","ZDV","Zidovudine (ZDV)",87.2
+"AIDS01","SUBJ-865",39,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",81.7
+"AIDS01","SUBJ-866",27,"M","WHITE","DDI","Didanosine (DDI)",81.2
+"AIDS01","SUBJ-867",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",85.7
+"AIDS01","SUBJ-868",24,"M","WHITE","ZDV","Zidovudine (ZDV)",90.7
+"AIDS01","SUBJ-869",31,"M","NON-WHITE","DDI","Didanosine (DDI)",79.3
+"AIDS01","SUBJ-870",30,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",62.7
+"AIDS01","SUBJ-871",40,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",72.2
+"AIDS01","SUBJ-872",30,"M","NON-WHITE","DDI","Didanosine (DDI)",79.5
+"AIDS01","SUBJ-873",25,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",59.1
+"AIDS01","SUBJ-874",49,"M","WHITE","DDI","Didanosine (DDI)",94.6
+"AIDS01","SUBJ-875",30,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",74.57184
+"AIDS01","SUBJ-876",36,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",69.31008
+"AIDS01","SUBJ-877",31,"M","WHITE","ZDV","Zidovudine (ZDV)",78.9264
+"AIDS01","SUBJ-878",32,"M","WHITE","DDI","Didanosine (DDI)",89.22312
+"AIDS01","SUBJ-879",44,"M","WHITE","DDI","Didanosine (DDI)",86.36544
+"AIDS01","SUBJ-880",48,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",77.7
+"AIDS01","SUBJ-881",63,"F","WHITE","DDI","Didanosine (DDI)",65.0916
+"AIDS01","SUBJ-882",24,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",79.92432
+"AIDS01","SUBJ-883",39,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",80.7
+"AIDS01","SUBJ-884",29,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",81.37584
+"AIDS01","SUBJ-885",29,"M","WHITE","ZDV","Zidovudine (ZDV)",71.442
+"AIDS01","SUBJ-886",31,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",79.9
+"AIDS01","SUBJ-887",33,"F","WHITE","DDI","Didanosine (DDI)",58.10616
+"AIDS01","SUBJ-888",31,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",57.3804
+"AIDS01","SUBJ-889",31,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",85.77576
+"AIDS01","SUBJ-890",65,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.07912
+"AIDS01","SUBJ-891",46,"M","WHITE","ZDV","Zidovudine (ZDV)",79.1532
+"AIDS01","SUBJ-892",32,"M","NON-WHITE","DDI","Didanosine (DDI)",72.576
+"AIDS01","SUBJ-893",30,"M","WHITE","ZDV","Zidovudine (ZDV)",83.50776
+"AIDS01","SUBJ-894",28,"F","NON-WHITE","DDI","Didanosine (DDI)",44.18064
+"AIDS01","SUBJ-895",25,"M","WHITE","ZDV","Zidovudine (ZDV)",84.1428
+"AIDS01","SUBJ-896",26,"M","WHITE","DDI","Didanosine (DDI)",63.504
+"AIDS01","SUBJ-897",43,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",69.4008
+"AIDS01","SUBJ-898",46,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",90.72
+"AIDS01","SUBJ-899",29,"M","WHITE","DDI","Didanosine (DDI)",69.4008
+"AIDS01","SUBJ-900",28,"M","WHITE","ZDV","Zidovudine (ZDV)",83.32632
+"AIDS01","SUBJ-901",26,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",82.1
+"AIDS01","SUBJ-902",50,"M","WHITE","ZDV","Zidovudine (ZDV)",97.0704
+"AIDS01","SUBJ-903",37,"M","WHITE","ZDV","Zidovudine (ZDV)",94.8024
+"AIDS01","SUBJ-904",55,"M","NON-WHITE","DDI","Didanosine (DDI)",77.7924
+"AIDS01","SUBJ-905",34,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",74.3904
+"AIDS01","SUBJ-906",31,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",58.8
+"AIDS01","SUBJ-907",48,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",82.3284
+"AIDS01","SUBJ-908",29,"M","NON-WHITE","DDI","Didanosine (DDI)",88.9056
+"AIDS01","SUBJ-909",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.8956
+"AIDS01","SUBJ-910",43,"M","WHITE","ZDV","Zidovudine (ZDV)",77.112
+"AIDS01","SUBJ-911",32,"M","WHITE","DDI","Didanosine (DDI)",82.1016
+"AIDS01","SUBJ-912",30,"M","WHITE","DDI","Didanosine (DDI)",98.4312
+"AIDS01","SUBJ-913",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.0296
+"AIDS01","SUBJ-914",25,"M","WHITE","DDI","Didanosine (DDI)",66.5
+"AIDS01","SUBJ-915",41,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",62.1432
+"AIDS01","SUBJ-916",48,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",45.4
+"AIDS01","SUBJ-917",45,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",67.5864
+"AIDS01","SUBJ-918",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",60.102
+"AIDS01","SUBJ-919",43,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",65.772
+"AIDS01","SUBJ-920",41,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",74.3904
+"AIDS01","SUBJ-921",31,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",42.4116
+"AIDS01","SUBJ-922",44,"M","WHITE","ZDV","Zidovudine (ZDV)",82.1016
+"AIDS01","SUBJ-923",29,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",57.1536
+"AIDS01","SUBJ-924",43,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",69.4008
+"AIDS01","SUBJ-925",27,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",79.38
+"AIDS01","SUBJ-926",28,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",92.7
+"AIDS01","SUBJ-927",39,"F","NON-WHITE","DDI","Didanosine (DDI)",45.8136
+"AIDS01","SUBJ-928",35,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",97.5
+"AIDS01","SUBJ-929",35,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",88.6788
+"AIDS01","SUBJ-930",27,"M","WHITE","ZDV","Zidovudine (ZDV)",76.2048
+"AIDS01","SUBJ-931",26,"F","NON-WHITE","DDI","Didanosine (DDI)",57.834
+"AIDS01","SUBJ-932",36,"M","WHITE","DDI","Didanosine (DDI)",63.0504
+"AIDS01","SUBJ-933",30,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",90.0396
+"AIDS01","SUBJ-934",26,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",63.6
+"AIDS01","SUBJ-935",29,"M","WHITE","ZDV","Zidovudine (ZDV)",81.4212
+"AIDS01","SUBJ-936",57,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",57.1536
+"AIDS01","SUBJ-937",41,"M","NON-WHITE","DDI","Didanosine (DDI)",63.0504
+"AIDS01","SUBJ-938",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",81.1944
+"AIDS01","SUBJ-939",45,"M","WHITE","DDI","Didanosine (DDI)",78.9264
+"AIDS01","SUBJ-940",40,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.2976
+"AIDS01","SUBJ-941",30,"M","WHITE","ZDV","Zidovudine (ZDV)",78
+"AIDS01","SUBJ-942",37,"M","WHITE","ZDV","Zidovudine (ZDV)",88.6788
+"AIDS01","SUBJ-943",39,"M","WHITE","DDI","Didanosine (DDI)",73.0296
+"AIDS01","SUBJ-944",27,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",53.16192
+"AIDS01","SUBJ-945",26,"M","WHITE","DDI","Didanosine (DDI)",77.112
+"AIDS01","SUBJ-946",38,"F","WHITE","ZDV","Zidovudine (ZDV)",130.6368
+"AIDS01","SUBJ-947",29,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",79.38
+"AIDS01","SUBJ-948",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",83.8
+"AIDS01","SUBJ-949",49,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",59.1948
+"AIDS01","SUBJ-950",36,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",50.3496
+"AIDS01","SUBJ-951",17,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",51.2568
+"AIDS01","SUBJ-952",47,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",72.3
+"AIDS01","SUBJ-953",41,"M","WHITE","ZDV","Zidovudine (ZDV)",73.8
+"AIDS01","SUBJ-954",55,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",76.6584
+"AIDS01","SUBJ-955",40,"M","WHITE","DDI","Didanosine (DDI)",78.2
+"AIDS01","SUBJ-956",34,"M","WHITE","DDI","Didanosine (DDI)",68.04
+"AIDS01","SUBJ-957",31,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",57.6072
+"AIDS01","SUBJ-958",46,"M","WHITE","DDI","Didanosine (DDI)",62.23392
+"AIDS01","SUBJ-959",31,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68.04
+"AIDS01","SUBJ-960",34,"M","NON-WHITE","DDI","Didanosine (DDI)",72.7
+"AIDS01","SUBJ-961",22,"M","WHITE","ZDV","Zidovudine (ZDV)",77.112
+"AIDS01","SUBJ-962",33,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.4
+"AIDS01","SUBJ-963",29,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",68.9472
+"AIDS01","SUBJ-964",37,"M","NON-WHITE","DDI","Didanosine (DDI)",70.7616
+"AIDS01","SUBJ-965",45,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",82.782
+"AIDS01","SUBJ-966",36,"F","NON-WHITE","DDI","Didanosine (DDI)",66.2256
+"AIDS01","SUBJ-967",29,"F","WHITE","ZDV","Zidovudine (ZDV)",69.4008
+"AIDS01","SUBJ-968",37,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",74.3904
+"AIDS01","SUBJ-969",22,"F","WHITE","DDI","Didanosine (DDI)",105.6888
+"AIDS01","SUBJ-970",56,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",82.1016
+"AIDS01","SUBJ-971",39,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",85.2768
+"AIDS01","SUBJ-972",25,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",48.3084
+"AIDS01","SUBJ-973",56,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",71.2152
+"AIDS01","SUBJ-974",29,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.8
+"AIDS01","SUBJ-975",35,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",77.7
+"AIDS01","SUBJ-976",36,"M","WHITE","ZDV","Zidovudine (ZDV)",75.4
+"AIDS01","SUBJ-977",37,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",63.6
+"AIDS01","SUBJ-978",44,"M","NON-WHITE","DDI","Didanosine (DDI)",84.3696
+"AIDS01","SUBJ-979",49,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",115.668
+"AIDS01","SUBJ-980",45,"M","NON-WHITE","DDI","Didanosine (DDI)",69.8544
+"AIDS01","SUBJ-981",50,"M","NON-WHITE","DDI","Didanosine (DDI)",65
+"AIDS01","SUBJ-982",35,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",81.1
+"AIDS01","SUBJ-983",29,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",88.6
+"AIDS01","SUBJ-984",38,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",83.6
+"AIDS01","SUBJ-985",28,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",62.5
+"AIDS01","SUBJ-986",32,"M","NON-WHITE","DDI","Didanosine (DDI)",73.4
+"AIDS01","SUBJ-987",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",77.3
+"AIDS01","SUBJ-988",49,"M","NON-WHITE","DDI","Didanosine (DDI)",76.5
+"AIDS01","SUBJ-989",47,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",93.2
+"AIDS01","SUBJ-990",39,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",110.7
+"AIDS01","SUBJ-991",59,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",58.6
+"AIDS01","SUBJ-992",38,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",49.8
+"AIDS01","SUBJ-993",62,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",95.4
+"AIDS01","SUBJ-994",42,"M","NON-WHITE","DDI","Didanosine (DDI)",65.4
+"AIDS01","SUBJ-995",33,"M","NON-WHITE","DDI","Didanosine (DDI)",73.2
+"AIDS01","SUBJ-996",29,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",61.4
+"AIDS01","SUBJ-997",32,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",92.7
+"AIDS01","SUBJ-998",44,"M","WHITE","DDI","Didanosine (DDI)",77.3
+"AIDS01","SUBJ-999",37,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",59.1
+"AIDS01","SUBJ-1000",32,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.4
+"AIDS01","SUBJ-1001",39,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",80.9
+"AIDS01","SUBJ-1002",38,"M","WHITE","DDI","Didanosine (DDI)",82.2
+"AIDS01","SUBJ-1003",35,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",62.3
+"AIDS01","SUBJ-1004",31,"F","NON-WHITE","DDI","Didanosine (DDI)",70
+"AIDS01","SUBJ-1005",43,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.5
+"AIDS01","SUBJ-1006",31,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",86.8
+"AIDS01","SUBJ-1007",35,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",79
+"AIDS01","SUBJ-1008",32,"M","WHITE","ZDV","Zidovudine (ZDV)",86.184
+"AIDS01","SUBJ-1009",27,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",57.6072
+"AIDS01","SUBJ-1010",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",71.6688
+"AIDS01","SUBJ-1011",32,"M","WHITE","ZDV","Zidovudine (ZDV)",100.6992
+"AIDS01","SUBJ-1012",30,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",80.7408
+"AIDS01","SUBJ-1013",31,"M","WHITE","ZDV","Zidovudine (ZDV)",102.06
+"AIDS01","SUBJ-1014",45,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.6688
+"AIDS01","SUBJ-1015",33,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",67.7
+"AIDS01","SUBJ-1016",36,"F","NON-WHITE","DDI","Didanosine (DDI)",58.0608
+"AIDS01","SUBJ-1017",39,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",98.4312
+"AIDS01","SUBJ-1018",36,"M","WHITE","ZDV","Zidovudine (ZDV)",84.3696
+"AIDS01","SUBJ-1019",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",86.184
+"AIDS01","SUBJ-1020",25,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.5864
+"AIDS01","SUBJ-1021",47,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",95.2
+"AIDS01","SUBJ-1022",44,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",82.1016
+"AIDS01","SUBJ-1023",40,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",79.38
+"AIDS01","SUBJ-1024",37,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",85.7304
+"AIDS01","SUBJ-1025",32,"M","WHITE","DDI","Didanosine (DDI)",76.6584
+"AIDS01","SUBJ-1026",30,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",70.7616
+"AIDS01","SUBJ-1027",47,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",85.2768
+"AIDS01","SUBJ-1028",36,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",84.3696
+"AIDS01","SUBJ-1029",39,"M","WHITE","ZDV","Zidovudine (ZDV)",78.4728
+"AIDS01","SUBJ-1030",35,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",73.9368
+"AIDS01","SUBJ-1031",24,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",61.236
+"AIDS01","SUBJ-1032",33,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",66.6792
+"AIDS01","SUBJ-1033",42,"M","WHITE","DDI","Didanosine (DDI)",103.4208
+"AIDS01","SUBJ-1034",38,"M","NON-WHITE","DDI","Didanosine (DDI)",76.2048
+"AIDS01","SUBJ-1035",29,"M","NON-WHITE","DDI","Didanosine (DDI)",64.4112
+"AIDS01","SUBJ-1036",47,"F","NON-WHITE","DDI","Didanosine (DDI)",71.2152
+"AIDS01","SUBJ-1037",42,"F","NON-WHITE","DDI","Didanosine (DDI)",69.8544
+"AIDS01","SUBJ-1038",31,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",80.2872
+"AIDS01","SUBJ-1039",37,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",69.8544
+"AIDS01","SUBJ-1040",42,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",67.1328
+"AIDS01","SUBJ-1041",34,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",61.6896
+"AIDS01","SUBJ-1042",42,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",86.8644
+"AIDS01","SUBJ-1043",29,"F","NON-WHITE","DDI","Didanosine (DDI)",58.2876
+"AIDS01","SUBJ-1044",30,"F","WHITE","ZDV","Zidovudine (ZDV)",70.7616
+"AIDS01","SUBJ-1045",27,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",59.4216
+"AIDS01","SUBJ-1046",34,"M","WHITE","DDI","Didanosine (DDI)",100.3
+"AIDS01","SUBJ-1047",37,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",63
+"AIDS01","SUBJ-1048",31,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",41
+"AIDS01","SUBJ-1049",40,"F","WHITE","DDI","Didanosine (DDI)",72.7
+"AIDS01","SUBJ-1050",30,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",79.5
+"AIDS01","SUBJ-1051",31,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",69
+"AIDS01","SUBJ-1052",32,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",77
+"AIDS01","SUBJ-1053",34,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",61.2
+"AIDS01","SUBJ-1054",33,"M","WHITE","ZDV","Zidovudine (ZDV)",68
+"AIDS01","SUBJ-1055",38,"M","NON-WHITE","DDI","Didanosine (DDI)",95.5
+"AIDS01","SUBJ-1056",45,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",69.5
+"AIDS01","SUBJ-1057",37,"F","NON-WHITE","DDI","Didanosine (DDI)",69
+"AIDS01","SUBJ-1058",24,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",60
+"AIDS01","SUBJ-1059",26,"F","WHITE","ZDV","Zidovudine (ZDV)",67.6
+"AIDS01","SUBJ-1060",33,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",43.8
+"AIDS01","SUBJ-1061",39,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",127.7
+"AIDS01","SUBJ-1062",31,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",58.0608
+"AIDS01","SUBJ-1063",38,"M","WHITE","DDI","Didanosine (DDI)",70.7616
+"AIDS01","SUBJ-1064",34,"F","WHITE","ZDV","Zidovudine (ZDV)",55.3392
+"AIDS01","SUBJ-1065",41,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",61.236
+"AIDS01","SUBJ-1066",45,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",58.5144
+"AIDS01","SUBJ-1067",33,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",57.1536
+"AIDS01","SUBJ-1068",45,"F","NON-WHITE","DDI","Didanosine (DDI)",64.4112
+"AIDS01","SUBJ-1069",50,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",53.5248
+"AIDS01","SUBJ-1070",40,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",71.6688
+"AIDS01","SUBJ-1071",42,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",73.0296
+"AIDS01","SUBJ-1072",31,"F","NON-WHITE","DDI","Didanosine (DDI)",57.6072
+"AIDS01","SUBJ-1073",52,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",55.3392
+"AIDS01","SUBJ-1074",41,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",76.2048
+"AIDS01","SUBJ-1075",22,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",47.628
+"AIDS01","SUBJ-1076",29,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",45.8136
+"AIDS01","SUBJ-1077",33,"F","NON-WHITE","DDI","Didanosine (DDI)",79.8336
+"AIDS01","SUBJ-1078",36,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",80.7408
+"AIDS01","SUBJ-1079",20,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",84.8232
+"AIDS01","SUBJ-1080",37,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",58.5144
+"AIDS01","SUBJ-1081",39,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",100.4724
+"AIDS01","SUBJ-1082",35,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",63.5
+"AIDS01","SUBJ-1083",38,"M","WHITE","DDI","Didanosine (DDI)",74.3904
+"AIDS01","SUBJ-1084",38,"M","WHITE","DDI","Didanosine (DDI)",88.2
+"AIDS01","SUBJ-1085",30,"M","WHITE","ZDV","Zidovudine (ZDV)",149
+"AIDS01","SUBJ-1086",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",60.3288
+"AIDS01","SUBJ-1087",31,"M","WHITE","ZDV","Zidovudine (ZDV)",72.1224
+"AIDS01","SUBJ-1088",45,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68.4936
+"AIDS01","SUBJ-1089",41,"M","WHITE","DDI","Didanosine (DDI)",71.442
+"AIDS01","SUBJ-1090",41,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",69.4008
+"AIDS01","SUBJ-1091",40,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",74.3904
+"AIDS01","SUBJ-1092",34,"M","NON-WHITE","DDI","Didanosine (DDI)",61.6896
+"AIDS01","SUBJ-1093",32,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.9
+"AIDS01","SUBJ-1094",38,"M","WHITE","DDI","Didanosine (DDI)",89.3592
+"AIDS01","SUBJ-1095",35,"M","WHITE","ZDV","Zidovudine (ZDV)",66.6792
+"AIDS01","SUBJ-1096",44,"M","WHITE","ZDV","Zidovudine (ZDV)",83.916
+"AIDS01","SUBJ-1097",35,"M","NON-WHITE","DDI","Didanosine (DDI)",75.978
+"AIDS01","SUBJ-1098",47,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",64.638
+"AIDS01","SUBJ-1099",37,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",89.04168
+"AIDS01","SUBJ-1100",26,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.5864
+"AIDS01","SUBJ-1101",31,"M","NON-WHITE","DDI","Didanosine (DDI)",69.4008
+"AIDS01","SUBJ-1102",41,"M","WHITE","DDI","Didanosine (DDI)",69.4008
+"AIDS01","SUBJ-1103",39,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",81.648
+"AIDS01","SUBJ-1104",29,"M","WHITE","DDI","Didanosine (DDI)",53.0712
+"AIDS01","SUBJ-1105",62,"M","WHITE","ZDV","Zidovudine (ZDV)",76.4316
+"AIDS01","SUBJ-1106",33,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",60.7824
+"AIDS01","SUBJ-1107",30,"M","WHITE","ZDV","Zidovudine (ZDV)",89.8128
+"AIDS01","SUBJ-1108",36,"F","WHITE","ZDV","Zidovudine (ZDV)",66.6792
+"AIDS01","SUBJ-1109",49,"M","WHITE","ZDV","Zidovudine (ZDV)",91.1736
+"AIDS01","SUBJ-1110",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.8132
+"AIDS01","SUBJ-1111",32,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.7616
+"AIDS01","SUBJ-1112",42,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",93.4416
+"AIDS01","SUBJ-1113",24,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.6688
+"AIDS01","SUBJ-1114",49,"M","WHITE","ZDV","Zidovudine (ZDV)",82.1016
+"AIDS01","SUBJ-1115",55,"M","WHITE","ZDV","Zidovudine (ZDV)",83.4624
+"AIDS01","SUBJ-1116",37,"M","WHITE","ZDV","Zidovudine (ZDV)",76.4316
+"AIDS01","SUBJ-1117",27,"M","WHITE","DDI","Didanosine (DDI)",65.3184
+"AIDS01","SUBJ-1118",31,"M","WHITE","ZDV","Zidovudine (ZDV)",86.6376
+"AIDS01","SUBJ-1119",39,"M","WHITE","DDI","Didanosine (DDI)",96.1632
+"AIDS01","SUBJ-1120",53,"M","WHITE","DDI","Didanosine (DDI)",97.524
+"AIDS01","SUBJ-1121",42,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",91.6272
+"AIDS01","SUBJ-1122",54,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",60.7824
+"AIDS01","SUBJ-1123",20,"M","WHITE","ZDV","Zidovudine (ZDV)",72.7
+"AIDS01","SUBJ-1124",26,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",69.4008
+"AIDS01","SUBJ-1125",30,"M","WHITE","DDI","Didanosine (DDI)",53.3
+"AIDS01","SUBJ-1126",31,"M","WHITE","ZDV","Zidovudine (ZDV)",81.8748
+"AIDS01","SUBJ-1127",30,"M","NON-WHITE","DDI","Didanosine (DDI)",82.3
+"AIDS01","SUBJ-1128",32,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",83.2
+"AIDS01","SUBJ-1129",31,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.7
+"AIDS01","SUBJ-1130",29,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",65.5
+"AIDS01","SUBJ-1131",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",64.5
+"AIDS01","SUBJ-1132",23,"M","NON-WHITE","DDI","Didanosine (DDI)",85.5
+"AIDS01","SUBJ-1133",33,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",80.1
+"AIDS01","SUBJ-1134",30,"M","WHITE","DDI","Didanosine (DDI)",72.7
+"AIDS01","SUBJ-1135",27,"M","NON-WHITE","DDI","Didanosine (DDI)",62
+"AIDS01","SUBJ-1136",27,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.8
+"AIDS01","SUBJ-1137",37,"M","WHITE","DDI","Didanosine (DDI)",78.9264
+"AIDS01","SUBJ-1138",27,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",87.318
+"AIDS01","SUBJ-1139",37,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",92.5344
+"AIDS01","SUBJ-1140",20,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",67.2
+"AIDS01","SUBJ-1141",29,"M","NON-WHITE","DDI","Didanosine (DDI)",78.4728
+"AIDS01","SUBJ-1142",37,"M","WHITE","DDI","Didanosine (DDI)",78.0192
+"AIDS01","SUBJ-1143",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",81.8748
+"AIDS01","SUBJ-1144",33,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",80.514
+"AIDS01","SUBJ-1145",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",76.2048
+"AIDS01","SUBJ-1146",37,"M","WHITE","ZDV","Zidovudine (ZDV)",76.6584
+"AIDS01","SUBJ-1147",26,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",65.3184
+"AIDS01","SUBJ-1148",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",81.3
+"AIDS01","SUBJ-1149",23,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",78.4728
+"AIDS01","SUBJ-1150",69,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",81.648
+"AIDS01","SUBJ-1151",46,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",76.7
+"AIDS01","SUBJ-1152",36,"F","WHITE","DDI","Didanosine (DDI)",65.772
+"AIDS01","SUBJ-1153",19,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",50.8032
+"AIDS01","SUBJ-1154",28,"M","WHITE","ZDV","Zidovudine (ZDV)",78.9264
+"AIDS01","SUBJ-1155",29,"M","WHITE","ZDV","Zidovudine (ZDV)",69.8544
+"AIDS01","SUBJ-1156",29,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",100.6992
+"AIDS01","SUBJ-1157",34,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",68.4936
+"AIDS01","SUBJ-1158",48,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",69.8544
+"AIDS01","SUBJ-1159",27,"M","NON-WHITE","DDI","Didanosine (DDI)",86.184
+"AIDS01","SUBJ-1160",70,"M","WHITE","DDI","Didanosine (DDI)",63.0504
+"AIDS01","SUBJ-1161",28,"M","NON-WHITE","DDI","Didanosine (DDI)",80.2872
+"AIDS01","SUBJ-1162",28,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",65.772
+"AIDS01","SUBJ-1163",27,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",62.5968
+"AIDS01","SUBJ-1164",36,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",77.112
+"AIDS01","SUBJ-1165",42,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",73
+"AIDS01","SUBJ-1166",55,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",71.2152
+"AIDS01","SUBJ-1167",44,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",69
+"AIDS01","SUBJ-1168",30,"F","WHITE","ZDV","Zidovudine (ZDV)",57.6072
+"AIDS01","SUBJ-1169",41,"M","WHITE","DDI","Didanosine (DDI)",72
+"AIDS01","SUBJ-1170",43,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",64.4112
+"AIDS01","SUBJ-1171",38,"M","WHITE","DDI","Didanosine (DDI)",78.4728
+"AIDS01","SUBJ-1172",32,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",72.2
+"AIDS01","SUBJ-1173",48,"F","WHITE","ZDV","Zidovudine (ZDV)",112
+"AIDS01","SUBJ-1174",40,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",66.3
+"AIDS01","SUBJ-1175",39,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",91
+"AIDS01","SUBJ-1176",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.71
+"AIDS01","SUBJ-1177",38,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",50
+"AIDS01","SUBJ-1178",30,"M","NON-WHITE","DDI","Didanosine (DDI)",129
+"AIDS01","SUBJ-1179",29,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",61.5
+"AIDS01","SUBJ-1180",41,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",58
+"AIDS01","SUBJ-1181",36,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",69.5
+"AIDS01","SUBJ-1182",36,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",65.9
+"AIDS01","SUBJ-1183",32,"F","WHITE","DDI","Didanosine (DDI)",63.6
+"AIDS01","SUBJ-1184",28,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",63.6
+"AIDS01","SUBJ-1185",35,"F","WHITE","DDI","Didanosine (DDI)",59.1
+"AIDS01","SUBJ-1186",42,"M","WHITE","ZDV","Zidovudine (ZDV)",72.576
+"AIDS01","SUBJ-1187",38,"F","WHITE","DDI","Didanosine (DDI)",55.7928
+"AIDS01","SUBJ-1188",35,"M","WHITE","DDI","Didanosine (DDI)",62.1432
+"AIDS01","SUBJ-1189",29,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",66.6792
+"AIDS01","SUBJ-1190",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",99
+"AIDS01","SUBJ-1191",36,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",62.7
+"AIDS01","SUBJ-1192",36,"M","NON-WHITE","DDI","Didanosine (DDI)",78.246
+"AIDS01","SUBJ-1193",45,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",70.9
+"AIDS01","SUBJ-1194",27,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.3
+"AIDS01","SUBJ-1195",37,"M","WHITE","ZDV","Zidovudine (ZDV)",78.5
+"AIDS01","SUBJ-1196",42,"M","WHITE","ZDV","Zidovudine (ZDV)",61.236
+"AIDS01","SUBJ-1197",34,"M","WHITE","ZDV","Zidovudine (ZDV)",63.59472
+"AIDS01","SUBJ-1198",43,"M","WHITE","DDI","Didanosine (DDI)",61.236
+"AIDS01","SUBJ-1199",29,"M","WHITE","ZDV","Zidovudine (ZDV)",74.844
+"AIDS01","SUBJ-1200",40,"M","WHITE","ZDV","Zidovudine (ZDV)",88.9056
+"AIDS01","SUBJ-1201",34,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",57.6072
+"AIDS01","SUBJ-1202",45,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",86.184
+"AIDS01","SUBJ-1203",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",89.3592
+"AIDS01","SUBJ-1204",34,"M","WHITE","ZDV","Zidovudine (ZDV)",64.4112
+"AIDS01","SUBJ-1205",32,"M","WHITE","DDI","Didanosine (DDI)",74.844
+"AIDS01","SUBJ-1206",48,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.8956
+"AIDS01","SUBJ-1207",38,"M","WHITE","DDI","Didanosine (DDI)",64.4112
+"AIDS01","SUBJ-1208",45,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.0296
+"AIDS01","SUBJ-1209",45,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",86.6376
+"AIDS01","SUBJ-1210",42,"M","WHITE","ZDV","Zidovudine (ZDV)",62.5968
+"AIDS01","SUBJ-1211",33,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",72.48528
+"AIDS01","SUBJ-1212",30,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",69.8544
+"AIDS01","SUBJ-1213",34,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",68.4936
+"AIDS01","SUBJ-1214",43,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.8956
+"AIDS01","SUBJ-1215",35,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",90.9468
+"AIDS01","SUBJ-1216",29,"M","NON-WHITE","DDI","Didanosine (DDI)",73.71
+"AIDS01","SUBJ-1217",32,"M","WHITE","DDI","Didanosine (DDI)",78.4728
+"AIDS01","SUBJ-1218",54,"M","WHITE","ZDV","Zidovudine (ZDV)",73.2564
+"AIDS01","SUBJ-1219",42,"M","WHITE","DDI","Didanosine (DDI)",70.308
+"AIDS01","SUBJ-1220",34,"M","WHITE","DDI","Didanosine (DDI)",76.8852
+"AIDS01","SUBJ-1221",23,"M","WHITE","DDI","Didanosine (DDI)",53.9784
+"AIDS01","SUBJ-1222",35,"F","NON-WHITE","DDI","Didanosine (DDI)",67.5864
+"AIDS01","SUBJ-1223",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",85.2768
+"AIDS01","SUBJ-1224",40,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",73.0296
+"AIDS01","SUBJ-1225",32,"M","WHITE","DDI","Didanosine (DDI)",77.112
+"AIDS01","SUBJ-1226",26,"M","WHITE","ZDV","Zidovudine (ZDV)",68.9472
+"AIDS01","SUBJ-1227",42,"M","WHITE","ZDV","Zidovudine (ZDV)",71.6688
+"AIDS01","SUBJ-1228",38,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",82.3284
+"AIDS01","SUBJ-1229",26,"M","WHITE","DDI","Didanosine (DDI)",76.6584
+"AIDS01","SUBJ-1230",35,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",87.0912
+"AIDS01","SUBJ-1231",33,"M","WHITE","DDI","Didanosine (DDI)",78.6996
+"AIDS01","SUBJ-1232",27,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",81.78408
+"AIDS01","SUBJ-1233",39,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",63.9576
+"AIDS01","SUBJ-1234",48,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",82.5552
+"AIDS01","SUBJ-1235",38,"M","WHITE","DDI","Didanosine (DDI)",77.7924
+"AIDS01","SUBJ-1236",40,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",92.5344
+"AIDS01","SUBJ-1237",26,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",92.0808
+"AIDS01","SUBJ-1238",44,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",66.2256
+"AIDS01","SUBJ-1239",29,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",65.3184
+"AIDS01","SUBJ-1240",37,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",82.782
+"AIDS01","SUBJ-1241",28,"M","WHITE","DDI","Didanosine (DDI)",81.1944
+"AIDS01","SUBJ-1242",45,"M","WHITE","ZDV","Zidovudine (ZDV)",63.0504
+"AIDS01","SUBJ-1243",46,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",54.8856
+"AIDS01","SUBJ-1244",26,"F","NON-WHITE","DDI","Didanosine (DDI)",90.72
+"AIDS01","SUBJ-1245",21,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",112.4928
+"AIDS01","SUBJ-1246",24,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",102.06
+"AIDS01","SUBJ-1247",34,"M","WHITE","DDI","Didanosine (DDI)",91.1736
+"AIDS01","SUBJ-1248",27,"F","WHITE","ZDV","Zidovudine (ZDV)",97.9776
+"AIDS01","SUBJ-1249",27,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",70.7616
+"AIDS01","SUBJ-1250",29,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",86.72832
+"AIDS01","SUBJ-1251",52,"M","WHITE","ZDV","Zidovudine (ZDV)",90.58392
+"AIDS01","SUBJ-1252",29,"M","WHITE","DDI","Didanosine (DDI)",78.0192
+"AIDS01","SUBJ-1253",26,"M","WHITE","DDI","Didanosine (DDI)",68.04
+"AIDS01","SUBJ-1254",28,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.4728
+"AIDS01","SUBJ-1255",36,"M","WHITE","ZDV","Zidovudine (ZDV)",74.3904
+"AIDS01","SUBJ-1256",32,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",80.7408
+"AIDS01","SUBJ-1257",43,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",91.6272
+"AIDS01","SUBJ-1258",38,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",68.4936
+"AIDS01","SUBJ-1259",35,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",100.6992
+"AIDS01","SUBJ-1260",35,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",78.0192
+"AIDS01","SUBJ-1261",28,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",59.10408
+"AIDS01","SUBJ-1262",23,"M","WHITE","DDI","Didanosine (DDI)",66.906
+"AIDS01","SUBJ-1263",26,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",95.256
+"AIDS01","SUBJ-1264",34,"M","NON-WHITE","DDI","Didanosine (DDI)",100.6992
+"AIDS01","SUBJ-1265",33,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",84.8232
+"AIDS01","SUBJ-1266",32,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",84.8232
+"AIDS01","SUBJ-1267",30,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",77.5656
+"AIDS01","SUBJ-1268",24,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.7616
+"AIDS01","SUBJ-1269",34,"M","WHITE","DDI","Didanosine (DDI)",68.9472
+"AIDS01","SUBJ-1270",41,"M","WHITE","ZDV","Zidovudine (ZDV)",83.4624
+"AIDS01","SUBJ-1271",34,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",58.0608
+"AIDS01","SUBJ-1272",41,"M","WHITE","ZDV","Zidovudine (ZDV)",83.916
+"AIDS01","SUBJ-1273",44,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",100.2456
+"AIDS01","SUBJ-1274",33,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",77.8
+"AIDS01","SUBJ-1275",48,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",76.6584
+"AIDS01","SUBJ-1276",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",83.6892
+"AIDS01","SUBJ-1277",29,"F","WHITE","ZDV","Zidovudine (ZDV)",59.8752
+"AIDS01","SUBJ-1278",28,"M","WHITE","DDI","Didanosine (DDI)",59.8752
+"AIDS01","SUBJ-1279",33,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",69.4008
+"AIDS01","SUBJ-1280",35,"M","WHITE","DDI","Didanosine (DDI)",76.4316
+"AIDS01","SUBJ-1281",42,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.0192
+"AIDS01","SUBJ-1282",26,"M","WHITE","DDI","Didanosine (DDI)",80.7408
+"AIDS01","SUBJ-1283",42,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",81.648
+"AIDS01","SUBJ-1284",28,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",69.4008
+"AIDS01","SUBJ-1285",41,"M","WHITE","DDI","Didanosine (DDI)",63.9576
+"AIDS01","SUBJ-1286",35,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",81.648
+"AIDS01","SUBJ-1287",47,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",86.6376
+"AIDS01","SUBJ-1288",33,"M","NON-WHITE","DDI","Didanosine (DDI)",71.6688
+"AIDS01","SUBJ-1289",23,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",73.71
+"AIDS01","SUBJ-1290",36,"M","WHITE","ZDV","Zidovudine (ZDV)",56.2464
+"AIDS01","SUBJ-1291",32,"M","WHITE","ZDV","Zidovudine (ZDV)",68.9472
+"AIDS01","SUBJ-1292",31,"M","WHITE","DDI","Didanosine (DDI)",73.4832
+"AIDS01","SUBJ-1293",44,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",67.1328
+"AIDS01","SUBJ-1294",32,"M","WHITE","DDI","Didanosine (DDI)",71.2152
+"AIDS01","SUBJ-1295",34,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",68.2668
+"AIDS01","SUBJ-1296",43,"M","WHITE","ZDV","Zidovudine (ZDV)",73.0296
+"AIDS01","SUBJ-1297",32,"M","WHITE","ZDV","Zidovudine (ZDV)",75.7512
+"AIDS01","SUBJ-1298",39,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",65.0916
+"AIDS01","SUBJ-1299",28,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",103.4208
+"AIDS01","SUBJ-1300",29,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",52.6176
+"AIDS01","SUBJ-1301",41,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.0296
+"AIDS01","SUBJ-1302",35,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",52.3908
+"AIDS01","SUBJ-1303",51,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",68.9472
+"AIDS01","SUBJ-1304",67,"M","WHITE","ZDV","Zidovudine (ZDV)",82.1016
+"AIDS01","SUBJ-1305",27,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",55.3392
+"AIDS01","SUBJ-1306",31,"M","WHITE","ZDV","Zidovudine (ZDV)",89.3592
+"AIDS01","SUBJ-1307",45,"F","WHITE","ZDV","Zidovudine (ZDV)",89.8128
+"AIDS01","SUBJ-1308",33,"M","WHITE","DDI","Didanosine (DDI)",78.0192
+"AIDS01","SUBJ-1309",27,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",64.4112
+"AIDS01","SUBJ-1310",26,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",55.566
+"AIDS01","SUBJ-1311",26,"M","WHITE","DDI","Didanosine (DDI)",82.1016
+"AIDS01","SUBJ-1312",49,"M","WHITE","DDI","Didanosine (DDI)",80.7408
+"AIDS01","SUBJ-1313",36,"M","WHITE","DDI","Didanosine (DDI)",78.9264
+"AIDS01","SUBJ-1314",39,"M","WHITE","ZDV","Zidovudine (ZDV)",89.3592
+"AIDS01","SUBJ-1315",32,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",69.8544
+"AIDS01","SUBJ-1316",44,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",95.256
+"AIDS01","SUBJ-1317",30,"M","WHITE","DDI","Didanosine (DDI)",64.638
+"AIDS01","SUBJ-1318",26,"M","WHITE","DDI","Didanosine (DDI)",91.6272
+"AIDS01","SUBJ-1319",35,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.7616
+"AIDS01","SUBJ-1320",42,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",79.8336
+"AIDS01","SUBJ-1321",45,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",78.0192
+"AIDS01","SUBJ-1322",49,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.1328
+"AIDS01","SUBJ-1323",27,"M","WHITE","DDI","Didanosine (DDI)",86.6376
+"AIDS01","SUBJ-1324",33,"M","WHITE","ZDV","Zidovudine (ZDV)",76.2048
+"AIDS01","SUBJ-1325",27,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",67.5864
+"AIDS01","SUBJ-1326",40,"M","WHITE","DDI","Didanosine (DDI)",75.7512
+"AIDS01","SUBJ-1327",26,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",112.4928
+"AIDS01","SUBJ-1328",39,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",79.1
+"AIDS01","SUBJ-1329",29,"M","WHITE","ZDV","Zidovudine (ZDV)",68.4936
+"AIDS01","SUBJ-1330",34,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",92.7612
+"AIDS01","SUBJ-1331",36,"M","WHITE","ZDV","Zidovudine (ZDV)",66.6792
+"AIDS01","SUBJ-1332",21,"M","WHITE","DDI","Didanosine (DDI)",65.5452
+"AIDS01","SUBJ-1333",25,"M","WHITE","DDI","Didanosine (DDI)",69.8544
+"AIDS01","SUBJ-1334",30,"M","WHITE","DDI","Didanosine (DDI)",59.6484
+"AIDS01","SUBJ-1335",38,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",66.8
+"AIDS01","SUBJ-1336",54,"M","WHITE","ZDV","Zidovudine (ZDV)",74.5
+"AIDS01","SUBJ-1337",35,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68.04
+"AIDS01","SUBJ-1338",46,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.0296
+"AIDS01","SUBJ-1339",35,"M","WHITE","ZDV","Zidovudine (ZDV)",77.7
+"AIDS01","SUBJ-1340",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.246
+"AIDS01","SUBJ-1341",28,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",76.6584
+"AIDS01","SUBJ-1342",49,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",86.184
+"AIDS01","SUBJ-1343",34,"M","WHITE","ZDV","Zidovudine (ZDV)",76.2048
+"AIDS01","SUBJ-1344",30,"M","WHITE","DDI","Didanosine (DDI)",76.2048
+"AIDS01","SUBJ-1345",56,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",46.8
+"AIDS01","SUBJ-1346",40,"M","WHITE","DDI","Didanosine (DDI)",85.5
+"AIDS01","SUBJ-1347",41,"M","NON-WHITE","DDI","Didanosine (DDI)",77.7
+"AIDS01","SUBJ-1348",22,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",67.5864
+"AIDS01","SUBJ-1349",44,"M","WHITE","ZDV","Zidovudine (ZDV)",72.1224
+"AIDS01","SUBJ-1350",35,"M","WHITE","ZDV","Zidovudine (ZDV)",61.4628
+"AIDS01","SUBJ-1351",40,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",62.1432
+"AIDS01","SUBJ-1352",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",79.6068
+"AIDS01","SUBJ-1353",33,"M","WHITE","ZDV","Zidovudine (ZDV)",68.04
+"AIDS01","SUBJ-1354",37,"M","WHITE","DDI","Didanosine (DDI)",90.2664
+"AIDS01","SUBJ-1355",28,"M","WHITE","DDI","Didanosine (DDI)",67.1328
+"AIDS01","SUBJ-1356",37,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",76.2048
+"AIDS01","SUBJ-1357",28,"F","NON-WHITE","DDI","Didanosine (DDI)",87.0912
+"AIDS01","SUBJ-1358",27,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",67.1328
+"AIDS01","SUBJ-1359",36,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.7616
+"AIDS01","SUBJ-1360",30,"F","NON-WHITE","DDI","Didanosine (DDI)",52.164
+"AIDS01","SUBJ-1361",27,"M","WHITE","DDI","Didanosine (DDI)",75.2976
+"AIDS01","SUBJ-1362",39,"M","WHITE","DDI","Didanosine (DDI)",76.2048
+"AIDS01","SUBJ-1363",39,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",96.1632
+"AIDS01","SUBJ-1364",51,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",73.0296
+"AIDS01","SUBJ-1365",52,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",65.3184
+"AIDS01","SUBJ-1366",41,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",98.4312
+"AIDS01","SUBJ-1367",34,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",64.8648
+"AIDS01","SUBJ-1368",32,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",79.38
+"AIDS01","SUBJ-1369",28,"M","WHITE","DDI","Didanosine (DDI)",74.75328
+"AIDS01","SUBJ-1370",28,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68.4
+"AIDS01","SUBJ-1371",45,"M","NON-WHITE","DDI","Didanosine (DDI)",95.7096
+"AIDS01","SUBJ-1372",45,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",109.3176
+"AIDS01","SUBJ-1373",41,"M","WHITE","ZDV","Zidovudine (ZDV)",68.9472
+"AIDS01","SUBJ-1374",35,"M","WHITE","DDI","Didanosine (DDI)",89.6
+"AIDS01","SUBJ-1375",33,"M","WHITE","ZDV","Zidovudine (ZDV)",77.112
+"AIDS01","SUBJ-1376",56,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.0708
+"AIDS01","SUBJ-1377",37,"M","WHITE","ZDV","Zidovudine (ZDV)",93.8952
+"AIDS01","SUBJ-1378",42,"M","WHITE","DDI","Didanosine (DDI)",58
+"AIDS01","SUBJ-1379",42,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.8132
+"AIDS01","SUBJ-1380",31,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",82.23768
+"AIDS01","SUBJ-1381",30,"M","WHITE","DDI","Didanosine (DDI)",73.2
+"AIDS01","SUBJ-1382",34,"M","WHITE","ZDV","Zidovudine (ZDV)",67.5864
+"AIDS01","SUBJ-1383",27,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",78.4728
+"AIDS01","SUBJ-1384",52,"M","NON-WHITE","DDI","Didanosine (DDI)",51.4
+"AIDS01","SUBJ-1385",24,"M","NON-WHITE","DDI","Didanosine (DDI)",56.4732
+"AIDS01","SUBJ-1386",42,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",97.7
+"AIDS01","SUBJ-1387",43,"M","WHITE","ZDV","Zidovudine (ZDV)",74.6
+"AIDS01","SUBJ-1388",31,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",114.534
+"AIDS01","SUBJ-1389",20,"M","WHITE","DDI","Didanosine (DDI)",63.6
+"AIDS01","SUBJ-1390",43,"M","WHITE","DDI","Didanosine (DDI)",77.112
+"AIDS01","SUBJ-1391",48,"M","WHITE","DDI","Didanosine (DDI)",69.6276
+"AIDS01","SUBJ-1392",49,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",95.7096
+"AIDS01","SUBJ-1393",29,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",58.0608
+"AIDS01","SUBJ-1394",28,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",66.6792
+"AIDS01","SUBJ-1395",29,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",74.5
+"AIDS01","SUBJ-1396",28,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",79.1
+"AIDS01","SUBJ-1397",27,"M","WHITE","ZDV","Zidovudine (ZDV)",97.524
+"AIDS01","SUBJ-1398",22,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",81.1944
+"AIDS01","SUBJ-1399",34,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",85.5036
+"AIDS01","SUBJ-1400",47,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",87.9984
+"AIDS01","SUBJ-1401",31,"M","WHITE","ZDV","Zidovudine (ZDV)",64.8648
+"AIDS01","SUBJ-1402",38,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",91.1736
+"AIDS01","SUBJ-1403",32,"M","WHITE","ZDV","Zidovudine (ZDV)",115.9
+"AIDS01","SUBJ-1404",21,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.308
+"AIDS01","SUBJ-1405",34,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",105.0084
+"AIDS01","SUBJ-1406",31,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",72.8028
+"AIDS01","SUBJ-1407",32,"F","NON-WHITE","DDI","Didanosine (DDI)",67.1328
+"AIDS01","SUBJ-1408",38,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",65.3184
+"AIDS01","SUBJ-1409",25,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.2976
+"AIDS01","SUBJ-1410",34,"M","WHITE","ZDV","Zidovudine (ZDV)",81.648
+"AIDS01","SUBJ-1411",44,"M","WHITE","ZDV","Zidovudine (ZDV)",89.8128
+"AIDS01","SUBJ-1412",28,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.9368
+"AIDS01","SUBJ-1413",27,"M","WHITE","DDI","Didanosine (DDI)",93.8952
+"AIDS01","SUBJ-1414",21,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",58.968
+"AIDS01","SUBJ-1415",32,"F","NON-WHITE","DDI","Didanosine (DDI)",91.1736
+"AIDS01","SUBJ-1416",53,"M","WHITE","ZDV","Zidovudine (ZDV)",71.442
+"AIDS01","SUBJ-1417",26,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",83.4624
+"AIDS01","SUBJ-1418",32,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.2152
+"AIDS01","SUBJ-1419",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",66.906
+"AIDS01","SUBJ-1420",35,"M","WHITE","ZDV","Zidovudine (ZDV)",64.4112
+"AIDS01","SUBJ-1421",38,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",79.38
+"AIDS01","SUBJ-1422",26,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",79.6068
+"AIDS01","SUBJ-1423",45,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.9368
+"AIDS01","SUBJ-1424",32,"M","WHITE","DDI","Didanosine (DDI)",79.8336
+"AIDS01","SUBJ-1425",37,"M","WHITE","ZDV","Zidovudine (ZDV)",65.772
+"AIDS01","SUBJ-1426",34,"M","WHITE","ZDV","Zidovudine (ZDV)",74.3904
+"AIDS01","SUBJ-1427",31,"M","WHITE","DDI","Didanosine (DDI)",72.1224
+"AIDS01","SUBJ-1428",43,"M","WHITE","ZDV","Zidovudine (ZDV)",95.256
+"AIDS01","SUBJ-1429",27,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",73.2564
+"AIDS01","SUBJ-1430",34,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",65.3184
+"AIDS01","SUBJ-1431",26,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",73.4832
+"AIDS01","SUBJ-1432",25,"M","WHITE","DDI","Didanosine (DDI)",48.3084
+"AIDS01","SUBJ-1433",40,"M","WHITE","DDI","Didanosine (DDI)",71.6688
+"AIDS01","SUBJ-1434",42,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",62.37
+"AIDS01","SUBJ-1435",31,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.308
+"AIDS01","SUBJ-1436",37,"M","WHITE","ZDV","Zidovudine (ZDV)",65.3184
+"AIDS01","SUBJ-1437",36,"M","NON-WHITE","DDI","Didanosine (DDI)",72.1224
+"AIDS01","SUBJ-1438",21,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",99.792
+"AIDS01","SUBJ-1439",28,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",65.3184
+"AIDS01","SUBJ-1440",48,"F","WHITE","DDI","Didanosine (DDI)",83.4624
+"AIDS01","SUBJ-1441",29,"M","WHITE","ZDV","Zidovudine (ZDV)",94.8024
+"AIDS01","SUBJ-1442",45,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",127.008
+"AIDS01","SUBJ-1443",29,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",68.4936
+"AIDS01","SUBJ-1444",40,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",68.04
+"AIDS01","SUBJ-1445",48,"M","WHITE","DDI","Didanosine (DDI)",83.4
+"AIDS01","SUBJ-1446",43,"M","WHITE","ZDV","Zidovudine (ZDV)",65.2
+"AIDS01","SUBJ-1447",31,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",72
+"AIDS01","SUBJ-1448",31,"M","WHITE","DDI","Didanosine (DDI)",103.6
+"AIDS01","SUBJ-1449",36,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",77.6
+"AIDS01","SUBJ-1450",32,"M","WHITE","DDI","Didanosine (DDI)",102.5
+"AIDS01","SUBJ-1451",38,"M","WHITE","DDI","Didanosine (DDI)",102.5
+"AIDS01","SUBJ-1452",35,"M","WHITE","DDI","Didanosine (DDI)",83
+"AIDS01","SUBJ-1453",31,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",76.5
+"AIDS01","SUBJ-1454",39,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",99
+"AIDS01","SUBJ-1455",31,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",90.3
+"AIDS01","SUBJ-1456",43,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",101
+"AIDS01","SUBJ-1457",39,"M","WHITE","ZDV","Zidovudine (ZDV)",62.8
+"AIDS01","SUBJ-1458",31,"M","WHITE","ZDV","Zidovudine (ZDV)",99
+"AIDS01","SUBJ-1459",34,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",57.5
+"AIDS01","SUBJ-1460",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",102.8
+"AIDS01","SUBJ-1461",27,"M","WHITE","ZDV","Zidovudine (ZDV)",67.7
+"AIDS01","SUBJ-1462",29,"M","WHITE","DDI","Didanosine (DDI)",79.6
+"AIDS01","SUBJ-1463",30,"M","WHITE","ZDV","Zidovudine (ZDV)",80
+"AIDS01","SUBJ-1464",28,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",74.2
+"AIDS01","SUBJ-1465",32,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",69.8
+"AIDS01","SUBJ-1466",45,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",91.2
+"AIDS01","SUBJ-1467",24,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.9
+"AIDS01","SUBJ-1468",23,"M","WHITE","DDI","Didanosine (DDI)",87.6
+"AIDS01","SUBJ-1469",29,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",65.3
+"AIDS01","SUBJ-1470",24,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",65.5
+"AIDS01","SUBJ-1471",34,"M","WHITE","DDI","Didanosine (DDI)",65.5
+"AIDS01","SUBJ-1472",24,"M","NON-WHITE","DDI","Didanosine (DDI)",71.5
+"AIDS01","SUBJ-1473",31,"M","WHITE","DDI","Didanosine (DDI)",82.5
+"AIDS01","SUBJ-1474",36,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",62.2
+"AIDS01","SUBJ-1475",29,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",83
+"AIDS01","SUBJ-1476",35,"M","WHITE","DDI","Didanosine (DDI)",82.4
+"AIDS01","SUBJ-1477",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.2
+"AIDS01","SUBJ-1478",31,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",74.7
+"AIDS01","SUBJ-1479",36,"M","WHITE","ZDV","Zidovudine (ZDV)",88.9
+"AIDS01","SUBJ-1480",23,"M","WHITE","ZDV","Zidovudine (ZDV)",70.308
+"AIDS01","SUBJ-1481",26,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",63.7
+"AIDS01","SUBJ-1482",29,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",70.8
+"AIDS01","SUBJ-1483",20,"M","WHITE","ZDV","Zidovudine (ZDV)",57.3
+"AIDS01","SUBJ-1484",32,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",86.8
+"AIDS01","SUBJ-1485",35,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",61.2
+"AIDS01","SUBJ-1486",38,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",66.3
+"AIDS01","SUBJ-1487",37,"M","WHITE","DDI","Didanosine (DDI)",60.7
+"AIDS01","SUBJ-1488",35,"M","WHITE","DDI","Didanosine (DDI)",71
+"AIDS01","SUBJ-1489",25,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",79.5
+"AIDS01","SUBJ-1490",41,"M","WHITE","DDI","Didanosine (DDI)",75.7512
+"AIDS01","SUBJ-1491",33,"M","WHITE","ZDV","Zidovudine (ZDV)",78.7
+"AIDS01","SUBJ-1492",29,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",78.0192
+"AIDS01","SUBJ-1493",36,"M","WHITE","ZDV","Zidovudine (ZDV)",77.112
+"AIDS01","SUBJ-1494",36,"M","WHITE","DDI","Didanosine (DDI)",86.184
+"AIDS01","SUBJ-1495",40,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",84.8232
+"AIDS01","SUBJ-1496",39,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",69.6276
+"AIDS01","SUBJ-1497",30,"M","WHITE","ZDV","Zidovudine (ZDV)",65.772
+"AIDS01","SUBJ-1498",40,"M","WHITE","ZDV","Zidovudine (ZDV)",82.5552
+"AIDS01","SUBJ-1499",41,"M","WHITE","ZDV","Zidovudine (ZDV)",62.1432
+"AIDS01","SUBJ-1500",35,"M","WHITE","DDI","Didanosine (DDI)",78.4728
+"AIDS01","SUBJ-1501",42,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",76.2048
+"AIDS01","SUBJ-1502",26,"M","WHITE","DDI","Didanosine (DDI)",80.7408
+"AIDS01","SUBJ-1503",30,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",84.3696
+"AIDS01","SUBJ-1504",38,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.7616
+"AIDS01","SUBJ-1505",39,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.2976
+"AIDS01","SUBJ-1506",27,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",101
+"AIDS01","SUBJ-1507",39,"F","NON-WHITE","DDI","Didanosine (DDI)",63.504
+"AIDS01","SUBJ-1508",35,"F","NON-WHITE","DDI","Didanosine (DDI)",64.8648
+"AIDS01","SUBJ-1509",39,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",82.5552
+"AIDS01","SUBJ-1510",29,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",65.772
+"AIDS01","SUBJ-1511",33,"M","WHITE","ZDV","Zidovudine (ZDV)",84.3696
+"AIDS01","SUBJ-1512",29,"M","WHITE","DDI","Didanosine (DDI)",70.7616
+"AIDS01","SUBJ-1513",26,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.9368
+"AIDS01","SUBJ-1514",47,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",85.2768
+"AIDS01","SUBJ-1515",43,"M","WHITE","ZDV","Zidovudine (ZDV)",88.452
+"AIDS01","SUBJ-1516",25,"F","WHITE","DDI","Didanosine (DDI)",61.236
+"AIDS01","SUBJ-1517",33,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",78.9264
+"AIDS01","SUBJ-1518",27,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",84.3696
+"AIDS01","SUBJ-1519",37,"M","WHITE","ZDV","Zidovudine (ZDV)",79.38
+"AIDS01","SUBJ-1520",25,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.5244
+"AIDS01","SUBJ-1521",28,"M","NON-WHITE","DDI","Didanosine (DDI)",71.6688
+"AIDS01","SUBJ-1522",28,"M","WHITE","ZDV","Zidovudine (ZDV)",76.8852
+"AIDS01","SUBJ-1523",36,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",113.4
+"AIDS01","SUBJ-1524",37,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",57
+"AIDS01","SUBJ-1525",25,"M","WHITE","DDI","Didanosine (DDI)",67.5864
+"AIDS01","SUBJ-1526",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",114.3072
+"AIDS01","SUBJ-1527",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",69.4008
+"AIDS01","SUBJ-1528",39,"M","NON-WHITE","DDI","Didanosine (DDI)",54.8856
+"AIDS01","SUBJ-1529",34,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",63.504
+"AIDS01","SUBJ-1530",45,"M","WHITE","ZDV","Zidovudine (ZDV)",78.246
+"AIDS01","SUBJ-1531",41,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",85.05
+"AIDS01","SUBJ-1532",22,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",62.5968
+"AIDS01","SUBJ-1533",40,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",97.88688
+"AIDS01","SUBJ-1534",47,"M","WHITE","DDI","Didanosine (DDI)",104.1012
+"AIDS01","SUBJ-1535",32,"M","WHITE","ZDV","Zidovudine (ZDV)",70.7616
+"AIDS01","SUBJ-1536",31,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",83.0088
+"AIDS01","SUBJ-1537",31,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",80.2872
+"AIDS01","SUBJ-1538",57,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.2152
+"AIDS01","SUBJ-1539",35,"M","WHITE","ZDV","Zidovudine (ZDV)",49.4424
+"AIDS01","SUBJ-1540",48,"M","WHITE","DDI","Didanosine (DDI)",70.308
+"AIDS01","SUBJ-1541",34,"M","WHITE","DDI","Didanosine (DDI)",67.5864
+"AIDS01","SUBJ-1542",36,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",78.38208
+"AIDS01","SUBJ-1543",39,"M","WHITE","DDI","Didanosine (DDI)",76.6584
+"AIDS01","SUBJ-1544",38,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",76.2048
+"AIDS01","SUBJ-1545",49,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",76.2048
+"AIDS01","SUBJ-1546",35,"M","WHITE","ZDV","Zidovudine (ZDV)",75.5244
+"AIDS01","SUBJ-1547",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",67.5864
+"AIDS01","SUBJ-1548",37,"M","WHITE","DDI","Didanosine (DDI)",82.1016
+"AIDS01","SUBJ-1549",42,"M","WHITE","DDI","Didanosine (DDI)",72.1224
+"AIDS01","SUBJ-1550",34,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.308
+"AIDS01","SUBJ-1551",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.9368
+"AIDS01","SUBJ-1552",37,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.308
+"AIDS01","SUBJ-1553",40,"M","WHITE","ZDV","Zidovudine (ZDV)",81.8748
+"AIDS01","SUBJ-1554",25,"M","WHITE","DDI","Didanosine (DDI)",77.112
+"AIDS01","SUBJ-1555",34,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",86.6376
+"AIDS01","SUBJ-1556",31,"M","WHITE","ZDV","Zidovudine (ZDV)",64.4112
+"AIDS01","SUBJ-1557",36,"M","WHITE","DDI","Didanosine (DDI)",72.3492
+"AIDS01","SUBJ-1558",25,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",51.4836
+"AIDS01","SUBJ-1559",33,"M","WHITE","ZDV","Zidovudine (ZDV)",74.98008
+"AIDS01","SUBJ-1560",30,"M","WHITE","DDI","Didanosine (DDI)",55.7928
+"AIDS01","SUBJ-1561",32,"M","WHITE","ZDV","Zidovudine (ZDV)",72.576
+"AIDS01","SUBJ-1562",39,"M","NON-WHITE","DDI","Didanosine (DDI)",80.2872
+"AIDS01","SUBJ-1563",32,"F","WHITE","DDI","Didanosine (DDI)",41.2776
+"AIDS01","SUBJ-1564",40,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.978
+"AIDS01","SUBJ-1565",40,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",76
+"AIDS01","SUBJ-1566",23,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",52.164
+"AIDS01","SUBJ-1567",27,"M","NON-WHITE","DDI","Didanosine (DDI)",83.0088
+"AIDS01","SUBJ-1568",30,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",77.3388
+"AIDS01","SUBJ-1569",31,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",49.4424
+"AIDS01","SUBJ-1570",28,"M","NON-WHITE","DDI","Didanosine (DDI)",125.6472
+"AIDS01","SUBJ-1571",29,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",58.968
+"AIDS01","SUBJ-1572",37,"M","WHITE","ZDV","Zidovudine (ZDV)",76.2048
+"AIDS01","SUBJ-1573",50,"M","WHITE","DDI","Didanosine (DDI)",70.67088
+"AIDS01","SUBJ-1574",44,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",87.5448
+"AIDS01","SUBJ-1575",44,"M","WHITE","ZDV","Zidovudine (ZDV)",89.3592
+"AIDS01","SUBJ-1576",37,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",82.1016
+"AIDS01","SUBJ-1577",29,"M","WHITE","ZDV","Zidovudine (ZDV)",100.0188
+"AIDS01","SUBJ-1578",37,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",76.4316
+"AIDS01","SUBJ-1579",57,"M","WHITE","ZDV","Zidovudine (ZDV)",81.1944
+"AIDS01","SUBJ-1580",45,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",51.7104
+"AIDS01","SUBJ-1581",54,"M","WHITE","DDI","Didanosine (DDI)",86.6376
+"AIDS01","SUBJ-1582",43,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",86.184
+"AIDS01","SUBJ-1583",44,"M","WHITE","DDI","Didanosine (DDI)",91.6272
+"AIDS01","SUBJ-1584",50,"M","WHITE","DDI","Didanosine (DDI)",83.4624
+"AIDS01","SUBJ-1585",30,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",58.5144
+"AIDS01","SUBJ-1586",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",69.4008
+"AIDS01","SUBJ-1587",30,"M","WHITE","ZDV","Zidovudine (ZDV)",81.648
+"AIDS01","SUBJ-1588",39,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",78.0192
+"AIDS01","SUBJ-1589",28,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",83.2356
+"AIDS01","SUBJ-1590",46,"M","WHITE","ZDV","Zidovudine (ZDV)",65.5452
+"AIDS01","SUBJ-1591",38,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.0192
+"AIDS01","SUBJ-1592",29,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",89.3592
+"AIDS01","SUBJ-1593",37,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",76.6584
+"AIDS01","SUBJ-1594",28,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",85.7304
+"AIDS01","SUBJ-1595",34,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",62.8236
+"AIDS01","SUBJ-1596",26,"M","NON-WHITE","DDI","Didanosine (DDI)",79.8336
+"AIDS01","SUBJ-1597",52,"F","NON-WHITE","DDI","Didanosine (DDI)",61.4628
+"AIDS01","SUBJ-1598",25,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",70.21728
+"AIDS01","SUBJ-1599",32,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",58.0608
+"AIDS01","SUBJ-1600",30,"F","WHITE","DDI","Didanosine (DDI)",64.638
+"AIDS01","SUBJ-1601",49,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",59.4216
+"AIDS01","SUBJ-1602",35,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",92.5344
+"AIDS01","SUBJ-1603",36,"F","NON-WHITE","DDI","Didanosine (DDI)",57.6072
+"AIDS01","SUBJ-1604",32,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",50.8032
+"AIDS01","SUBJ-1605",40,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",79.38
+"AIDS01","SUBJ-1606",44,"F","NON-WHITE","DDI","Didanosine (DDI)",90.4932
+"AIDS01","SUBJ-1607",27,"F","WHITE","DDI","Didanosine (DDI)",66.4524
+"AIDS01","SUBJ-1608",32,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",64.8648
+"AIDS01","SUBJ-1609",26,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",47.628
+"AIDS01","SUBJ-1610",40,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",84
+"AIDS01","SUBJ-1611",30,"M","WHITE","ZDV","Zidovudine (ZDV)",65
+"AIDS01","SUBJ-1612",50,"M","WHITE","ZDV","Zidovudine (ZDV)",72.576
+"AIDS01","SUBJ-1613",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",78.4
+"AIDS01","SUBJ-1614",32,"F","WHITE","DDI","Didanosine (DDI)",64.8648
+"AIDS01","SUBJ-1615",38,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.2
+"AIDS01","SUBJ-1616",40,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",110.4516
+"AIDS01","SUBJ-1617",38,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",66.2256
+"AIDS01","SUBJ-1618",47,"M","WHITE","ZDV","Zidovudine (ZDV)",67.1328
+"AIDS01","SUBJ-1619",37,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",81.1944
+"AIDS01","SUBJ-1620",43,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",97.524
+"AIDS01","SUBJ-1621",29,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",63.9576
+"AIDS01","SUBJ-1622",29,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",77.112
+"AIDS01","SUBJ-1623",31,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",122.472
+"AIDS01","SUBJ-1624",39,"M","WHITE","ZDV","Zidovudine (ZDV)",98.4312
+"AIDS01","SUBJ-1625",27,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",83.4624
+"AIDS01","SUBJ-1626",31,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",63.0504
+"AIDS01","SUBJ-1627",19,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",59.8752
+"AIDS01","SUBJ-1628",37,"F","NON-WHITE","DDI","Didanosine (DDI)",63.504
+"AIDS01","SUBJ-1629",58,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.246
+"AIDS01","SUBJ-1630",40,"M","WHITE","DDI","Didanosine (DDI)",67.1328
+"AIDS01","SUBJ-1631",31,"M","WHITE","DDI","Didanosine (DDI)",61.6896
+"AIDS01","SUBJ-1632",40,"M","WHITE","DDI","Didanosine (DDI)",69.6276
+"AIDS01","SUBJ-1633",24,"F","WHITE","ZDV","Zidovudine (ZDV)",66.2256
+"AIDS01","SUBJ-1634",44,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",91.6272
+"AIDS01","SUBJ-1635",31,"F","NON-WHITE","DDI","Didanosine (DDI)",62.37
+"AIDS01","SUBJ-1636",35,"F","NON-WHITE","DDI","Didanosine (DDI)",68.2668
+"AIDS01","SUBJ-1637",33,"M","NON-WHITE","DDI","Didanosine (DDI)",56.9268
+"AIDS01","SUBJ-1638",26,"F","WHITE","DDI","Didanosine (DDI)",56.2464
+"AIDS01","SUBJ-1639",36,"F","WHITE","ZDV","Zidovudine (ZDV)",117.0288
+"AIDS01","SUBJ-1640",33,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.2152
+"AIDS01","SUBJ-1641",30,"F","NON-WHITE","DDI","Didanosine (DDI)",61.0092
+"AIDS01","SUBJ-1642",59,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",53.3
+"AIDS01","SUBJ-1643",24,"M","WHITE","DDI","Didanosine (DDI)",64.04832
+"AIDS01","SUBJ-1644",41,"M","WHITE","ZDV","Zidovudine (ZDV)",89.5
+"AIDS01","SUBJ-1645",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",72.8028
+"AIDS01","SUBJ-1646",36,"M","WHITE","ZDV","Zidovudine (ZDV)",93.1
+"AIDS01","SUBJ-1647",24,"F","WHITE","ZDV","Zidovudine (ZDV)",62.1432
+"AIDS01","SUBJ-1648",29,"M","WHITE","ZDV","Zidovudine (ZDV)",72.3
+"AIDS01","SUBJ-1649",29,"M","WHITE","DDI","Didanosine (DDI)",70.9884
+"AIDS01","SUBJ-1650",35,"F","NON-WHITE","DDI","Didanosine (DDI)",67.94928
+"AIDS01","SUBJ-1651",25,"F","NON-WHITE","DDI","Didanosine (DDI)",79.7
+"AIDS01","SUBJ-1652",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68
+"AIDS01","SUBJ-1653",32,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",58
+"AIDS01","SUBJ-1654",31,"M","WHITE","DDI","Didanosine (DDI)",95.5
+"AIDS01","SUBJ-1655",21,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",77.9
+"AIDS01","SUBJ-1656",41,"M","WHITE","DDI","Didanosine (DDI)",73.0296
+"AIDS01","SUBJ-1657",30,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68
+"AIDS01","SUBJ-1658",24,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",72.5
+"AIDS01","SUBJ-1659",18,"F","WHITE","ZDV","Zidovudine (ZDV)",57.28968
+"AIDS01","SUBJ-1660",47,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",59
+"AIDS01","SUBJ-1661",38,"M","WHITE","ZDV","Zidovudine (ZDV)",79.4
+"AIDS01","SUBJ-1662",40,"M","WHITE","ZDV","Zidovudine (ZDV)",65.5
+"AIDS01","SUBJ-1663",23,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",74.4
+"AIDS01","SUBJ-1664",37,"M","WHITE","DDI","Didanosine (DDI)",71.8
+"AIDS01","SUBJ-1665",33,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",72.576
+"AIDS01","SUBJ-1666",27,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.5
+"AIDS01","SUBJ-1667",27,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",70.7616
+"AIDS01","SUBJ-1668",41,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",65.0916
+"AIDS01","SUBJ-1669",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.2976
+"AIDS01","SUBJ-1670",39,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",80.7408
+"AIDS01","SUBJ-1671",38,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",82.3
+"AIDS01","SUBJ-1672",33,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",65.4
+"AIDS01","SUBJ-1673",24,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",59
+"AIDS01","SUBJ-1674",40,"F","WHITE","ZDV","Zidovudine (ZDV)",71.3
+"AIDS01","SUBJ-1675",30,"M","WHITE","DDI","Didanosine (DDI)",63.9576
+"AIDS01","SUBJ-1676",45,"M","WHITE","DDI","Didanosine (DDI)",72.7
+"AIDS01","SUBJ-1677",14,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",65
+"AIDS01","SUBJ-1678",37,"M","WHITE","ZDV","Zidovudine (ZDV)",79.38
+"AIDS01","SUBJ-1679",31,"M","WHITE","DDI","Didanosine (DDI)",72.3
+"AIDS01","SUBJ-1680",34,"M","WHITE","ZDV","Zidovudine (ZDV)",84.2
+"AIDS01","SUBJ-1681",28,"M","WHITE","DDI","Didanosine (DDI)",64.8
+"AIDS01","SUBJ-1682",26,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",59.8752
+"AIDS01","SUBJ-1683",32,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",102.3
+"AIDS01","SUBJ-1684",22,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",53.298
+"AIDS01","SUBJ-1685",31,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",64.1844
+"AIDS01","SUBJ-1686",18,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",86.4
+"AIDS01","SUBJ-1687",42,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",82.3
+"AIDS01","SUBJ-1688",39,"F","NON-WHITE","DDI","Didanosine (DDI)",94.3
+"AIDS01","SUBJ-1689",22,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",60.3288
+"AIDS01","SUBJ-1690",28,"M","WHITE","DDI","Didanosine (DDI)",66.3
+"AIDS01","SUBJ-1691",47,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",74.844
+"AIDS01","SUBJ-1692",25,"M","WHITE","ZDV","Zidovudine (ZDV)",66.2256
+"AIDS01","SUBJ-1693",36,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",51.5
+"AIDS01","SUBJ-1694",25,"M","WHITE","ZDV","Zidovudine (ZDV)",84.18816
+"AIDS01","SUBJ-1695",37,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",81.10368
+"AIDS01","SUBJ-1696",25,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",63.59472
+"AIDS01","SUBJ-1697",28,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68.4936
+"AIDS01","SUBJ-1698",27,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",94.89312
+"AIDS01","SUBJ-1699",37,"M","WHITE","ZDV","Zidovudine (ZDV)",83.28096
+"AIDS01","SUBJ-1700",38,"M","WHITE","DDI","Didanosine (DDI)",67.1
+"AIDS01","SUBJ-1701",25,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",68.3
+"AIDS01","SUBJ-1702",40,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.6
+"AIDS01","SUBJ-1703",34,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",74
+"AIDS01","SUBJ-1704",24,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",65.2
+"AIDS01","SUBJ-1705",40,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",91
+"AIDS01","SUBJ-1706",37,"M","WHITE","DDI","Didanosine (DDI)",66.1
+"AIDS01","SUBJ-1707",42,"M","WHITE","DDI","Didanosine (DDI)",93.5
+"AIDS01","SUBJ-1708",28,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",159.93936
+"AIDS01","SUBJ-1709",49,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",56.42784
+"AIDS01","SUBJ-1710",34,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",86.00256
+"AIDS01","SUBJ-1711",31,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",85.14072
+"AIDS01","SUBJ-1712",29,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",65.5
+"AIDS01","SUBJ-1713",24,"F","NON-WHITE","DDI","Didanosine (DDI)",81.1
+"AIDS01","SUBJ-1714",31,"M","WHITE","DDI","Didanosine (DDI)",56.3
+"AIDS01","SUBJ-1715",61,"M","WHITE","ZDV","Zidovudine (ZDV)",69.8
+"AIDS01","SUBJ-1716",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",101
+"AIDS01","SUBJ-1717",26,"F","WHITE","ZDV","Zidovudine (ZDV)",82.2
+"AIDS01","SUBJ-1718",32,"M","NON-WHITE","DDI","Didanosine (DDI)",83.1
+"AIDS01","SUBJ-1719",30,"M","WHITE","DDI","Didanosine (DDI)",69.1
+"AIDS01","SUBJ-1720",38,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",69.8
+"AIDS01","SUBJ-1721",46,"M","WHITE","DDI","Didanosine (DDI)",86.2
+"AIDS01","SUBJ-1722",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",91.9
+"AIDS01","SUBJ-1723",32,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",69.3
+"AIDS01","SUBJ-1724",25,"M","WHITE","ZDV","Zidovudine (ZDV)",103.5
+"AIDS01","SUBJ-1725",45,"F","WHITE","ZDV","Zidovudine (ZDV)",75.3
+"AIDS01","SUBJ-1726",46,"M","WHITE","ZDV","Zidovudine (ZDV)",72.4
+"AIDS01","SUBJ-1727",26,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.2
+"AIDS01","SUBJ-1728",34,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",63.2
+"AIDS01","SUBJ-1729",22,"M","WHITE","ZDV","Zidovudine (ZDV)",62.3
+"AIDS01","SUBJ-1730",32,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",84.8232
+"AIDS01","SUBJ-1731",23,"M","WHITE","ZDV","Zidovudine (ZDV)",67.8132
+"AIDS01","SUBJ-1732",24,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",68.4936
+"AIDS01","SUBJ-1733",32,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",76.8852
+"AIDS01","SUBJ-1734",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",74.1636
+"AIDS01","SUBJ-1735",35,"M","WHITE","DDI","Didanosine (DDI)",96.3
+"AIDS01","SUBJ-1736",29,"M","WHITE","ZDV","Zidovudine (ZDV)",73.9
+"AIDS01","SUBJ-1737",30,"M","NON-WHITE","DDI","Didanosine (DDI)",76.3
+"AIDS01","SUBJ-1738",38,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",72.9
+"AIDS01","SUBJ-1739",23,"F","NON-WHITE","DDI","Didanosine (DDI)",82.1
+"AIDS01","SUBJ-1740",24,"M","NON-WHITE","DDI","Didanosine (DDI)",71.3
+"AIDS01","SUBJ-1741",48,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",85.4
+"AIDS01","SUBJ-1742",47,"M","WHITE","DDI","Didanosine (DDI)",89.1
+"AIDS01","SUBJ-1743",30,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",60.8
+"AIDS01","SUBJ-1744",26,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",69
+"AIDS01","SUBJ-1745",32,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",97.9
+"AIDS01","SUBJ-1746",27,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",86.6
+"AIDS01","SUBJ-1747",32,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",81.5
+"AIDS01","SUBJ-1748",27,"M","WHITE","ZDV","Zidovudine (ZDV)",103.4208
+"AIDS01","SUBJ-1749",30,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",77.7924
+"AIDS01","SUBJ-1750",27,"F","WHITE","ZDV","Zidovudine (ZDV)",66.6
+"AIDS01","SUBJ-1751",25,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",53.1
+"AIDS01","SUBJ-1752",39,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",113.4
+"AIDS01","SUBJ-1753",40,"M","WHITE","DDI","Didanosine (DDI)",68.7204
+"AIDS01","SUBJ-1754",32,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",64.4112
+"AIDS01","SUBJ-1755",46,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",84.8232
+"AIDS01","SUBJ-1756",32,"M","WHITE","DDI","Didanosine (DDI)",67.1328
+"AIDS01","SUBJ-1757",22,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",57.1536
+"AIDS01","SUBJ-1758",36,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",61.6896
+"AIDS01","SUBJ-1759",39,"F","NON-WHITE","DDI","Didanosine (DDI)",77.5656
+"AIDS01","SUBJ-1760",35,"M","WHITE","DDI","Didanosine (DDI)",112.7196
+"AIDS01","SUBJ-1761",41,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",92.3076
+"AIDS01","SUBJ-1762",36,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",93.8952
+"AIDS01","SUBJ-1763",37,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",47.628
+"AIDS01","SUBJ-1764",53,"M","WHITE","DDI","Didanosine (DDI)",107.5032
+"AIDS01","SUBJ-1765",32,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",65.3184
+"AIDS01","SUBJ-1766",45,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",94.5756
+"AIDS01","SUBJ-1767",41,"F","NON-WHITE","DDI","Didanosine (DDI)",86.184
+"AIDS01","SUBJ-1768",44,"F","NON-WHITE","DDI","Didanosine (DDI)",55.5
+"AIDS01","SUBJ-1769",44,"M","WHITE","ZDV","Zidovudine (ZDV)",79.38
+"AIDS01","SUBJ-1770",42,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",62.5
+"AIDS01","SUBJ-1771",30,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.83568
+"AIDS01","SUBJ-1772",40,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",80.5
+"AIDS01","SUBJ-1773",36,"M","WHITE","ZDV","Zidovudine (ZDV)",83.4624
+"AIDS01","SUBJ-1774",30,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",135.1728
+"AIDS01","SUBJ-1775",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",83.0088
+"AIDS01","SUBJ-1776",39,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.0708
+"AIDS01","SUBJ-1777",31,"M","WHITE","ZDV","Zidovudine (ZDV)",85.7304
+"AIDS01","SUBJ-1778",40,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.0812
+"AIDS01","SUBJ-1779",42,"M","NON-WHITE","DDI","Didanosine (DDI)",76.2048
+"AIDS01","SUBJ-1780",33,"F","WHITE","DDI","Didanosine (DDI)",70.5348
+"AIDS01","SUBJ-1781",29,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",92.5344
+"AIDS01","SUBJ-1782",40,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",93.6684
+"AIDS01","SUBJ-1783",41,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",87.0912
+"AIDS01","SUBJ-1784",45,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",68.2668
+"AIDS01","SUBJ-1785",41,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",73.2564
+"AIDS01","SUBJ-1786",29,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",94.8024
+"AIDS01","SUBJ-1787",37,"M","WHITE","DDI","Didanosine (DDI)",88.9056
+"AIDS01","SUBJ-1788",45,"F","WHITE","ZDV","Zidovudine (ZDV)",60.7824
+"AIDS01","SUBJ-1789",34,"M","WHITE","ZDV","Zidovudine (ZDV)",72.576
+"AIDS01","SUBJ-1790",31,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",56.7
+"AIDS01","SUBJ-1791",27,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",64.77408
+"AIDS01","SUBJ-1792",30,"M","WHITE","ZDV","Zidovudine (ZDV)",52.6176
+"AIDS01","SUBJ-1793",31,"F","NON-WHITE","DDI","Didanosine (DDI)",63.504
+"AIDS01","SUBJ-1794",37,"M","WHITE","DDI","Didanosine (DDI)",87.0912
+"AIDS01","SUBJ-1795",26,"M","WHITE","ZDV","Zidovudine (ZDV)",105.9156
+"AIDS01","SUBJ-1796",40,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",76.2048
+"AIDS01","SUBJ-1797",33,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68.4936
+"AIDS01","SUBJ-1798",45,"M","WHITE","DDI","Didanosine (DDI)",76.8852
+"AIDS01","SUBJ-1799",32,"M","NON-WHITE","DDI","Didanosine (DDI)",96.1632
+"AIDS01","SUBJ-1800",27,"M","WHITE","DDI","Didanosine (DDI)",65.3184
+"AIDS01","SUBJ-1801",37,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",66.6792
+"AIDS01","SUBJ-1802",37,"M","WHITE","DDI","Didanosine (DDI)",73.0296
+"AIDS01","SUBJ-1803",43,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",69.8544
+"AIDS01","SUBJ-1804",28,"M","NON-WHITE","DDI","Didanosine (DDI)",58.5144
+"AIDS01","SUBJ-1805",41,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.308
+"AIDS01","SUBJ-1806",39,"M","WHITE","DDI","Didanosine (DDI)",74.6172
+"AIDS01","SUBJ-1807",38,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",83.916
+"AIDS01","SUBJ-1808",53,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",69.8544
+"AIDS01","SUBJ-1809",33,"M","WHITE","DDI","Didanosine (DDI)",73.6
+"AIDS01","SUBJ-1810",36,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",86.184
+"AIDS01","SUBJ-1811",32,"M","WHITE","DDI","Didanosine (DDI)",86.6376
+"AIDS01","SUBJ-1812",41,"M","WHITE","ZDV","Zidovudine (ZDV)",78.0192
+"AIDS01","SUBJ-1813",49,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",81.648
+"AIDS01","SUBJ-1814",40,"M","WHITE","ZDV","Zidovudine (ZDV)",83.916
+"AIDS01","SUBJ-1815",31,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.9264
+"AIDS01","SUBJ-1816",39,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",63.0504
+"AIDS01","SUBJ-1817",30,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",62.5968
+"AIDS01","SUBJ-1818",46,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.0192
+"AIDS01","SUBJ-1819",35,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",72.576
+"AIDS01","SUBJ-1820",28,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",77.112
+"AIDS01","SUBJ-1821",44,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",66.6792
+"AIDS01","SUBJ-1822",26,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.7512
+"AIDS01","SUBJ-1823",37,"F","WHITE","ZDV","Zidovudine (ZDV)",58.968
+"AIDS01","SUBJ-1824",30,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",48.0816
+"AIDS01","SUBJ-1825",29,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",72.2
+"AIDS01","SUBJ-1826",37,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",105
+"AIDS01","SUBJ-1827",25,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",56.2464
+"AIDS01","SUBJ-1828",19,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",74.844
+"AIDS01","SUBJ-1829",27,"F","NON-WHITE","DDI","Didanosine (DDI)",60.4
+"AIDS01","SUBJ-1830",27,"F","NON-WHITE","DDI","Didanosine (DDI)",53.9784
+"AIDS01","SUBJ-1831",48,"M","WHITE","DDI","Didanosine (DDI)",73.2564
+"AIDS01","SUBJ-1832",41,"M","WHITE","DDI","Didanosine (DDI)",104
+"AIDS01","SUBJ-1833",28,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",88.6
+"AIDS01","SUBJ-1834",30,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.8
+"AIDS01","SUBJ-1835",42,"F","NON-WHITE","DDI","Didanosine (DDI)",56.2
+"AIDS01","SUBJ-1836",20,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",72
+"AIDS01","SUBJ-1837",29,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",86.6376
+"AIDS01","SUBJ-1838",33,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",120.6576
+"AIDS01","SUBJ-1839",34,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",70.308
+"AIDS01","SUBJ-1840",52,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",61.236
+"AIDS01","SUBJ-1841",32,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",66.6792
+"AIDS01","SUBJ-1842",30,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.9368
+"AIDS01","SUBJ-1843",28,"M","NON-WHITE","DDI","Didanosine (DDI)",98.8848
+"AIDS01","SUBJ-1844",41,"M","WHITE","ZDV","Zidovudine (ZDV)",66.2256
+"AIDS01","SUBJ-1845",19,"F","NON-WHITE","DDI","Didanosine (DDI)",54.432
+"AIDS01","SUBJ-1846",57,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",50.8032
+"AIDS01","SUBJ-1847",42,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",68.04
+"AIDS01","SUBJ-1848",28,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",68.2668
+"AIDS01","SUBJ-1849",32,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",79.6068
+"AIDS01","SUBJ-1850",29,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",61.4628
+"AIDS01","SUBJ-1851",48,"M","NON-WHITE","DDI","Didanosine (DDI)",72.1224
+"AIDS01","SUBJ-1852",26,"M","NON-WHITE","DDI","Didanosine (DDI)",50.3496
+"AIDS01","SUBJ-1853",30,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",92.0808
+"AIDS01","SUBJ-1854",33,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",43.00128
+"AIDS01","SUBJ-1855",29,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",63.9576
+"AIDS01","SUBJ-1856",40,"M","NON-WHITE","DDI","Didanosine (DDI)",77.112
+"AIDS01","SUBJ-1857",37,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",81.648
+"AIDS01","SUBJ-1858",36,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",82.1016
+"AIDS01","SUBJ-1859",32,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",65.4
+"AIDS01","SUBJ-1860",26,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",56.8
+"AIDS01","SUBJ-1861",32,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",48.62592
+"AIDS01","SUBJ-1862",28,"F","NON-WHITE","DDI","Didanosine (DDI)",61.6896
+"AIDS01","SUBJ-1863",28,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",50.3496
+"AIDS01","SUBJ-1864",34,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",72.576
+"AIDS01","SUBJ-1865",33,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68.4936
+"AIDS01","SUBJ-1866",27,"M","NON-WHITE","DDI","Didanosine (DDI)",52.70832
+"AIDS01","SUBJ-1867",38,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",59.8752
+"AIDS01","SUBJ-1868",39,"M","NON-WHITE","DDI","Didanosine (DDI)",67.1328
+"AIDS01","SUBJ-1869",43,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",79.8336
+"AIDS01","SUBJ-1870",27,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",63.86688
+"AIDS01","SUBJ-1871",39,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.9368
+"AIDS01","SUBJ-1872",28,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",52.164
+"AIDS01","SUBJ-1873",31,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",68.9472
+"AIDS01","SUBJ-1874",21,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",58.968
+"AIDS01","SUBJ-1875",34,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",82.1016
+"AIDS01","SUBJ-1876",45,"M","WHITE","ZDV","Zidovudine (ZDV)",90.2664
+"AIDS01","SUBJ-1877",27,"M","WHITE","ZDV","Zidovudine (ZDV)",70.7616
+"AIDS01","SUBJ-1878",43,"M","NON-WHITE","DDI","Didanosine (DDI)",83.0088
+"AIDS01","SUBJ-1879",38,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",103.194
+"AIDS01","SUBJ-1880",38,"M","WHITE","ZDV","Zidovudine (ZDV)",63.7308
+"AIDS01","SUBJ-1881",36,"M","WHITE","DDI","Didanosine (DDI)",70.7616
+"AIDS01","SUBJ-1882",35,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",76.4316
+"AIDS01","SUBJ-1883",36,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.7512
+"AIDS01","SUBJ-1884",36,"M","WHITE","DDI","Didanosine (DDI)",67.3596
+"AIDS01","SUBJ-1885",43,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",94.8024
+"AIDS01","SUBJ-1886",29,"M","WHITE","ZDV","Zidovudine (ZDV)",80.5
+"AIDS01","SUBJ-1887",34,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.4832
+"AIDS01","SUBJ-1888",33,"F","WHITE","ZDV","Zidovudine (ZDV)",63.504
+"AIDS01","SUBJ-1889",39,"M","WHITE","ZDV","Zidovudine (ZDV)",80.9676
+"AIDS01","SUBJ-1890",28,"M","WHITE","DDI","Didanosine (DDI)",70.7616
+"AIDS01","SUBJ-1891",33,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.0296
+"AIDS01","SUBJ-1892",29,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78.6996
+"AIDS01","SUBJ-1893",42,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",70.5348
+"AIDS01","SUBJ-1894",30,"M","WHITE","DDI","Didanosine (DDI)",67.1328
+"AIDS01","SUBJ-1895",40,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",69.8544
+"AIDS01","SUBJ-1896",33,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",74.844
+"AIDS01","SUBJ-1897",51,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68.04
+"AIDS01","SUBJ-1898",44,"M","WHITE","ZDV","Zidovudine (ZDV)",77.5656
+"AIDS01","SUBJ-1899",41,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",83.4624
+"AIDS01","SUBJ-1900",28,"F","WHITE","DDI","Didanosine (DDI)",87.9984
+"AIDS01","SUBJ-1901",39,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",73.0296
+"AIDS01","SUBJ-1902",35,"M","WHITE","DDI","Didanosine (DDI)",89.3592
+"AIDS01","SUBJ-1903",63,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",86.6376
+"AIDS01","SUBJ-1904",33,"F","NON-WHITE","DDI","Didanosine (DDI)",66.4524
+"AIDS01","SUBJ-1905",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.9884
+"AIDS01","SUBJ-1906",47,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",84.8
+"AIDS01","SUBJ-1907",27,"M","WHITE","DDI","Didanosine (DDI)",70.5348
+"AIDS01","SUBJ-1908",26,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",70.0812
+"AIDS01","SUBJ-1909",27,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",62.5968
+"AIDS01","SUBJ-1910",45,"M","WHITE","DDI","Didanosine (DDI)",81.33048
+"AIDS01","SUBJ-1911",35,"M","WHITE","DDI","Didanosine (DDI)",70.5
+"AIDS01","SUBJ-1912",27,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",74.844
+"AIDS01","SUBJ-1913",51,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",102.3
+"AIDS01","SUBJ-1914",25,"M","WHITE","ZDV","Zidovudine (ZDV)",58.7
+"AIDS01","SUBJ-1915",54,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.5
+"AIDS01","SUBJ-1916",28,"M","WHITE","ZDV","Zidovudine (ZDV)",83.0088
+"AIDS01","SUBJ-1917",40,"M","WHITE","ZDV","Zidovudine (ZDV)",70.4
+"AIDS01","SUBJ-1918",60,"M","WHITE","DDI","Didanosine (DDI)",65.8
+"AIDS01","SUBJ-1919",32,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",64.1844
+"AIDS01","SUBJ-1920",41,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",63.5
+"AIDS01","SUBJ-1921",33,"M","WHITE","DDI","Didanosine (DDI)",75.5
+"AIDS01","SUBJ-1922",39,"M","WHITE","ZDV","Zidovudine (ZDV)",74.43576
+"AIDS01","SUBJ-1923",31,"F","WHITE","DDI","Didanosine (DDI)",72.8
+"AIDS01","SUBJ-1924",34,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",66.4
+"AIDS01","SUBJ-1925",33,"M","WHITE","ZDV","Zidovudine (ZDV)",74.4
+"AIDS01","SUBJ-1926",36,"M","WHITE","DDI","Didanosine (DDI)",77
+"AIDS01","SUBJ-1927",32,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",84.1
+"AIDS01","SUBJ-1928",28,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.6
+"AIDS01","SUBJ-1929",32,"M","WHITE","ZDV","Zidovudine (ZDV)",78.0192
+"AIDS01","SUBJ-1930",28,"M","WHITE","DDI","Didanosine (DDI)",88.9
+"AIDS01","SUBJ-1931",31,"M","WHITE","ZDV","Zidovudine (ZDV)",71.8
+"AIDS01","SUBJ-1932",30,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",36.78696
+"AIDS01","SUBJ-1933",47,"M","WHITE","DDI","Didanosine (DDI)",69.5
+"AIDS01","SUBJ-1934",40,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",85.5
+"AIDS01","SUBJ-1935",28,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",61
+"AIDS01","SUBJ-1936",35,"F","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",55.5
+"AIDS01","SUBJ-1937",27,"M","NON-WHITE","DDI","Didanosine (DDI)",96.1
+"AIDS01","SUBJ-1938",28,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",73.5
+"AIDS01","SUBJ-1939",39,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",83.9
+"AIDS01","SUBJ-1940",37,"F","WHITE","ZDV","Zidovudine (ZDV)",72.5
+"AIDS01","SUBJ-1941",36,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",69.5
+"AIDS01","SUBJ-1942",33,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",67.4
+"AIDS01","SUBJ-1943",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.9
+"AIDS01","SUBJ-1944",39,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",112.5
+"AIDS01","SUBJ-1945",45,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",78
+"AIDS01","SUBJ-1946",37,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",87
+"AIDS01","SUBJ-1947",39,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",71.3
+"AIDS01","SUBJ-1948",21,"M","NON-WHITE","DDI","Didanosine (DDI)",77
+"AIDS01","SUBJ-1949",36,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",57.5
+"AIDS01","SUBJ-1950",42,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",49.5
+"AIDS01","SUBJ-1951",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",64.2
+"AIDS01","SUBJ-1952",31,"F","NON-WHITE","DDI","Didanosine (DDI)",45
+"AIDS01","SUBJ-1953",45,"M","WHITE","ZDV","Zidovudine (ZDV)",84.3
+"AIDS01","SUBJ-1954",31,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",80.5
+"AIDS01","SUBJ-1955",37,"M","WHITE","DDI","Didanosine (DDI)",89.7
+"AIDS01","SUBJ-1956",29,"F","WHITE","DDI","Didanosine (DDI)",54
+"AIDS01","SUBJ-1957",23,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",60.5
+"AIDS01","SUBJ-1958",51,"F","WHITE","DDI","Didanosine (DDI)",55.3
+"AIDS01","SUBJ-1959",29,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",64.2
+"AIDS01","SUBJ-1960",29,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",67.7
+"AIDS01","SUBJ-1961",38,"M","WHITE","ZDV","Zidovudine (ZDV)",94.5
+"AIDS01","SUBJ-1962",39,"M","NON-WHITE","DDI","Didanosine (DDI)",63.1
+"AIDS01","SUBJ-1963",51,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",119.2968
+"AIDS01","SUBJ-1964",49,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",55.7
+"AIDS01","SUBJ-1965",38,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",84.91392
+"AIDS01","SUBJ-1966",31,"M","NON-WHITE","DDI","Didanosine (DDI)",77.5656
+"AIDS01","SUBJ-1967",32,"F","WHITE","ZDV","Zidovudine (ZDV)",64.4112
+"AIDS01","SUBJ-1968",39,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",85.7304
+"AIDS01","SUBJ-1969",26,"M","WHITE","ZDV","Zidovudine (ZDV)",86.184
+"AIDS01","SUBJ-1970",33,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",65
+"AIDS01","SUBJ-1971",51,"F","WHITE","DDI","Didanosine (DDI)",68.4936
+"AIDS01","SUBJ-1972",41,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",80.2872
+"AIDS01","SUBJ-1973",41,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",60
+"AIDS01","SUBJ-1974",43,"M","WHITE","DDI","Didanosine (DDI)",62.5
+"AIDS01","SUBJ-1975",29,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",88.17984
+"AIDS01","SUBJ-1976",25,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",74.9
+"AIDS01","SUBJ-1977",34,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",70.1
+"AIDS01","SUBJ-1978",40,"M","WHITE","DDI","Didanosine (DDI)",87
+"AIDS01","SUBJ-1979",27,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",90.08496
+"AIDS01","SUBJ-1980",31,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",81.1944
+"AIDS01","SUBJ-1981",30,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",71.3
+"AIDS01","SUBJ-1982",29,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",67.5864
+"AIDS01","SUBJ-1983",47,"F","WHITE","ZDV","Zidovudine (ZDV)",53.9784
+"AIDS01","SUBJ-1984",35,"M","NON-WHITE","DDI","Didanosine (DDI)",85.7304
+"AIDS01","SUBJ-1985",27,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",70.7616
+"AIDS01","SUBJ-1986",31,"M","WHITE","ZDV","Zidovudine (ZDV)",76.11408
+"AIDS01","SUBJ-1987",27,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",72.5
+"AIDS01","SUBJ-1988",45,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",71.3
+"AIDS01","SUBJ-1989",52,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",91.1736
+"AIDS01","SUBJ-1990",29,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68.9
+"AIDS01","SUBJ-1991",37,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",86.184
+"AIDS01","SUBJ-1992",32,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",63.6
+"AIDS01","SUBJ-1993",40,"F","NON-WHITE","DDI","Didanosine (DDI)",78.9264
+"AIDS01","SUBJ-1994",47,"F","WHITE","DDI","Didanosine (DDI)",62.5968
+"AIDS01","SUBJ-1995",39,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",62.5968
+"AIDS01","SUBJ-1996",62,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",98.8848
+"AIDS01","SUBJ-1997",34,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",72.1224
+"AIDS01","SUBJ-1998",40,"F","WHITE","ZDV","Zidovudine (ZDV)",62.5968
+"AIDS01","SUBJ-1999",36,"M","NON-WHITE","DDI","Didanosine (DDI)",83.916
+"AIDS01","SUBJ-2000",23,"F","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",93.8952
+"AIDS01","SUBJ-2001",44,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",53.5248
+"AIDS01","SUBJ-2002",43,"F","NON-WHITE","ZDV","Zidovudine (ZDV)",59
+"AIDS01","SUBJ-2003",34,"M","WHITE","DDI","Didanosine (DDI)",96.6168
+"AIDS01","SUBJ-2004",44,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",77.112
+"AIDS01","SUBJ-2005",39,"M","WHITE","ZDV","Zidovudine (ZDV)",72.3
+"AIDS01","SUBJ-2006",21,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",68
+"AIDS01","SUBJ-2007",27,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",70.2
+"AIDS01","SUBJ-2008",29,"M","WHITE","ZDV","Zidovudine (ZDV)",62.5
+"AIDS01","SUBJ-2009",32,"M","WHITE","DDI","Didanosine (DDI)",75
+"AIDS01","SUBJ-2010",38,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",74.1636
+"AIDS01","SUBJ-2011",16,"M","WHITE","DDI","Didanosine (DDI)",58.0608
+"AIDS01","SUBJ-2012",24,"F","NON-WHITE","DDI","Didanosine (DDI)",80.7408
+"AIDS01","SUBJ-2013",22,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",52.75368
+"AIDS01","SUBJ-2014",44,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",81.1944
+"AIDS01","SUBJ-2015",13,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",32.6592
+"AIDS01","SUBJ-2016",17,"M","WHITE","DDI","Didanosine (DDI)",83.916
+"AIDS01","SUBJ-2017",24,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",90
+"AIDS01","SUBJ-2018",30,"M","WHITE","ZDV","Zidovudine (ZDV)",57.834
+"AIDS01","SUBJ-2019",35,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",85.7304
+"AIDS01","SUBJ-2020",23,"M","WHITE","ZDV","Zidovudine (ZDV)",63.1
+"AIDS01","SUBJ-2021",20,"M","WHITE","ZDV","Zidovudine (ZDV)",77.112
+"AIDS01","SUBJ-2022",33,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",84.7
+"AIDS01","SUBJ-2023",32,"M","WHITE","ZDV","Zidovudine (ZDV)",72.2
+"AIDS01","SUBJ-2024",23,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",63.9576
+"AIDS01","SUBJ-2025",25,"M","WHITE","DDI","Didanosine (DDI)",62.37
+"AIDS01","SUBJ-2026",33,"M","WHITE","DDI","Didanosine (DDI)",73.0296
+"AIDS01","SUBJ-2027",33,"M","WHITE","ZDV","Zidovudine (ZDV)",72.576
+"AIDS01","SUBJ-2028",23,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",80.7408
+"AIDS01","SUBJ-2029",62,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",81.648
+"AIDS01","SUBJ-2030",19,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",77.88312
+"AIDS01","SUBJ-2031",42,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",60.01128
+"AIDS01","SUBJ-2032",30,"M","WHITE","DDI","Didanosine (DDI)",92.5344
+"AIDS01","SUBJ-2033",28,"M","WHITE","DDI","Didanosine (DDI)",108.4104
+"AIDS01","SUBJ-2034",19,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.308
+"AIDS01","SUBJ-2035",28,"M","WHITE","ZDV","Zidovudine (ZDV)",114.7608
+"AIDS01","SUBJ-2036",54,"M","WHITE","ZDV","Zidovudine (ZDV)",93.2148
+"AIDS01","SUBJ-2037",48,"M","NON-WHITE","DDI","Didanosine (DDI)",81.1944
+"AIDS01","SUBJ-2038",44,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",82.1016
+"AIDS01","SUBJ-2039",24,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",49.896
+"AIDS01","SUBJ-2040",14,"M","NON-WHITE","DDI","Didanosine (DDI)",54.2052
+"AIDS01","SUBJ-2041",16,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",54.8856
+"AIDS01","SUBJ-2042",23,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",66.906
+"AIDS01","SUBJ-2043",18,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",56.8
+"AIDS01","SUBJ-2044",32,"M","WHITE","DDI","Didanosine (DDI)",74.3
+"AIDS01","SUBJ-2045",28,"M","WHITE","ZDV","Zidovudine (ZDV)",72.03168
+"AIDS01","SUBJ-2046",18,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",75.2976
+"AIDS01","SUBJ-2047",30,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",83.82528
+"AIDS01","SUBJ-2048",37,"M","WHITE","ZDV","Zidovudine (ZDV)",92
+"AIDS01","SUBJ-2049",32,"M","WHITE","ZDV","Zidovudine (ZDV)",65.95344
+"AIDS01","SUBJ-2050",21,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",62.86896
+"AIDS01","SUBJ-2051",24,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",89.8128
+"AIDS01","SUBJ-2052",12,"M","NON-WHITE","DDI","Didanosine (DDI)",41.4
+"AIDS01","SUBJ-2053",13,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",62.86896
+"AIDS01","SUBJ-2054",31,"M","WHITE","ZDV","Zidovudine (ZDV)",81.8
+"AIDS01","SUBJ-2055",21,"M","WHITE","ZDV","Zidovudine (ZDV)",80.514
+"AIDS01","SUBJ-2056",25,"M","WHITE","DDI","Didanosine (DDI)",80.2872
+"AIDS01","SUBJ-2057",28,"M","NON-WHITE","DDI","Didanosine (DDI)",76.8852
+"AIDS01","SUBJ-2058",33,"M","NON-WHITE","DDI","Didanosine (DDI)",115.53192
+"AIDS01","SUBJ-2059",32,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",70.2
+"AIDS01","SUBJ-2060",42,"M","WHITE","DDI","Didanosine (DDI)",74.844
+"AIDS01","SUBJ-2061",52,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",80.2872
+"AIDS01","SUBJ-2062",44,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",80.0604
+"AIDS01","SUBJ-2063",14,"M","WHITE","DDI","Didanosine (DDI)",41.0508
+"AIDS01","SUBJ-2064",20,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",71.9
+"AIDS01","SUBJ-2065",35,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",80.514
+"AIDS01","SUBJ-2066",21,"M","WHITE","ZDV","Zidovudine (ZDV)",64.4
+"AIDS01","SUBJ-2067",38,"M","WHITE","DDI","Didanosine (DDI)",85.4
+"AIDS01","SUBJ-2068",40,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",86.4108
+"AIDS01","SUBJ-2069",27,"M","WHITE","ZDV","Zidovudine (ZDV)",60.3288
+"AIDS01","SUBJ-2070",12,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",53.1
+"AIDS01","SUBJ-2071",27,"M","WHITE","DDI","Didanosine (DDI)",60.6
+"AIDS01","SUBJ-2072",28,"M","WHITE","ZDV","Zidovudine (ZDV)",68.2
+"AIDS01","SUBJ-2073",12,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",31
+"AIDS01","SUBJ-2074",14,"M","NON-WHITE","DDI","Didanosine (DDI)",64.3
+"AIDS01","SUBJ-2075",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",73.0296
+"AIDS01","SUBJ-2076",24,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",83
+"AIDS01","SUBJ-2077",15,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",46.8
+"AIDS01","SUBJ-2078",21,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",75.4
+"AIDS01","SUBJ-2079",16,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",41
+"AIDS01","SUBJ-2080",16,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",60
+"AIDS01","SUBJ-2081",21,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",93.6
+"AIDS01","SUBJ-2082",35,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.2
+"AIDS01","SUBJ-2083",24,"M","WHITE","DDI","Didanosine (DDI)",66.4
+"AIDS01","SUBJ-2084",27,"M","NON-WHITE","DDI","Didanosine (DDI)",58.0608
+"AIDS01","SUBJ-2085",31,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",82.3284
+"AIDS01","SUBJ-2086",40,"M","WHITE","ZDV","Zidovudine (ZDV)",85.7304
+"AIDS01","SUBJ-2087",27,"M","WHITE","DDI","Didanosine (DDI)",94.5756
+"AIDS01","SUBJ-2088",50,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",97.9776
+"AIDS01","SUBJ-2089",13,"M","WHITE","ZDV","Zidovudine (ZDV)",48.5352
+"AIDS01","SUBJ-2090",32,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",53.7516
+"AIDS01","SUBJ-2091",36,"M","WHITE","DDI","Didanosine (DDI)",76.6584
+"AIDS01","SUBJ-2092",25,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",81.1944
+"AIDS01","SUBJ-2093",47,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",60.64632
+"AIDS01","SUBJ-2094",18,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",75.7512
+"AIDS01","SUBJ-2095",23,"M","WHITE","ZDV","Zidovudine (ZDV)",57.6072
+"AIDS01","SUBJ-2096",22,"M","NON-WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",60.23808
+"AIDS01","SUBJ-2097",29,"M","NON-WHITE","DDI","Didanosine (DDI)",79.38
+"AIDS01","SUBJ-2098",41,"M","WHITE","DDI","Didanosine (DDI)",56.2464
+"AIDS01","SUBJ-2099",25,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",73.4832
+"AIDS01","SUBJ-2100",30,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",51.7104
+"AIDS01","SUBJ-2101",20,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",55.3392
+"AIDS01","SUBJ-2102",32,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",61.9164
+"AIDS01","SUBJ-2103",14,"M","WHITE","ZDV","Zidovudine (ZDV)",48.3084
+"AIDS01","SUBJ-2104",29,"F","WHITE","DDI","Didanosine (DDI)",57.2
+"AIDS01","SUBJ-2105",48,"M","WHITE","ZDV","Zidovudine (ZDV)",77.2
+"AIDS01","SUBJ-2106",37,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",82.7
+"AIDS01","SUBJ-2107",27,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",64.5
+"AIDS01","SUBJ-2108",23,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",74.5
+"AIDS01","SUBJ-2109",18,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",80.4
+"AIDS01","SUBJ-2110",47,"M","WHITE","DDI","Didanosine (DDI)",84
+"AIDS01","SUBJ-2111",38,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",82.7
+"AIDS01","SUBJ-2112",25,"M","WHITE","DDI","Didanosine (DDI)",78.5
+"AIDS01","SUBJ-2113",16,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",57.8
+"AIDS01","SUBJ-2114",22,"M","WHITE","ZDV","Zidovudine (ZDV)",85.9
+"AIDS01","SUBJ-2115",27,"M","WHITE","DDI","Didanosine (DDI)",85.8
+"AIDS01","SUBJ-2116",18,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",77
+"AIDS01","SUBJ-2117",23,"M","WHITE","DDI","Didanosine (DDI)",66.2
+"AIDS01","SUBJ-2118",22,"M","WHITE","ZDV","Zidovudine (ZDV)",99.6
+"AIDS01","SUBJ-2119",33,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",73
+"AIDS01","SUBJ-2120",41,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",55
+"AIDS01","SUBJ-2121",36,"M","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",60
+"AIDS01","SUBJ-2122",24,"M","WHITE","ZDV","Zidovudine (ZDV)",71
+"AIDS01","SUBJ-2123",23,"M","WHITE","DDI","Didanosine (DDI)",70.9
+"AIDS01","SUBJ-2124",21,"M","WHITE","ZDV","Zidovudine (ZDV)",52.3
+"AIDS01","SUBJ-2125",25,"M","WHITE","DDI","Didanosine (DDI)",70.5
+"AIDS01","SUBJ-2126",26,"F","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",55
+"AIDS01","SUBJ-2127",16,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",55
+"AIDS01","SUBJ-2128",24,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",66
+"AIDS01","SUBJ-2129",25,"M","WHITE","DDI","Didanosine (DDI)",65
+"AIDS01","SUBJ-2130",16,"M","WHITE","ZDV","Zidovudine (ZDV)",63
+"AIDS01","SUBJ-2131",25,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",78
+"AIDS01","SUBJ-2132",20,"F","WHITE","ZDVDDI","Zidovudine (ZDV) + Didanosine (DDI)",72.4
+"AIDS01","SUBJ-2133",27,"M","WHITE","DDI","Didanosine (DDI)",80.2872
+"AIDS01","SUBJ-2134",39,"M","WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",64.8648
+"AIDS01","SUBJ-2135",21,"M","WHITE","DDI","Didanosine (DDI)",53.298
+"AIDS01","SUBJ-2136",17,"M","NON-WHITE","ZDV","Zidovudine (ZDV)",102.9672
+"AIDS01","SUBJ-2137",53,"M","NON-WHITE","ZDVZAL","Zidovudine (ZDV) + Zalcitabine (ZAL)",69.8544
+"AIDS01","SUBJ-2138",14,"M","WHITE","ZDV","Zidovudine (ZDV)",60
+"AIDS01","SUBJ-2139",45,"M","WHITE","DDI","Didanosine (DDI)",77.3

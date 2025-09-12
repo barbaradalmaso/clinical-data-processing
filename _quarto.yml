@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  title: "Medical Informatics"
+  description: "Bridging data science with biology, health, and clinical research."
+  site-url: https://barbaradalmaso.github.io  # (opcional se publicar no GitHub Pages)
+  navbar:
+    background: primary
+    search: true
+    left:
+      - href: index.qmd
+        text: 🏠 Home
+      - href: pipeline.qmd
+        text: 💻 Pipeline
+      - href: about.qmd
+        text: 👩 About
+    right:
+      - icon: github
+        href: https://github.com/barbaradalmaso
+      - icon: linkedin
+        href: https://www.linkedin.com/in/barbara-dalmaso/
+      - icon: envelope
+        href: mailto:barbdalmaso@gmail.com
+
+format:
+  html:
+    theme: lux
+    toc: true
+    page-layout: full

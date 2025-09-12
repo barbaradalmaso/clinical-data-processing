@@ -1,0 +1,25 @@
+---
+title: "About me"
+---
+
+## Barbara Dalmaso, B.sC., MBA, Ph.D.
+![Barbara Dalmaso]("~/R studies/20250902/hiv-cdisc/img.jpg"){fig-align="center" width="200px" style="border-radius:50%;"}
+
+**Barbara** is a biomedical researcher and bioinformatician with experience in studying neurodegenerative diseases and cancer. She is dedicated to bridging data science with biology and health by transforming genomics and clinical data into decision-making processes, with a strong focus on next-generation sequencing and patient-centered analytics.  
+In recent years, she has developed reproducible statistical pipelines to support precision medicine, translational research, and clinical trials.  
+
+Barbara has also been a speaker at major conferences in the field of medical statistics around the world, including **Biomolecular Horizons** (Melbourne, Australia), **Computational Intelligence Methods for Bioinformatics and Biostatistics** (Benevento, Italy), **Applied Bioinformatics for Life Sciences** (Leuven, Belgium), among others.
+
+Currently works as Statistical Programmer at the biopharmaceutical Syneos Health.
+
+## Contact
+
+<div style="display:flex; flex-direction:column; gap:6px; font-size:1rem;">
+
+- ✉️ **Email:** [barbdalmaso@gmail.com](mailto:barbdalmaso@gmail.com)  
+- 🔗 **ORCID:** [0000-0002-1189-5837](https://orcid.org/0000-0002-1189-5837)  
+- 💼 **LinkedIn:** [Barbara Dalmaso](https://www.linkedin.com/in/barbara-dalmaso/)  
+- 🐙 **GitHub:** [barbaradalmaso](https://github.com/barbaradalmaso)  
+
+</div>
+---

@@ -1,0 +1,24 @@
+---
+title: "Medical Informatics Pipeline for Clinical Trials"
+---
+
+This project demonstrates a **data transformation pipeline** using [CDISC](https://www.cdisc.org/standards) (Clinical Data Interchange Standards Consortium) standards for clinical research.  
+
+It uses **synthetic patient data** from an Acquired Immunodeficiency Syndrome (AIDS) clinical trial dataset obtained from [Kaggle](https://www.kaggle.com/datasets/tanshihjen/aids-clinical-trials).
+
+---
+
+## Objectives
+
+The main objective is to transform the raw dataset into the **CDISC standard formats**, following these steps:
+
+1. **[SDTM (Study Data Tabulation Model)](https://www.cdisc.org/standards/foundational/sdtm)** – defines a standard structure and naming convention for clinical trial data, ensuring consistency and regulatory compliance.  
+2. **[ADaM (Analysis Data Model)](https://www.cdisc.org/standards/foundational/adam)** – provides datasets derived from SDTM, optimized for statistical analysis and reproducibility of results.  
+3. **[TLGs (Tables, Listings, and Graphs)](https://www.cdisc.org/standards/foundational/analysis-results-standard)** – the outputs (tables, patient listings, and graphical summaries) generated from ADaM datasets, used for clinical trial reporting and regulatory submissions.  
+
+---
+
+## Disclaimer
+
+This repository is intended for educational and academic use only. Synthetic data was obtained at open source and does not represent real patient data.
+---

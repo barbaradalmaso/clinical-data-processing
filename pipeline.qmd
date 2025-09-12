@@ -1,0 +1,748 @@
+---
+title: "Clinical Data Transformation Pipeline"
+format: html
+toc: true
+toc-depth: 4
+---
+
+Quick links: [SDTM](##sdtm-domains-overview) \| [ADaM](#adam-overview) \| [TLGs](#tgls-overview)
+
+## SDTM Domains Overview
+
+The SDTM (Study Data Tabulation Model) organizes clinical trial data into standardized domains, facilitating analysis and reporting. Each domain captures specific information about study participants, such as demographics, medical history, clinical assessments, and laboratory results.
+
+### Demographics (DM) domain
+
+This domain contains basic participant information, as:
+
+-   `USUBJID`: Unique subject identifier.
+-   `AGE`: Participant's age.
+-   `SEX`: Sex (Male/Female).
+-   `RACE`: Race (White/Non-white).
+-   `ARM` / `ARMCD`: Treatment arm assigned.
+
+To transform raw clinical data into a DM domain, the code was run as follows:
+
+```{r, message=FALSE, warning=FALSE, echo=TRUE}
+
+# load packages
+library(tidyverse)
+library(lubridate) 
+
+# Load aids dataset (obtained at Kaggle: https://www.kaggle.com/datasets/tanshihjen/aids-clinical-trials)
+aids_df <- read_csv("C:/Users/a282334/OneDrive - Syneos Health/Documents/R studies/20250902/AIDS_ClinicalTrial_GroupStudy175.csv")
+
+# The aids_df is a hypothetical clinical trial data set. So first, I'll adapt it to be similar to a SDTM, by doing derivations
+
+dm <- aids_df %>%
+  dplyr::mutate(
+    STUDYID = "AIDS01",  # fixed study identifier
+    USUBJID = paste0("SUBJ-", row_number()),
+    AGE = age,
+    SEX = dplyr::case_when(
+      gender == 0 ~ "F",
+      gender == 1 ~ "M",
+      TRUE ~ NA
+    ),
+    RACE = dplyr::case_when(
+      race == 0 ~ "WHITE",
+      race == 1 ~ "NON-WHITE",
+      TRUE ~ NA
+    ),
+    ARMCD = dplyr::case_when(
+      trt == 0 ~ "ZDV",
+      trt == 1 ~ "ZDVDDI",
+      trt == 2 ~ "ZDVZAL",
+      trt == 3 ~ "DDI",
+      TRUE ~ NA
+    ),
+    ARM = dplyr::case_when(
+      trt == 0 ~ "Zidovudine (ZDV)",
+      trt == 1 ~ "Zidovudine (ZDV) + Didanosine (DDI)",
+      trt == 2 ~ "Zidovudine (ZDV) + Zalcitabine (ZAL)",
+      trt == 3 ~ "Didanosine (DDI)",
+      TRUE ~ NA
+    ),
+    WEIGHTBL = wtkg  
+  ) %>%
+  dplyr::select(STUDYID, USUBJID, AGE, SEX, RACE, ARMCD, ARM, WEIGHTBL)
+
+# Save as CSV in your working directory
+write.csv(dm, "dm.csv", row.names = FALSE)
+
+head(dm, 6)
+
+```
+
+### Medical History (MH) domain
+
+This domain captures key medical conditions and patient history prior to study start, as:
+
+-   `MHDECOD`: Standardized medical condition term (e.g., Hemophilia).
+-   `MHTERM`: Specific medical history description.
+-   `MHSTRESC`: Recorded status (Yes/No/Unknown).
+
+To transform raw clinical data into a MH domain, the code was run as follows:
+
+```{r, message=FALSE, warning=FALSE, echo=TRUE}
+# Hemophilia derivation
+mh_hemo <- aids_df %>%
+  dplyr::mutate(
+    STUDYID = "AIDS01",  # fixed study identifier
+    USUBJID = paste0("SUBJ-", row_number()),
+    MHDECOD = "HEMOPHILIA",
+    MHTERM = "History of Hemophilia",
+    MHSTRESC = dplyr::case_when(
+      hemo == 0 ~ "N",
+      hemo == 1 ~ "Y",
+      TRUE ~ NA),
+  ) %>%
+  dplyr::select(STUDYID, USUBJID, MHDECOD, MHTERM, MHSTRESC)
+
+# Sexual orientation derivation
+mh_sex <- aids_df %>%
+  dplyr::mutate(
+    STUDYID = "AIDS01",  # fixed study identifier
+    USUBJID = paste0("SUBJ-", row_number()),
+    MHDECOD = "HOMOSEXUAL ACTIVITY",
+    MHTERM = "History of Homosexual Activity",
+    MHSTRESC = dplyr::case_when(
+      homo == 0 ~ "N",
+      hemo == 1 ~ "Y",
+      TRUE ~ "Unknown"),
+  ) %>%
+  dplyr::select(STUDYID, USUBJID, MHDECOD, MHTERM, MHSTRESC)
+
+# History of IV drug use derivation
+mh_drugs <- aids_df %>%
+  dplyr::mutate(
+    STUDYID = "AIDS01",  # fixed study identifier
+    USUBJID = paste0("SUBJ-", row_number()),
+    MHDECOD = "INTRAVENOUS DRUG USE",
+    MHTERM = "History of IV Drug Use",
+    MHSTRESC = dplyr::case_when(
+      drugs == 0 ~ "N",
+      drugs == 1 ~ "Y",
+      TRUE ~ NA),
+  ) %>%
+  dplyr::select(STUDYID, USUBJID, MHDECOD, MHTERM, MHSTRESC)
+
+# History of non-ZDV antiretroviral therapy prior clinical trial
+mh_nzdv <- aids_df %>%
+  dplyr::mutate(
+    STUDYID = "AIDS01",  # fixed study identifier
+    USUBJID = paste0("SUBJ-", row_number()),
+    MHDECOD = "NON-ZDV ANTIRETROVIRAL THERAPY",
+    MHTERM = "History of non-ZDV antiretroviral therapy",
+    MHSTRESC = dplyr::case_when(
+      drugs == 0 ~ "N",
+      drugs == 1 ~ "Y",
+      TRUE ~ NA),
+  ) %>%
+  dplyr::select(STUDYID, USUBJID, MHDECOD, MHTERM, MHSTRESC)
+
+# History of ZDV therapy prior clinical trial
+mh_zdv30 <- aids_df %>%
+  dplyr::mutate(
+    STUDYID = "AIDS01",  # fixed study identifier
+    USUBJID = paste0("SUBJ-", row_number()),
+    MHDECOD = "ZDV IN 30 DAYS PRIOR",
+    MHTERM = "Zidovudine (ZDV) therapy in 30 days prior to baseline",
+    MHSTRESC = dplyr::case_when(
+      drugs == 0 ~ "N",
+      drugs == 1 ~ "Y",
+      TRUE ~ NA),
+  ) %>%
+  dplyr::select(STUDYID, USUBJID, MHDECOD, MHTERM, MHSTRESC)
+
+# History of ZDV therapy prior clinical trial
+mh_zdv <- aids_df %>%
+  dplyr::mutate(
+    STUDYID = "AIDS01",  # fixed study identifier
+    USUBJID = paste0("SUBJ-", row_number()),
+    MHDECOD = "ZDV PRIOR",
+    MHTERM = "History of prior Zidovudine (ZDV) therapy",
+    MHSTRESC = dplyr::case_when(
+      drugs == 0 ~ "N",
+      drugs == 1 ~ "Y",
+      TRUE ~ NA),
+    ) %>%
+  dplyr::select(STUDYID, USUBJID, MHDECOD, MHTERM, MHSTRESC)
+
+# bind to create a unique domain
+mh <- rbind(mh_drugs, mh_hemo, mh_nzdv,
+            mh_sex, mh_zdv30, mh_zdv)
+
+# Save as CSV in your working directory
+write.csv(mh, "mh.csv", row.names = FALSE)
+
+head(mh, 6)
+
+```
+
+### Subject Characteristics (SC) domain
+
+This domain includes baseline assessments and clinical observations, as:
+
+-   `SCTESTCD`: Short code for the assessment (e.g., KARNOFSKY, SYMPTOM).
+-   `SCORRES`: Result of the assessment (numerical or coded).
+-   `SCSTRESC`: Categorical result (e.g., Asymptomatic, Symptomatic).
+-   `SCCAT`: Category of measurement (e.g., Baseline Status, Clinical Status).
+-   `VISIT`: Study visit timepoint.
+
+To transform raw clinical data into a SC domain, the code was run as follows:
+
+```{r, message=FALSE, warning=FALSE, echo=TRUE}
+sc_karnof <- aids_df %>%
+  dplyr::mutate(
+    STUDYID = "AIDS01",  # fixed study identifier
+    USUBJID = paste0("SUBJ-", row_number()),
+    SCTESTCD = "KARNOFSKY",
+    SCORRES = karnof,
+    SCORRESU = "Score",
+    SCSTRESC = as.character(karnof),
+    SCCAT = "Baseline Status",
+    VISIT = "Baseline") %>%
+  dplyr::select(STUDYID, USUBJID, SCTESTCD, SCORRES, SCORRESU,
+                SCSTRESC, SCCAT, VISIT)
+
+sc_sympt <- aids_df %>%
+  dplyr::mutate(
+    STUDYID = "AIDS01",  # fixed study identifier
+    USUBJID = paste0("SUBJ-", row_number()),
+    SCTESTCD = "SYMPTOM",
+    SCORRES = symptom,
+    SCORRESU = "Score",
+    SCSTRESC = dplyr::case_when(
+      symptom == 0 ~ "Asymptomatic",
+      symptom == 1 ~ "Symptomatic",
+      TRUE ~ NA),
+    SCCAT = "Clinical Status",
+    VISIT = "Baseline") %>%
+  dplyr::select(STUDYID, USUBJID, SCTESTCD, SCORRES, SCORRESU,
+                SCSTRESC, SCCAT, VISIT)
+
+sc_arv <- aids_df %>%
+  dplyr::mutate(
+    STUDYID = "AIDS01",  # fixed study identifier
+    USUBJID = paste0("SUBJ-", row_number()),
+    SCTESTCD = "ARV_HISTORY",
+    SCORRES = str2,
+    SCORRESU = NA,
+    SCSTRESC = dplyr::case_when(
+      str2 == 0 ~ "Naive",
+      str2 == 1 ~ "Experienced",
+      TRUE ~ NA),
+    SCCAT = "Treatment History",
+    VISIT = "Baseline") %>%
+  dplyr::select(STUDYID, USUBJID, SCTESTCD, SCORRES, SCORRESU,
+                SCSTRESC, SCCAT, VISIT)
+
+sc_treat <- aids_df %>%
+  dplyr::mutate(
+    STUDYID = "AIDS01",  # fixed study identifier
+    USUBJID = paste0("SUBJ-", row_number()),
+    SCTESTCD = "TREATMENT_IND",
+    SCORRES = treat,
+    SCORRESU = NA,
+    SCSTRESC = dplyr::case_when(
+      str2 == 0 ~ "ZDV only",
+      str2 == 1 ~ "Other",
+      TRUE ~ NA),
+    SCCAT = "Treatment Assignment",
+    VISIT = "Baseline") %>%
+  dplyr::select(STUDYID, USUBJID, SCTESTCD, SCORRES, SCORRESU,
+                SCSTRESC, SCCAT, VISIT)
+
+sc_offtreat <- aids_df %>%
+  dplyr::mutate(
+    STUDYID = "AIDS01",  # fixed study identifier
+    USUBJID = paste0("SUBJ-", row_number()),
+    SCTESTCD = "OFF_TREATMENT",
+    SCORRES = offtrt,
+    SCORRESU = NA,
+    SCSTRESC = dplyr::case_when(
+      str2 == 0 ~ "N",
+      str2 == 1 ~ "Y",
+      TRUE ~ NA),
+    SCCAT = "Treatment Status",
+    VISIT = "96+/-5 Weeks") %>%
+  dplyr::select(STUDYID, USUBJID, SCTESTCD, SCORRES, SCORRESU,
+                SCSTRESC, SCCAT, VISIT)
+
+
+# bind to create a unique domain
+sc <- rbind(sc_arv, sc_karnof, sc_offtreat,
+            sc_sympt, sc_treat)
+
+# Save as CSV in your working directory
+write.csv(sc, "sc.csv", row.names = FALSE)
+
+head(sc, 6)
+
+```
+
+### Exposure (EX) domain
+
+This domain details study drug administration for each participant, as:
+
+-   `EXTRT`: Treatment name.
+-   `EXTRTCD`: Treatment code.
+-   `EXROUTE`: Administration route (e.g., Oral).
+-   `EXOCCUR`: Indicates whether the dose actually occurred (Y/N).
+-   `EXSTDTC` / `EXENDTC`: Start and end date of exposure.
+
+To transform raw clinical data into a EX domain, the code was run as follows:
+
+```{r, message=FALSE, warning=FALSE, echo=TRUE}
+set.seed(123)
+
+ex_trt <- aids_df %>%
+  mutate(
+    STUDYID = "AIDS01",
+    USUBJID = paste0("SUBJ-", row_number()),
+    EXTRT = case_when(
+      trt == 0 ~ "ZDV Only",
+      trt == 1 ~ "ZDV + DDI",
+      trt == 2 ~ "ZDV + Zal",
+      trt == 3 ~ "DDI Only",
+      TRUE ~ NA_character_
+    ),
+    EXTRTCD = case_when(
+      trt == 0 ~ "ZDV",
+      trt == 1 ~ "ZDVDDI",
+      trt == 2 ~ "ZDVZAL",
+      trt == 3 ~ "DDI",
+      TRUE ~ NA_character_
+    ),
+    EXROUTE = "Oral",
+    EXSTDTC = as.Date("2025-01-01"),
+    EXOCCUR = case_when(
+      offtrt == 0 ~ "N",
+      offtrt == 1 ~ "Y"
+    ),
+    EXENDTC = if_else(
+      offtrt == 0,
+      as.Date("2025-12-01"),
+      as.Date("2025-01-01") + sample(28:84, 1)  
+    )
+  ) %>%
+  select(STUDYID, USUBJID, EXTRT, EXTRTCD, EXROUTE, EXSTDTC, EXOCCUR, EXENDTC)
+
+# Save as CSV in your working directory
+write.csv(ex_trt, "ex.csv", row.names = FALSE)
+
+head(ex_trt, 6)
+```
+
+### Laboratory Tests (LB) domain
+
+This domain captures laboratory measurements at different visits, as:
+
+-   `LBTESTCD`: Lab test code (e.g., CD4, CD8).
+-   `LBTEST`: Full lab test name.
+-   `LBORRESU`: Unit of measurement (e.g., cells/mm³).
+-   `VISIT`: Visit when the test was performed.
+-   `LBORRES` / `LBSTRESC`: Recorded result (numerical or categorical).
+
+To transform raw clinical data into a LB domain, the code was run as follows:
+
+```{r, message=FALSE, warning=FALSE, echo=TRUE}
+
+lb_cd4 <- aids_df %>%
+  dplyr::mutate(
+    STUDYID = "AIDS01",  # fixed study identifier
+    USUBJID = paste0("SUBJ-", row_number()),
+    LBTESTCD = "CD4",
+    LBTEST = "CD4+ T-cell Count",
+    LBORRES = cd40,
+    LBORRESU = "cells/mm3",
+    LBSTRESC = as.character(cd40),
+    VISIT = "Baseline") %>%
+  dplyr::select(STUDYID, USUBJID, LBTESTCD, LBTEST, LBORRES,
+                LBORRESU, LBSTRESC, VISIT)
+
+lb_cd4_weeks <- aids_df %>%
+  dplyr::mutate(
+    STUDYID = "AIDS01",  # fixed study identifier
+    USUBJID = paste0("SUBJ-", row_number()),
+    LBTESTCD = "CD4",
+    LBTEST = "CD4+ T-cell Count",
+    LBORRES = cd420,
+    LBORRESU = "cells/mm3",
+    LBSTRESC = as.character(cd420),
+    VISIT = "20±5 weeks") %>%
+  dplyr::select(STUDYID, USUBJID, LBTESTCD, LBTEST, LBORRES,
+                LBORRESU, LBSTRESC, VISIT)
+
+lb_cd8 <- aids_df %>%
+  dplyr::mutate(
+    STUDYID = "AIDS01",  # fixed study identifier
+    USUBJID = paste0("SUBJ-", row_number()),
+    LBTESTCD = "CD8",
+    LBTEST = "CD8+ T-cell Count",
+    LBORRES = cd80,
+    LBORRESU = "cells/mm3",
+    LBSTRESC = as.character(cd80),
+    VISIT = "Baseline") %>%
+  dplyr::select(STUDYID, USUBJID, LBTESTCD, LBTEST, LBORRES,
+                LBORRESU, LBSTRESC, VISIT)
+
+
+lb_cd8_weeks <- aids_df %>%
+  dplyr::mutate(
+    STUDYID = "AIDS01",  # fixed study identifier
+    USUBJID = paste0("SUBJ-", row_number()),
+    LBTESTCD = "CD8",
+    LBTEST = "CD8+ T-cell Count",
+    LBORRES = cd820,
+    LBORRESU = "cells/mm3",
+    LBSTRESC = as.character(cd820),
+    VISIT = "20±5 weeks") %>%
+  dplyr::select(STUDYID, USUBJID, LBTESTCD, LBTEST, LBORRES,
+                LBORRESU, LBSTRESC, VISIT)
+
+# bind to create a unique domain
+lb <- rbind(lb_cd4, lb_cd4_weeks,
+            lb_cd8, lb_cd8_weeks)
+
+# Save as CSV in your working directory
+write.csv(lb, "lb.csv", row.names = FALSE)
+
+head(lb, 6)
+```
+
+## ADaM Overview {#adam-overview}
+
+The ADaM (Analysis Data Model) standard was developed by CDISC to structure clinical trial datasets for statistical analysis. ADaM datasets are derived from SDTM and organized to facilitate statistical programming, as well as the creation of tables, listings, and graphs (TLGs) - more details below. They follow strict rules for traceability, ensuring that every variable can be linked back to its source in SDTM.
+
+### Subject-Level Analysis Dataset (ADSL)
+
+**ADSL** contains one record per subject and provides key demographic and treatment information that serves as the foundation for most analyses. Its main characteristics include:
+
+-   Structure: one record per subject.
+-   Key variables: `STUDYID`, `USUBJID`, `AGE`, `SEX`, `RACE`, `ARM`, and `ACTARM`.
+-   Includes treatment start and end dates, discontinuation status, and other derived variables useful for subgroup analyses.
+
+To manually construct *ADSL* data using SDTM domains, the code was run as follows:
+
+```{r, message=FALSE, warning=FALSE, echo=TRUE}
+# Load packages
+library(tidyverse)
+
+
+# Load SDTM domains
+dm <- read.csv("dm.csv")
+mh <- read.csv("mh.csv")
+sc <- read.csv("sc.csv")
+ex <- read.csv("ex.csv")
+lb <- read.csv("lb.csv")
+
+# -------------------------------------------------------------------------------------------
+# Start from DM (1 line per subject guaranteed)
+adsl <- dm %>%
+  # Merge with SC for baseline Karnofsky and symptoms
+  left_join(
+    sc %>% 
+      filter(SCTESTCD == "KARNOFSKY", VISIT == "Baseline") %>%
+      select(USUBJID, SCORRES) %>%
+      rename(KARNOF = SCORRES),
+    by = "USUBJID"
+  ) %>%
+  left_join(
+    sc %>% 
+      filter(SCTESTCD == "SYMPTOM", VISIT == "Baseline") %>%
+      select(USUBJID, SCSTRESC) %>%
+      rename(SYMPTOM = SCSTRESC),
+    by = "USUBJID"
+  ) %>%
+  # Merge with MH for key medical history
+  left_join(
+    mh %>%
+      filter(MHDECOD == "HEMOPHILIA") %>%
+      select(USUBJID, MHSTRESC) %>%
+      rename(HEMO = MHSTRESC),
+    by = "USUBJID"
+  ) %>%
+  left_join(
+    mh %>%
+      filter(MHDECOD == "INTRAVENOUS DRUG USE") %>%
+      select(USUBJID, MHSTRESC) %>%
+      rename(IVDRUG = MHSTRESC),
+    by = "USUBJID"
+  ) %>%
+  mutate(
+    STUDYID = "AIDS01",
+    TRTSDT = as.Date("2025-01-01"),  # treatment start date
+    TRTEDT = as.Date("2025-12-01")   # treatment end date 
+  )
+
+# Save ADSL
+write.csv(adsl, "adsl.csv", row.names = FALSE)
+
+# Preview
+head(adsl)
+```
+
+### Laboratory Results Analysis Dataset (ADLB)
+
+**ADLB** is the dataset for laboratory test results. It contains repeated measures per subject across study visits, enabling assessment of trends, changes, and treatment-related effects. Its main characteristics include: - Structure: one record per subject per laboratory parameter per visit. - Key variables: `STUDYID`, `USUBJID`, `PARAM`, `AVISIT`, `AVAL`(numeric result), `BASE`, and `CHG` (change from baseline). - Supports analyses such as mean comparisons between treatment arms, evaluation of clinically relevant changes, and categorization of results outside reference ranges.
+
+To manually construct *ADLB* data using SDTM domains, the code was run as follows:
+
+```{r, message=FALSE, warning=FALSE, echo=TRUE}
+# ADLB
+adlb <- lb %>%
+  left_join(dm %>% select(USUBJID, ARM, ARMCD), by = "USUBJID") %>%
+  group_by(USUBJID, LBTESTCD) %>%
+  arrange(VISIT) %>%
+  mutate(
+    PARAMCD = LBTESTCD,
+    PARAM = LBTEST,
+    AVAL = LBORRES,
+    AVALU = LBORRESU
+  ) %>%
+  ungroup() %>%
+  select(STUDYID, USUBJID, ARM, ARMCD, VISIT, PARAMCD, PARAM, AVAL, AVALU)
+
+# Save ADSL
+write.csv(adlb, "adlb.csv", row.names = FALSE)
+
+# Preview
+head(adlb)
+```
+
+## TGLs Overview {#tgls-overview}
+
+Tables, Listings, and Graphs (TLGs) are the final outputs generated from ADaM datasets to support clinical trial reporting. They are designed to provide clear, standardized summaries of study results that can be reviewed by clinicians, statisticians, and regulatory agencies.
+
+The main objectives of TLGs are:
+
+-   **Tables**: summarize patient characteristics, efficacy, and safety data with descriptive and inferential statistics.
+-   **Listings**: display subject-level data in detail, allowing reviewers to trace back results to individual participants.
+-   **Graphs**: visually represent trends, distributions, and treatment effects to complement tabular summaries.
+
+### TGLs Implemented in this project
+
+In this pipeline, I created a set of TLGs using **ADSL** (demographics) and **ADLB** (laboratory data):
+
+#### **Demographics and Baseline Characteristics (ADSL)**:
+
+-   Table summarizing sex, age, and race distribution by treatment arm.
+-   Graphs showing proportions of sex and race across arms.
+-   Histogram of age distribution by treatment.
+
+The code was run as follows:
+
+```{r, message=FALSE, warning=FALSE, echo=TRUE}
+# Finally, I will create tables, graphs and lists (TGLs) using the clinical data 
+# Load packages
+library(tidyverse)
+library(rtables)
+library(ggplot2)
+
+
+# Load datasets
+adsl <- read.csv("adsl.csv")
+adlb <- read.csv("adlb.csv")
+
+# ----------------------------------------------------------------------------------------------------
+# Table N per ARMCD/SEX/RACE
+# Change sex labels for graph
+adsl_lbl <- adsl %>%
+  dplyr::mutate(
+    SEX = dplyr::recode(SEX,
+                        "M" = "Male",
+                        "F" = "Female"))
+
+adsl_lbl <- adsl_lbl %>%
+  dplyr::mutate(
+    RACE = dplyr::recode(RACE,
+                        "WHITE" = "White",
+                        "NON-WHITE" = "Non-white"))
+
+# Create basic rtable
+tbl <- basic_table(show_colcounts = TRUE) %>%
+  split_cols_by("ARM") %>%
+  add_overall_col("TOTAL") %>%
+  split_rows_by("SEX",
+                split_label = "Subject Sex",
+                label_pos = "topleft") %>%
+  summarize_row_groups() %>%
+  analyze("AGE",
+          var_labels = "Age (years)",
+          afun = function(x, .N_col) {
+            m <- mean(x, na.rm = TRUE)
+            med <- median(x, na.rm = TRUE)
+            q1 <- quantile(x, 0.25, na.rm = TRUE)
+            q3 <- quantile(x, 0.75, na.rm = TRUE)
+            mi <- min(x, na.rm = TRUE)
+            ma <- max(x, na.rm = TRUE)
+            
+            in_rows(
+              "Mean"     = sprintf("%.1f", m),
+              "Median"   = sprintf("%.1f", med),
+              "Q1"       = sprintf("%.1f", q1),
+              "Q3"       = sprintf("%.1f", q3),
+              "Min"      = sprintf("%.1f", mi),
+              "Max"      = sprintf("%.1f", ma)
+            )
+          }) %>%
+  analyze("RACE", var_labels = "Race",
+          afun = function(x, .N_col) {
+            tab <- table(x)
+            res <- sprintf("%d (%.1f%%)", tab, 100 * tab / .N_col)
+            in_rows(.list = as.list(res), .labels = names(tab))
+          })
+
+tbl_final <- build_table(tbl, adsl_lbl)
+
+# Titles & Footers
+main_title(tbl_final) <- "Demographics and Baseline Characteristics of Patients with Acquired Immunodeficiency Syndrome (AIDS) by Treatment Arm."
+subtitles(tbl_final) <- "Summary of sex, age, and race distribution in the Safety Population."
+main_footer(tbl_final) <- c("Mean = arithmetic average; Median = 50th percentile; Q1/Q3 = 25th and 75th percentiles; Min/Max = extreme values.")
+prov_footer(tbl_final) <- "Safety Population includes all randomized patients with AIDS who received at least one dose of study treatment."
+
+tbl_final
+
+# Graphs
+# Sex percentage per group
+ggplot(adsl_lbl, aes(x = ARMCD, fill = SEX)) +
+  geom_bar(position = "fill", color = "white", width = 0.5, alpha = 0.7) +
+  scale_y_continuous(labels = scales::percent) +
+  scale_fill_manual(values = c("Male" = "#B3B3B3", "Female" = "#A6D854")) +
+  labs(title = "Sex Distribution by Treatment Arm",
+       x = "Treatment Arm", y = "Percentage",
+       fill = "Sex") +
+  theme_minimal(base_size = 12) +
+  theme(
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor = element_blank(),
+    panel.grid.major.y = element_line(color = "grey90"),
+    legend.position = "top",
+    legend.title = element_blank(),
+    plot.title = element_text(hjust = 0.5, face = "bold")
+  )
+
+# Race summary
+ggplot(adsl_lbl, aes(x = ARMCD, fill = RACE)) +
+  geom_bar(position = "fill", color = "white", width = 0.5,  alpha = 0.7) +
+  scale_y_continuous(labels = scales::percent) +
+  scale_fill_manual(values = c("White" = "#66C2A5", "Non-white" = "#FC8D62")) +
+  labs(title = "Race Distribution by Treatment Arm",
+       x = "Treatment Arm", y = "Percentage",
+       fill = "Race") +
+  theme_minimal(base_size = 12) +
+  theme(
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor = element_blank(),
+    panel.grid.major.y = element_line(color = "grey90"),
+    legend.position = "top",
+    legend.title = element_blank(),
+    plot.title = element_text(hjust = 0.5, face = "bold")
+  )
+
+
+# Age summary
+ggplot(adsl, aes(x = AGE, fill = ARM)) +
+  geom_histogram(binwidth = 5, position = "dodge", alpha = 0.7) +
+  scale_fill_brewer(palette = "Set2") +  # paleta discreta
+  labs(
+    title = "Age Distribution by Treatment Arm",
+    x = "Age (years)",
+    y = "Number of Patients",
+    fill = "Treatment Arm"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold"),
+    legend.position = "top",
+    legend.title = element_text(face = "bold"),
+    panel.grid.minor = element_blank()
+  )
+
+```
+
+#### **Laboratory Test Results (ADLB)**:
+
+-   Tables summarizing baseline and follow-up laboratory results (mean, median, quartiles, min/max).
+-   Graph showing proportions T cell count (CD4+ and CD8+) across arms.
+
+The code was run as follows:
+
+```{r, message=FALSE, warning=FALSE, echo=TRUE}
+# ----------------------------------------------------------------------------------------------------
+# Merge lab data from adsl to adlb
+adlb_merged <- adlb %>%
+  left_join(
+    adsl %>% select(USUBJID, SYMPTOM, HEMO, KARNOF, IVDRUG),
+    by = "USUBJID"
+  )
+
+adlb_merged$VISIT <- factor(adlb_merged$VISIT, levels = c("Baseline", "20±5 weeks")) # Order patient visit as baseline first
+
+
+# Create basic rtable
+tbl_lab <- basic_table(show_colcounts = TRUE) %>%
+  split_cols_by("VISIT") %>%
+  split_rows_by("ARM",
+                split_label = "Treatment arm",
+                label_pos = "topleft") %>%
+  split_rows_by("PARAM",
+                split_label = "Laboratory test",
+                label_pos = "topleft") %>%
+  analyze("AVAL", var_labels = "Value (AVAL)", 
+          afun = function(x, .N_col) {
+            in_rows(
+              "Mean"   = sprintf("%.1f", mean(x, na.rm = TRUE)),
+              "Median" = sprintf("%.1f", median(x, na.rm = TRUE)),
+              "Q1"     = sprintf("%.1f", quantile(x, 0.25, na.rm = TRUE)),
+              "Q3"     = sprintf("%.1f", quantile(x, 0.75, na.rm = TRUE)),
+              "Min"    = sprintf("%.1f", min(x, na.rm = TRUE)),
+              "Max"    = sprintf("%.1f", max(x, na.rm = TRUE))
+            )
+          })
+
+tbl_lab <- build_table(tbl_lab, adlb_merged)
+
+# Titles & Footers
+main_title(tbl_lab) <- "Laboratory Test Results of Patients with Acquired Immunodeficiency Syndrome (AIDS) by Treatment Arm"
+subtitles(tbl_lab) <- "Summary statistics (Mean, Median, Q1, Q3, Min, Max) for immunological laboratory parameters at each visit"
+main_footer(tbl_lab) <- c(
+  "Mean = arithmetic average; Median = 50th percentile; Q1/Q3 = 25th and 75th percentiles; Min/Max = extreme values.")
+prov_footer(tbl_lab) <- "Safety Population includes all randomized patients with AIDS who had laboratory assessments at baseline and follow-up visits."
+
+tbl_lab
+
+# Create graph to show T cell counts by treatment
+# Average laboratory values by treatment arm
+adlb_summary <- adlb_merged %>%
+  group_by(ARM, PARAM) %>%
+  summarise(mean_val = mean(AVAL, na.rm = TRUE), .groups = "drop")
+
+
+ggplot(adlb_merged, aes(x = PARAM, y = AVAL, fill = ARM)) +
+  geom_col(data = adlb_summary, aes(x = PARAM, y = mean_val, fill = ARM),
+           position = position_dodge(width = 0.8), alpha = 0.6) +  # barras de média
+  geom_jitter(aes(color = ARM), 
+              position = position_jitterdodge(jitter.width = 0.15, dodge.width = 0.8),
+              size = 1, alpha = 0.5, show.legend = FALSE) +  # pontos individuais
+  scale_fill_brewer(palette = "Set2") +
+  scale_color_brewer(palette = "Set2") +
+  labs(
+    title = "Mean Laboratory Values and Individual Patient Measurements by Treatment Arm",
+    x = "Laboratory Parameter",
+    y = "Value",
+    fill = "Treatment Arm"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold"),
+    axis.text.x = element_text(angle = 30, hjust = 1, face = "bold"),
+    legend.position = "top",
+    legend.title = element_text(face = "bold")
+  )
+
+```
+
+------------------------------------------------------------------------
