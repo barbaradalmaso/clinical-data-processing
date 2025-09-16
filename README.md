@@ -46,4 +46,4 @@ Alternativelly, you can acess it at: https://barbaradalmaso.github.io/clinical-d
 This repository is intended for educational and academic use only.
 All data is synthetic and does not represent real patient information.
 
-### Enjou :-)
+### Enjoy :-)
