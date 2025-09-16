@@ -33,15 +33,17 @@ install.packages(c("dplyr", "rtables", "ggplot2", "haven", "quarto"))
 - ```haven``` – Data import/export
 - ```quarto``` – Reproducible documentation framework
 
-### ▶️ Build the Quarto Site
+### ▶️ Visit the Quarto Site
 To render the documentation locally, clone this repo and run:
 ```bash
 quarto render
 quarto preview
 ```
+Alternativelly, you can acess it at: https://barbaradalmaso.github.io/clinical-data-processing/ 
 
 ### 📜 License
 
 This repository is intended for educational and academic use only.
 All data is synthetic and does not represent real patient information.
 
+### Enjou :-)
