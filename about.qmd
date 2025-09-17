@@ -2,28 +2,27 @@
 title: "About me"
 ---
 
+<div class="content-box">
+
 ## Barbara Dalmaso, B.sC., MBA, Ph.D.
-<div style="text-align:center;">
-  <img src="data/img.jpg" style="width:200px; height:200px; border-radius:50%;" />
-</div>
 
-**Barbara** is a biomedical researcher 🔬 and bioinformatician with experience in studying neurodegenerative diseases 🧠 and cancer. She is dedicated to bridging data science 📊 with biology and health by transforming genomics and clinical data into decision-making processes, with a strong focus on next-generation sequencing and patient-centered analytics.  
+::: {style="text-align:center;"}
+<img src="data/img.jpg" style="border-radius:50%;" width="206"/>
+:::
 
-In recent years, she has developed reproducible statistical pipelines to support precision medicine, translational research, and clinical trials 🧫.  
+**Barbara** is a biomedical researcher 🔬 and bioinformatician with experience in studying neurodegenerative diseases 🧠 and cancer. She is dedicated to bridging data science 📊 with biology and health by transforming genomics and clinical data into decision-making processes, with a strong focus on next-generation sequencing and patient-centered analytics.
 
-Barbara has also been a speaker 🎤 at major conferences in the field of medical statistics around the world, including **Biomolecular Horizons** (Melbourne, Australia), **Computational Intelligence Methods for Bioinformatics and Biostatistics** (Benevento, Italy), **Applied Bioinformatics for Life Sciences** (Leuven, Belgium), among others.
+In recent years, she has developed reproducible statistical pipelines to support precision medicine, translational research, and clinical trials 🧫.
 
+Barbara has also been a speaker at major conferences in the field of medical statistics around the world, including **Biomolecular Horizons** (Melbourne, Australia), **Computational Intelligence Methods for Bioinformatics and Biostatistics** (Benevento, Italy), **Applied Bioinformatics for Life Sciences** (Leuven, Belgium), among others.
 
 Currently works as Statistical Programmer at the biopharmaceutical Syneos Health.
 
 ## Contact
 
-<div style="display:flex; flex-direction:column; gap:6px; font-size:1rem;">
-
-- ✉️ **Email:** [barbdalmaso@gmail.com](mailto:barbdalmaso@gmail.com)  
-- 🔗 **ORCID:** [0000-0002-1189-5837](https://orcid.org/0000-0002-1189-5837)  
-- 💼 **LinkedIn:** [Barbara Dalmaso](https://www.linkedin.com/in/barbara-dalmaso/)  
-- 🐙 **GitHub:** [barbaradalmaso](https://github.com/barbaradalmaso)  
+- <i class="fas fa-envelope"></i> [barbdalmaso@gmail.com](mailto:barbdalmaso@gmail.com)  
+- <i class="fab fa-linkedin"></i> [in/barbara-dalmaso](https://www.linkedin.com/in/barbara-dalmaso/)  
+- <i class="fab fa-github"></i> [barbaradalmaso](https://github.com/barbaradalmaso)  
+- <i class="fab fa-orcid"></i> [ORCID](https://orcid.org/0000-0002-1189-5837)  
 
 </div>
----

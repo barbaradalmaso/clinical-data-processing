@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Medical Informatics - Clinical Data Transformation Pipeline</title>
+<title>Clinical Data Transformation Pipeline</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,6 +92,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-submit-button-title": "Submit"
   }
 }</script>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&amp;display=swap" rel="stylesheet">
+<style>
+  body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f5f5f5; /* cinza claro de fundo */
+  }
+  .content-box {
+    max-width: 900px;         /* largura máxima da caixa */
+    margin: 40px auto;        /* centraliza */
+    background: #ffffff;      /* caixa branca */
+    padding: 40px;            /* respiro interno */
+    border-radius: 12px;      /* cantos arredondados */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* sombra suave */
+  }
+</style>
 
 
 </head>
@@ -102,11 +120,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Medical Informatics</span>
-    </a>
-  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -114,16 +127,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">🏠 Home</span></a>
+    <a class="nav-link" href="./index.html" rel="" target=""><i class="bi bi-home" role="img">
+</i> 
+ <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./pipeline.html" rel="" target="" aria-current="page">
- <span class="menu-text">💻 Pipeline</span></a>
+    <a class="nav-link active" href="./pipeline.html" rel="" target="" aria-current="page"><i class="bi bi-laptop" role="img">
+</i> 
+ <span class="menu-text">Pipeline</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">👩 About</span></a>
+    <a class="nav-link" href="./about.html" rel="" target=""><i class="bi bi-person" role="img">
+</i> 
+ <span class="menu-text">About</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -150,7 +166,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -158,32 +174,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#sdtm-domains-overview" id="toc-sdtm-domains-overview" class="nav-link active" data-scroll-target="#sdtm-domains-overview">SDTM Domains Overview</a>
-  <ul>
-  <li><a href="#demographics-dm-domain" id="toc-demographics-dm-domain" class="nav-link" data-scroll-target="#demographics-dm-domain">Demographics (DM) domain</a></li>
-  <li><a href="#medical-history-mh-domain" id="toc-medical-history-mh-domain" class="nav-link" data-scroll-target="#medical-history-mh-domain">Medical History (MH) domain</a></li>
-  <li><a href="#subject-characteristics-sc-domain" id="toc-subject-characteristics-sc-domain" class="nav-link" data-scroll-target="#subject-characteristics-sc-domain">Subject Characteristics (SC) domain</a></li>
-  <li><a href="#exposure-ex-domain" id="toc-exposure-ex-domain" class="nav-link" data-scroll-target="#exposure-ex-domain">Exposure (EX) domain</a></li>
-  <li><a href="#laboratory-tests-lb-domain" id="toc-laboratory-tests-lb-domain" class="nav-link" data-scroll-target="#laboratory-tests-lb-domain">Laboratory Tests (LB) domain</a></li>
-  </ul></li>
-  <li><a href="#adam-overview" id="toc-adam-overview" class="nav-link" data-scroll-target="#adam-overview">ADaM Overview</a>
-  <ul>
-  <li><a href="#subject-level-analysis-dataset-adsl" id="toc-subject-level-analysis-dataset-adsl" class="nav-link" data-scroll-target="#subject-level-analysis-dataset-adsl">Subject-Level Analysis Dataset (ADSL)</a></li>
-  <li><a href="#laboratory-results-analysis-dataset-adlb" id="toc-laboratory-results-analysis-dataset-adlb" class="nav-link" data-scroll-target="#laboratory-results-analysis-dataset-adlb">Laboratory Results Analysis Dataset (ADLB)</a></li>
-  </ul></li>
-  <li><a href="#tgls-overview" id="toc-tgls-overview" class="nav-link" data-scroll-target="#tgls-overview">TGLs Overview</a>
-  <ul>
-  <li><a href="#tgls-implemented-in-this-project" id="toc-tgls-implemented-in-this-project" class="nav-link" data-scroll-target="#tgls-implemented-in-this-project">TGLs Implemented in this project</a>
-  <ul class="collapse">
-  <li><a href="#demographics-and-baseline-characteristics-adsl" id="toc-demographics-and-baseline-characteristics-adsl" class="nav-link" data-scroll-target="#demographics-and-baseline-characteristics-adsl"><strong>Demographics and Baseline Characteristics (ADSL)</strong>:</a></li>
-  <li><a href="#laboratory-test-results-adlb" id="toc-laboratory-test-results-adlb" class="nav-link" data-scroll-target="#laboratory-test-results-adlb"><strong>Laboratory Test Results (ADLB)</strong>:</a></li>
-  </ul></li>
-  </ul></li>
+  <li><a href="#quick-links" id="toc-quick-links" class="nav-link active" data-scroll-target="#quick-links">Quick Links</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -202,9 +198,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>Quick links: <a href="##sdtm-domains-overview">SDTM</a> | <a href="#adam-overview">ADaM</a> | <a href="#tgls-overview">TLGs</a></p>
-<section id="sdtm-domains-overview" class="level2">
-<h2 class="anchored" data-anchor-id="sdtm-domains-overview">SDTM Domains Overview</h2>
+<section id="quick-links" class="level2">
+<h2 class="anchored" data-anchor-id="quick-links">Quick Links</h2>
+<ul>
+<li><a href="#sdtm-overview">SDTM Domains Overview</a></li>
+<li><a href="#adam-overview">ADaM Overview</a></li>
+<li><a href="#tgls-overview">TGLs Overview</a></li>
+</ul>
+</section>
+<div class="content-box">
+<section id="sdtm-overview" class="level2">
+<h2 class="anchored" data-anchor-id="sdtm-overview">SDTM Domains Overview</h2>
 <p>The SDTM (Study Data Tabulation Model) organizes clinical trial data into standardized domains, facilitating analysis and reporting. Each domain captures specific information about study participants, such as demographics, medical history, clinical assessments, and laboratory results.</p>
 <section id="demographics-dm-domain" class="level3">
 <h3 class="anchored" data-anchor-id="demographics-dm-domain">Demographics (DM) domain</h3>
@@ -216,8 +220,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><code>RACE</code>: Race (White/Non-white).</li>
 <li><code>ARM</code> / <code>ARMCD</code>: Treatment arm assigned.</li>
 </ul>
-<p>To transform raw clinical data into a DM domain, the code was run as follows:</p>
+<p>To check how to transform raw clinical data into a DM domain, click to show code.</p>
 <div class="cell">
+<details>
+<summary>Show code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load packages</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lubridate) </span>
@@ -264,6 +270,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(dm, <span class="st">"data/dm.csv"</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(dm, <span class="dv">6</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 6 × 8
   STUDYID USUBJID   AGE SEX   RACE  ARMCD  ARM                          WEIGHTBL
@@ -285,8 +292,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><code>MHTERM</code>: Specific medical history description.</li>
 <li><code>MHSTRESC</code>: Recorded status (Yes/No/Unknown).</li>
 </ul>
-<p>To transform raw clinical data into a MH domain, the code was run as follows:</p>
+<p>To check how to transform raw clinical data into a MH domain, click to show code.</p>
 <div class="cell">
+<details>
+<summary>Show code</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Hemophilia derivation</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>mh_hemo <span class="ot">&lt;-</span> aids_df <span class="sc">%&gt;%</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
@@ -379,6 +388,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-90"><a href="#cb3-90" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(mh, <span class="st">"data/mh.csv"</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb3-91"><a href="#cb3-91" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-92"><a href="#cb3-92" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(mh, <span class="dv">6</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 6 × 5
   STUDYID USUBJID MHDECOD              MHTERM                 MHSTRESC
@@ -402,8 +412,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><code>SCCAT</code>: Category of measurement (e.g., Baseline Status, Clinical Status).</li>
 <li><code>VISIT</code>: Study visit timepoint.</li>
 </ul>
-<p>To transform raw clinical data into a SC domain, the code was run as follows:</p>
+<p>To check how to transform raw clinical data into a SC domain, click to show code.</p>
 <div class="cell">
+<details>
+<summary>Show code</summary>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>sc_karnof <span class="ot">&lt;-</span> aids_df <span class="sc">%&gt;%</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">STUDYID =</span> <span class="st">"AIDS01"</span>,  <span class="co"># fixed study identifier</span></span>
@@ -490,6 +502,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb5-84"><a href="#cb5-84" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(sc, <span class="st">"data/sc.csv"</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb5-85"><a href="#cb5-85" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-86"><a href="#cb5-86" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(sc, <span class="dv">6</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 6 × 8
   STUDYID USUBJID SCTESTCD    SCORRES SCORRESU SCSTRESC    SCCAT           VISIT
@@ -513,8 +526,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><code>EXOCCUR</code>: Indicates whether the dose actually occurred (Y/N).</li>
 <li><code>EXSTDTC</code> / <code>EXENDTC</code>: Start and end date of exposure.</li>
 </ul>
-<p>To transform raw clinical data into a EX domain, the code was run as follows:</p>
+<p>To check how to transform raw clinical data into a EX domain, click to show code.</p>
 <div class="cell">
+<details>
+<summary>Show code</summary>
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>ex_trt <span class="ot">&lt;-</span> aids_df <span class="sc">%&gt;%</span></span>
@@ -553,6 +568,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb7-36"><a href="#cb7-36" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(ex_trt, <span class="st">"data/ex.csv"</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb7-37"><a href="#cb7-37" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-38"><a href="#cb7-38" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(ex_trt, <span class="dv">6</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 6 × 8
   STUDYID USUBJID EXTRT     EXTRTCD EXROUTE EXSTDTC    EXOCCUR EXENDTC   
@@ -576,8 +592,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><code>VISIT</code>: Visit when the test was performed.</li>
 <li><code>LBORRES</code> / <code>LBSTRESC</code>: Recorded result (numerical or categorical).</li>
 </ul>
-<p>To transform raw clinical data into a LB domain, the code was run as follows:</p>
+<p>To check how to transform raw clinical data into a LB domain, click to show code.</p>
 <div class="cell">
+<details>
+<summary>Show code</summary>
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>lb_cd4 <span class="ot">&lt;-</span> aids_df <span class="sc">%&gt;%</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">STUDYID =</span> <span class="st">"AIDS01"</span>,  <span class="co"># fixed study identifier</span></span>
@@ -639,6 +657,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb9-59"><a href="#cb9-59" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(lb, <span class="st">"data/lb.csv"</span>, <span class="at">row.names =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb9-60"><a href="#cb9-60" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-61"><a href="#cb9-61" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(lb, <span class="dv">6</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 6 × 8
   STUDYID USUBJID LBTESTCD LBTEST            LBORRES LBORRESU  LBSTRESC VISIT   
@@ -664,8 +683,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Key variables: <code>STUDYID</code>, <code>USUBJID</code>, <code>AGE</code>, <code>SEX</code>, <code>RACE</code>, <code>ARM</code>, and <code>ACTARM</code>.</li>
 <li>Includes treatment start and end dates, discontinuation status, and other derived variables useful for subgroup analyses.</li>
 </ul>
-<p>To manually construct <strong>ADSL</strong> data using SDTM domains, the code was run as follows:</p>
+<p>To check how manually construct <strong>ADSL</strong> data using SDTM domains, click to show code.</p>
 <div class="cell">
+<details>
+<summary>Show code</summary>
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load packages</span></span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -721,6 +742,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb11-53"><a href="#cb11-53" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-54"><a href="#cb11-54" aria-hidden="true" tabindex="-1"></a><span class="co"># Preview</span></span>
 <span id="cb11-55"><a href="#cb11-55" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(adsl)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>  STUDYID USUBJID AGE SEX  RACE  ARMCD                                  ARM
 1  AIDS01  SUBJ-1  48   F WHITE ZDVZAL Zidovudine (ZDV) + Zalcitabine (ZAL)
@@ -742,8 +764,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="laboratory-results-analysis-dataset-adlb" class="level3">
 <h3 class="anchored" data-anchor-id="laboratory-results-analysis-dataset-adlb">Laboratory Results Analysis Dataset (ADLB)</h3>
 <p><strong>ADLB</strong> is the dataset for laboratory test results. It contains repeated measures per subject across study visits, enabling assessment of trends, changes, and treatment-related effects. Its main characteristics include: - Structure: one record per subject per laboratory parameter per visit. - Key variables: <code>STUDYID</code>, <code>USUBJID</code>, <code>PARAM</code>, <code>AVISIT</code>, <code>AVAL</code>(numeric result), <code>BASE</code>, and <code>CHG</code> (change from baseline). - Supports analyses such as mean comparisons between treatment arms, evaluation of clinically relevant changes, and categorization of results outside reference ranges.</p>
-<p>To manually construct <strong>ADLB</strong> data using SDTM domains, the code was run as follows:</p>
+<p>To check how manually construct <strong>ADLB</strong> data using SDTM domains, click to show code.</p>
 <div class="cell">
+<details>
+<summary>Show code</summary>
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ADLB</span></span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>adlb <span class="ot">&lt;-</span> lb <span class="sc">%&gt;%</span></span>
 <span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">left_join</span>(dm <span class="sc">%&gt;%</span> <span class="fu">select</span>(USUBJID, ARM, ARMCD), <span class="at">by =</span> <span class="st">"USUBJID"</span>) <span class="sc">%&gt;%</span></span>
@@ -763,6 +787,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Preview</span></span>
 <span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(adlb)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 6 × 9
   STUDYID USUBJID ARM                      ARMCD VISIT PARAMCD PARAM  AVAL AVALU
@@ -796,8 +821,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Graphs showing proportions of sex and race across arms.</li>
 <li>Histogram of age distribution by treatment.</li>
 </ul>
-<p>The code was run as follows:</p>
+<p>To check how to create <strong>ADSL</strong> TGLs, click to show code.</p>
 <div class="cell">
+<details>
+<summary>Show code</summary>
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Finally, I will create tables, graphs and lists (TGLs) using the clinical data </span></span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Load packages</span></span>
 <span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
@@ -867,6 +894,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb15-67"><a href="#cb15-67" aria-hidden="true" tabindex="-1"></a><span class="fu">prov_footer</span>(tbl_final) <span class="ot">&lt;-</span> <span class="st">"Safety Population includes all randomized patients with AIDS who received at least one dose of study treatment."</span></span>
 <span id="cb15-68"><a href="#cb15-68" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-69"><a href="#cb15-69" aria-hidden="true" tabindex="-1"></a>tbl_final</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Demographics and Baseline Characteristics of Patients with Acquired Immunodeficiency Syndrome (AIDS) by Treatment Arm.
 Summary of sex, age, and race distribution in the Safety Population.
@@ -903,6 +931,8 @@ Mean = arithmetic average; Median = 50th percentile; Q1/Q3 = 25th and 75th perce
 
 Safety Population includes all randomized patients with AIDS who received at least one dose of study treatment.</code></pre>
 </div>
+<details>
+<summary>Show code</summary>
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Graphs</span></span>
 <span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Sex percentage per group</span></span>
 <span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(adsl_lbl, <span class="fu">aes</span>(<span class="at">x =</span> ARMCD, <span class="at">fill =</span> SEX)) <span class="sc">+</span></span>
@@ -921,9 +951,12 @@ Safety Population includes all randomized patients with AIDS who received at lea
 <span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.title =</span> <span class="fu">element_blank</span>(),</span>
 <span id="cb17-17"><a href="#cb17-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">face =</span> <span class="st">"bold"</span>)</span>
 <span id="cb17-18"><a href="#cb17-18" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output-display">
 <p><img src="pipeline_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
 </div>
+<details>
+<summary>Show code</summary>
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Race summary</span></span>
 <span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(adsl_lbl, <span class="fu">aes</span>(<span class="at">x =</span> ARMCD, <span class="at">fill =</span> RACE)) <span class="sc">+</span></span>
 <span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">position =</span> <span class="st">"fill"</span>, <span class="at">color =</span> <span class="st">"white"</span>, <span class="at">width =</span> <span class="fl">0.5</span>,  <span class="at">alpha =</span> <span class="fl">0.7</span>) <span class="sc">+</span></span>
@@ -941,9 +974,12 @@ Safety Population includes all randomized patients with AIDS who received at lea
 <span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.title =</span> <span class="fu">element_blank</span>(),</span>
 <span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">hjust =</span> <span class="fl">0.5</span>, <span class="at">face =</span> <span class="st">"bold"</span>)</span>
 <span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output-display">
 <p><img src="pipeline_files/figure-html/unnamed-chunk-8-2.png" class="img-fluid" width="672"></p>
 </div>
+<details>
+<summary>Show code</summary>
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Age summary</span></span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(adsl, <span class="fu">aes</span>(<span class="at">x =</span> AGE, <span class="at">fill =</span> ARM)) <span class="sc">+</span></span>
 <span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">5</span>, <span class="at">position =</span> <span class="st">"dodge"</span>, <span class="at">alpha =</span> <span class="fl">0.7</span>) <span class="sc">+</span></span>
@@ -961,6 +997,7 @@ Safety Population includes all randomized patients with AIDS who received at lea
 <span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.title =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>),</span>
 <span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>()</span>
 <span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output-display">
 <p><img src="pipeline_files/figure-html/unnamed-chunk-8-3.png" class="img-fluid" width="672"></p>
 </div>
@@ -972,8 +1009,10 @@ Safety Population includes all randomized patients with AIDS who received at lea
 <li>Tables summarizing baseline and follow-up laboratory results (mean, median, quartiles, min/max).</li>
 <li>Graph showing proportions T cell count (CD4+ and CD8+) across arms.</li>
 </ul>
-<p>The code was run as follows:</p>
+<p>To check how to create <strong>ADLB</strong> TGLs, click to show code.</p>
 <div class="cell">
+<details>
+<summary>Show code</summary>
 <div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ----------------------------------------------------------------------------------------------------</span></span>
 <span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Merge lab data from adsl to adlb</span></span>
 <span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>adlb_merged <span class="ot">&lt;-</span> adlb <span class="sc">%&gt;%</span></span>
@@ -1016,6 +1055,7 @@ Safety Population includes all randomized patients with AIDS who received at lea
 <span id="cb20-40"><a href="#cb20-40" aria-hidden="true" tabindex="-1"></a><span class="fu">prov_footer</span>(tbl_lab) <span class="ot">&lt;-</span> <span class="st">"Safety Population includes all randomized patients with AIDS who had laboratory assessments at baseline and follow-up visits."</span></span>
 <span id="cb20-41"><a href="#cb20-41" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-42"><a href="#cb20-42" aria-hidden="true" tabindex="-1"></a>tbl_lab</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Laboratory Test Results of Patients with Acquired Immunodeficiency Syndrome (AIDS) by Treatment Arm
 Summary statistics (Mean, Median, Q1, Q3, Min, Max) for immunological laboratory parameters at each visit
@@ -1090,6 +1130,8 @@ Mean = arithmetic average; Median = 50th percentile; Q1/Q3 = 25th and 75th perce
 
 Safety Population includes all randomized patients with AIDS who had laboratory assessments at baseline and follow-up visits.</code></pre>
 </div>
+<details>
+<summary>Show code</summary>
 <div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create graph to show T cell counts by treatment</span></span>
 <span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Average laboratory values by treatment arm</span></span>
 <span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>adlb_summary <span class="ot">&lt;-</span> adlb_merged <span class="sc">%&gt;%</span></span>
@@ -1118,16 +1160,17 @@ Safety Population includes all randomized patients with AIDS who had laboratory 
 <span id="cb22-26"><a href="#cb22-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">"top"</span>,</span>
 <span id="cb22-27"><a href="#cb22-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.title =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>)</span>
 <span id="cb22-28"><a href="#cb22-28" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output-display">
 <p><img src="pipeline_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
-<hr>
+</section>
+</section>
+</section>
+</div>
 
 
-</section>
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Medical Informatics - Medical Informatics Pipeline for Clinical Trials</title>
+<title>Medical Informatics Pipeline for Clinical Trials</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -58,6 +58,24 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&amp;display=swap" rel="stylesheet">
+<style>
+  body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f5f5f5; /* cinza claro de fundo */
+  }
+  .content-box {
+    max-width: 900px;         /* largura máxima da caixa */
+    margin: 40px auto;        /* centraliza */
+    background: #ffffff;      /* caixa branca */
+    padding: 40px;            /* respiro interno */
+    border-radius: 12px;      /* cantos arredondados */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* sombra suave */
+  }
+</style>
 
 
 </head>
@@ -68,11 +86,6 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Medical Informatics</span>
-    </a>
-  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -80,16 +93,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
- <span class="menu-text">🏠 Home</span></a>
+    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page"><i class="bi bi-home" role="img">
+</i> 
+ <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pipeline.html" rel="" target="">
- <span class="menu-text">💻 Pipeline</span></a>
+    <a class="nav-link" href="./pipeline.html" rel="" target=""><i class="bi bi-laptop" role="img">
+</i> 
+ <span class="menu-text">Pipeline</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">👩 About</span></a>
+    <a class="nav-link" href="./about.html" rel="" target=""><i class="bi bi-person" role="img">
+</i> 
+ <span class="menu-text">About</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -116,21 +132,14 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#objectives" id="toc-objectives" class="nav-link active" data-scroll-target="#objectives">Objectives</a></li>
-  <li><a href="#disclaimer" id="toc-disclaimer" class="nav-link" data-scroll-target="#disclaimer">Disclaimer</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -149,6 +158,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<div class="content-box">
 <p>This project demonstrates a <strong>data transformation pipeline</strong> using <a href="https://www.cdisc.org/standards">CDISC</a> (Clinical Data Interchange Standards Consortium) standards for clinical research.</p>
 <p>It uses <strong>synthetic patient data</strong> from an Acquired Immunodeficiency Syndrome (AIDS) clinical trial dataset obtained from <a href="https://www.kaggle.com/datasets/tanshihjen/aids-clinical-trials">Kaggle</a>.</p>
 <hr>
@@ -163,14 +173,23 @@ ul.task-list li input[type="checkbox"] {
 <li><strong><a href="https://www.cdisc.org/standards/foundational/analysis-results-standard">TLGs (Tables, Listings, and Graphs)</a></strong> – the outputs (tables, patient listings, and graphical summaries) generated from ADaM datasets, used for clinical trial reporting and regulatory submissions.</li>
 </ol>
 <hr>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>⚠️ <strong>Disclaimer</strong>: This repository is intended for educational and academic use only. Synthetic data was obtained at open source and does not represent real patient data.</p>
+</div>
+</div>
 </section>
-<section id="disclaimer" class="level2">
-<h2 class="anchored" data-anchor-id="disclaimer">Disclaimer</h2>
-<p>This repository is intended for educational and academic use only. Synthetic data was obtained at open source and does not represent real patient data.</p>
-<hr>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

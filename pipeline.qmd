@@ -5,9 +5,15 @@ toc: true
 toc-depth: 4
 ---
 
-Quick links: [SDTM](##sdtm-domains-overview) \| [ADaM](#adam-overview) \| [TLGs](#tgls-overview)
+## Quick Links
 
-## SDTM Domains Overview
+- [SDTM Domains Overview](#sdtm-overview)
+- [ADaM Overview](#adam-overview)
+- [TGLs Overview](#tgls-overview)
+
+<div class="content-box">
+
+## SDTM Domains Overview {#sdtm-overview}
 
 The SDTM (Study Data Tabulation Model) organizes clinical trial data into standardized domains, facilitating analysis and reporting. Each domain captures specific information about study participants, such as demographics, medical history, clinical assessments, and laboratory results.
 
@@ -21,7 +27,7 @@ This domain contains basic participant information, as:
 -   `RACE`: Race (White/Non-white).
 -   `ARM` / `ARMCD`: Treatment arm assigned.
 
-To transform raw clinical data into a DM domain, the code was run as follows:
+To check how to transform raw clinical data into a DM domain, click to show code.
 
 ```{r, message=FALSE, warning=FALSE, echo=TRUE}
 
@@ -82,7 +88,7 @@ This domain captures key medical conditions and patient history prior to study s
 -   `MHTERM`: Specific medical history description.
 -   `MHSTRESC`: Recorded status (Yes/No/Unknown).
 
-To transform raw clinical data into a MH domain, the code was run as follows:
+To check how to transform raw clinical data into a MH domain, click to show code.
 
 ```{r, message=FALSE, warning=FALSE, echo=TRUE}
 # Hemophilia derivation
@@ -190,7 +196,7 @@ This domain includes baseline assessments and clinical observations, as:
 -   `SCCAT`: Category of measurement (e.g., Baseline Status, Clinical Status).
 -   `VISIT`: Study visit timepoint.
 
-To transform raw clinical data into a SC domain, the code was run as follows:
+To check how to transform raw clinical data into a SC domain, click to show code.
 
 ```{r, message=FALSE, warning=FALSE, echo=TRUE}
 sc_karnof <- aids_df %>%
@@ -292,7 +298,7 @@ This domain details study drug administration for each participant, as:
 -   `EXOCCUR`: Indicates whether the dose actually occurred (Y/N).
 -   `EXSTDTC` / `EXENDTC`: Start and end date of exposure.
 
-To transform raw clinical data into a EX domain, the code was run as follows:
+To check how to transform raw clinical data into a EX domain, click to show code.
 
 ```{r, message=FALSE, warning=FALSE, echo=TRUE}
 set.seed(123)
@@ -345,7 +351,7 @@ This domain captures laboratory measurements at different visits, as:
 -   `VISIT`: Visit when the test was performed.
 -   `LBORRES` / `LBSTRESC`: Recorded result (numerical or categorical).
 
-To transform raw clinical data into a LB domain, the code was run as follows:
+To check how to transform raw clinical data into a LB domain, click to show code.
 
 ```{r, message=FALSE, warning=FALSE, echo=TRUE}
 
@@ -424,7 +430,7 @@ The ADaM (Analysis Data Model) standard was developed by CDISC to structure clin
 -   Key variables: `STUDYID`, `USUBJID`, `AGE`, `SEX`, `RACE`, `ARM`, and `ACTARM`.
 -   Includes treatment start and end dates, discontinuation status, and other derived variables useful for subgroup analyses.
 
-To manually construct **ADSL** data using SDTM domains, the code was run as follows:
+To check how manually construct **ADSL** data using SDTM domains, click to show code.
 
 ```{r, message=FALSE, warning=FALSE, echo=TRUE}
 # Load packages
@@ -488,7 +494,7 @@ head(adsl)
 
 **ADLB** is the dataset for laboratory test results. It contains repeated measures per subject across study visits, enabling assessment of trends, changes, and treatment-related effects. Its main characteristics include: - Structure: one record per subject per laboratory parameter per visit. - Key variables: `STUDYID`, `USUBJID`, `PARAM`, `AVISIT`, `AVAL`(numeric result), `BASE`, and `CHG` (change from baseline). - Supports analyses such as mean comparisons between treatment arms, evaluation of clinically relevant changes, and categorization of results outside reference ranges.
 
-To manually construct **ADLB** data using SDTM domains, the code was run as follows:
+To check how manually construct **ADLB** data using SDTM domains, click to show code.
 
 ```{r, message=FALSE, warning=FALSE, echo=TRUE}
 # ADLB
@@ -532,7 +538,7 @@ In this pipeline, I created a set of TLGs using **ADSL** (demographics) and **AD
 -   Graphs showing proportions of sex and race across arms.
 -   Histogram of age distribution by treatment.
 
-The code was run as follows:
+To check how to create **ADSL** TGLs, click to show code.
 
 ```{r, message=FALSE, warning=FALSE, echo=TRUE}
 # Finally, I will create tables, graphs and lists (TGLs) using the clinical data 
@@ -668,7 +674,7 @@ ggplot(adsl, aes(x = AGE, fill = ARM)) +
 -   Tables summarizing baseline and follow-up laboratory results (mean, median, quartiles, min/max).
 -   Graph showing proportions T cell count (CD4+ and CD8+) across arms.
 
-The code was run as follows:
+To check how to create **ADLB** TGLs, click to show code.
 
 ```{r, message=FALSE, warning=FALSE, echo=TRUE}
 # ----------------------------------------------------------------------------------------------------
@@ -745,4 +751,4 @@ ggplot(adlb_merged, aes(x = PARAM, y = AVAL, fill = ARM)) +
 
 ```
 
-------------------------------------------------------------------------
+</div>

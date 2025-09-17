@@ -2,6 +2,8 @@
 title: "Medical Informatics Pipeline for Clinical Trials"
 ---
 
+<div class="content-box">
+
 This project demonstrates a **data transformation pipeline** using [CDISC](https://www.cdisc.org/standards) (Clinical Data Interchange Standards Consortium) standards for clinical research.  
 
 It uses **synthetic patient data** from an Acquired Immunodeficiency Syndrome (AIDS) clinical trial dataset obtained from [Kaggle](https://www.kaggle.com/datasets/tanshihjen/aids-clinical-trials).
@@ -18,7 +20,8 @@ The main objective is to transform the raw dataset into the **CDISC standard for
 
 ---
 
-## Disclaimer
+::: callout-warning
+⚠️ **Disclaimer**: This repository is intended for educational and academic use only. Synthetic data was obtained at open source and does not represent real patient data.
+:::
 
-This repository is intended for educational and academic use only. Synthetic data was obtained at open source and does not represent real patient data.
----
+</div>
