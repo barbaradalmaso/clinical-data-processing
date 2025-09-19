@@ -176,7 +176,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#sdtm-overview" id="toc-sdtm-overview" class="nav-link active" data-scroll-target="#sdtm-overview">SDTM Domains Overview</a></li>
   <li><a href="#adam-overview" id="toc-adam-overview" class="nav-link" data-scroll-target="#adam-overview">ADaM Overview</a></li>
-  <li><a href="#tgls-overview" id="toc-tgls-overview" class="nav-link" data-scroll-target="#tgls-overview">TGLs Overview</a></li>
+  <li><a href="#tgls-overview" id="toc-tgls-overview" class="nav-link" data-scroll-target="#tgls-overview">TGLs Overview</a>
+  <ul>
+  <li><a href="#tgls-implemented-in-this-project" id="toc-tgls-implemented-in-this-project" class="nav-link" data-scroll-target="#tgls-implemented-in-this-project">TGLs Implemented in this project</a>
+  <ul class="collapse">
+  <li><a href="#demographics-and-baseline-characteristics-adsl" id="toc-demographics-and-baseline-characteristics-adsl" class="nav-link" data-scroll-target="#demographics-and-baseline-characteristics-adsl"><strong>Demographics and Baseline Characteristics (ADSL)</strong>:</a></li>
+  <li><a href="#laboratory-test-results-adlb" id="toc-laboratory-test-results-adlb" class="nav-link" data-scroll-target="#laboratory-test-results-adlb"><strong>Laboratory Test Results (ADLB)</strong>:</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -202,8 +209,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="sdtm-overview" class="level2">
 <h2 class="anchored" data-anchor-id="sdtm-overview">SDTM Domains Overview</h2>
-<div class="content-box">
 <p>The SDTM (Study Data Tabulation Model) organizes clinical trial data into standardized domains, facilitating analysis and reporting. Each domain captures specific information about study participants, such as demographics, medical history, clinical assessments, and laboratory results.</p>
+<div class="content-box">
 <section id="demographics-dm-domain" class="level3">
 <h3 class="anchored" data-anchor-id="demographics-dm-domain">Demographics (DM) domain</h3>
 <p>This domain contains basic participant information, as:</p>
@@ -669,8 +676,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="adam-overview" class="level2">
 <h2 class="anchored" data-anchor-id="adam-overview">ADaM Overview</h2>
-<div class="content-box">
 <p>The ADaM (Analysis Data Model) standard was developed by CDISC to structure clinical trial datasets for statistical analysis. ADaM datasets are derived from SDTM and organized to facilitate statistical programming, as well as the creation of tables, listings, and graphs (TLGs) - more details below. They follow strict rules for traceability, ensuring that every variable can be linked back to its source in SDTM.</p>
+<div class="content-box">
 <section id="subject-level-analysis-dataset-adsl" class="level3">
 <h3 class="anchored" data-anchor-id="subject-level-analysis-dataset-adsl">Subject-Level Analysis Dataset (ADSL)</h3>
 <p><strong>ADSL</strong> contains one record per subject and provides key demographic and treatment information that serves as the foundation for most analyses. Its main characteristics include:</p>
@@ -801,7 +808,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="tgls-overview" class="level2">
 <h2 class="anchored" data-anchor-id="tgls-overview">TGLs Overview</h2>
-<div class="content-box">
 <p>Tables, Listings, and Graphs (TLGs) are the final outputs generated from ADaM datasets to support clinical trial reporting. They are designed to provide clear, standardized summaries of study results that can be reviewed by clinicians, statisticians, and regulatory agencies.</p>
 <p>The main objectives of TLGs are:</p>
 <ul>
@@ -809,7 +815,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>Listings</strong>: display subject-level data in detail, allowing reviewers to trace back results to individual participants.</li>
 <li><strong>Graphs</strong>: visually represent trends, distributions, and treatment effects to complement tabular summaries.</li>
 </ul>
-<section id="tgls-implemented-in-this-project" class="level3">
+<section id="tgls-implemented-in-this-project" class="level3 content-box">
 <h3 class="anchored" data-anchor-id="tgls-implemented-in-this-project">TGLs Implemented in this project</h3>
 <p>In this pipeline, I created a set of TLGs using <strong>ADSL</strong> (demographics) and <strong>ADLB</strong> (laboratory data):</p>
 <section id="demographics-and-baseline-characteristics-adsl" class="level4">
@@ -1165,7 +1171,6 @@ Safety Population includes all randomized patients with AIDS who had laboratory 
 </div>
 </section>
 </section>
-</div>
 
 
 </section>

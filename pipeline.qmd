@@ -8,9 +8,9 @@ toc-depth: 4
 
 ## SDTM Domains Overview {#sdtm-overview}
 
-<div class="content-box">
-
 The SDTM (Study Data Tabulation Model) organizes clinical trial data into standardized domains, facilitating analysis and reporting. Each domain captures specific information about study participants, such as demographics, medical history, clinical assessments, and laboratory results.
+
+<div class="content-box">
 
 ### Demographics (DM) domain
 
@@ -418,9 +418,9 @@ head(lb, 6)
 
 ## ADaM Overview {#adam-overview}
 
-<div class="content-box">
-
 The ADaM (Analysis Data Model) standard was developed by CDISC to structure clinical trial datasets for statistical analysis. ADaM datasets are derived from SDTM and organized to facilitate statistical programming, as well as the creation of tables, listings, and graphs (TLGs) - more details below. They follow strict rules for traceability, ensuring that every variable can be linked back to its source in SDTM.
+
+<div class="content-box">
 
 ### Subject-Level Analysis Dataset (ADSL)
 
@@ -522,8 +522,6 @@ head(adlb)
 
 ## TGLs Overview {#tgls-overview}
 
-<div class="content-box">
-
 Tables, Listings, and Graphs (TLGs) are the final outputs generated from ADaM datasets to support clinical trial reporting. They are designed to provide clear, standardized summaries of study results that can be reviewed by clinicians, statisticians, and regulatory agencies.
 
 The main objectives of TLGs are:
@@ -531,6 +529,8 @@ The main objectives of TLGs are:
 -   **Tables**: summarize patient characteristics, efficacy, and safety data with descriptive and inferential statistics.
 -   **Listings**: display subject-level data in detail, allowing reviewers to trace back results to individual participants.
 -   **Graphs**: visually represent trends, distributions, and treatment effects to complement tabular summaries.
+
+<div class="content-box">
 
 ### TGLs Implemented in this project
 
